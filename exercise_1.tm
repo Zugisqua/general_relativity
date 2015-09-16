@@ -212,6 +212,93 @@
       rad>>>>
     </eqnarray*>
 
+    <item>
+
+    <\enumerate>
+      <item>
+
+      at <math|p> the <math|\<lambda\>=1>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|(|<frac|\<partial\>x<around*|(|\<lambda\>|)>|\<partial\>\<lambda\>>|)><rsub|\<lambda\>=1>>|<cell|=>|<cell|<around*|(|<frac|\<partial\>\<lambda\>|\<partial\>\<lambda\>>,<frac|\<partial\><around*|(|\<lambda\>-1|)><rsup|2>|\<partial\>\<lambda\>>,<frac|\<partial\>-\<lambda\>|\<partial\>\<lambda\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1,2\<lambda\>-2,-1|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1,0,-1|)>>>>>
+      </eqnarray*>
+
+      at <math|p> \ <math|\<mu\>=0>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|(|<frac|\<partial\>x<around*|(|\<mu\>|)>|\<partial\>\<mu\><rsup|>>|)><rsub|\<mu\>=0>>|<cell|=>|<cell|<around*|(|<frac|\<partial\><around|cos|\<mu\>|>|\<partial\>\<mu\>>,<frac|\<partial\><around|sin|\<mu\>|>|\<partial\>\<mu\>>,<frac|\<partial\>\<mu\>-1|\<partial\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-<around|sin|\<mu\>,<around|cos|\<mu\>,1|>|>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|0,1,1|)>>>>>
+      </eqnarray*>
+
+      at <math|p> ,<math|\<sigma\>=-1>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|(|<frac|\<partial\>x<around*|(|\<sigma\>|)>|\<partial\>\<sigma\>>|)><rsub|\<sigma\>=-1>>|<cell|=>|<cell|<around*|(|<frac|\<partial\>\<sigma\><rsup|2>|\<partial\>\<sigma\>>,<frac|\<partial\><around*|(|\<sigma\><rsup|3>+\<sigma\><rsup|2>|)>|\<partial\>\<sigma\>>,<frac|\<partial\>\<sigma\>|\<partial\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<sigma\>,3\<sigma\><rsup|2>+2\<sigma\>,1|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-2,3-2,1|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|-2,1,1|)>>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>f|\<partial\>\<lambda\>>>|<cell|=>|<cell|2x<frac|\<partial\>x|\<partial\>\<lambda\>>+2y<frac|\<partial\>y|\<partial\>\<lambda\>>-z<frac|\<partial\>y|\<partial\>\<lambda\>>-y<frac|\<partial\>z|\<partial\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|2x+2y<around*|(|2\<lambda\>-2|)>-<around*|(|-\<lambda\>|)><around*|(|2\<lambda\>-2|)>-<around*|(|\<lambda\>-1|)><rsup|2><around*|(|-1|)>>>|<row|<cell|>|<cell|=>|<cell|2\<lambda\>+2<around*|(|\<lambda\>-1|)><rsup|2>2<around*|(|\<lambda\>-1|)>+2\<lambda\><around*|(|\<lambda\>-1|)>+<around*|(|\<lambda\>-1|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|4<around*|(|\<lambda\>-1|)><rsup|3>+<around*|(|\<lambda\>-1|)><rsup|2>+2\<lambda\><rsup|2>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>f|\<partial\>\<mu\>>>|<cell|=>|<cell|<frac|\<partial\><around*|(|<around|cos|<rsup|2>\<mu\>|\<nobracket\>>+<around|sin|<rsup|2>\<mu\>|>-<around|sin|\<mu\>|><around*|(|\<mu\>-1|)>|)>|\<partial\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\><around*|(|1-<around|sin|\<mu\><around*|(|\<mu\>-1|)>|>|)>|\<partial\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|-<around|cos|\<mu\>|><around*|(|\<mu\>-1|)>-<around|sin|\<mu\>|>>>|<row|<cell|>|<cell|=>|<cell|<around|cos|\<mu\>|>-<around|sin|\<mu\>|>-\<mu\><around|cos|\<mu\>|>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>f|\<partial\>\<sigma\>>>|<cell|=>|<cell|<frac|\<partial\><around*|(|\<sigma\><rsup|4>+<around*|(|\<sigma\><rsup|3>+\<sigma\><rsup|2>|)><rsup|2>-<around*|(|\<sigma\><rsup|3>+\<sigma\><rsup|2>|)>\<sigma\>|)>|\<partial\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|<neg|4\<sigma\><rsup|3>>+2<around*|(|\<sigma\><rsup|3>+\<sigma\><rsup|2>|)><around*|(|3\<sigma\><rsup|2>+2\<sigma\>|)>-<around*|(|<neg|4\<sigma\><rsup|3>>+3\<sigma\><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|2<around*|(|\<sigma\><rsup|5>+2\<sigma\><rsup|4>+3\<sigma\><rsup|4>+2\<sigma\><rsup|3>|)>-3\<sigma\><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|2\<sigma\><rsup|5>+4\<sigma\><rsup|4>+6\<sigma\><rsup|4>+4\<sigma\><rsup|3>-3\<sigma\><rsup|2>>>>>
+      </eqnarray*>
+    </enumerate>
+
+    <item>
+
+    <\enumerate>
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|X<rsup|\<mu\>><rsub|
+        \ \ \ \ \ \<upsilon\>>>|<cell|=>|<cell|X<rsup|\<mu\>\<sigma\>>\<eta\><rsub|\<sigma\>v>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|1>|<cell|1>|<cell|-1>>>>>>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|X<rsub|\<mu\>><rsup|
+        \ \ \ \ \ v>>|<cell|=>|<cell|\<eta\><rsub|\<mu\>\<sigma\>>X<rsup|\<sigma\>\<upsilon\>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>><matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-2>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|X<rsup|<around*|(|\<mu\>v|)>>>|<cell|=>|<cell|<frac|1|2><around*|(|X<rsup|\<mu\>\<upsilon\>>+X<rsup|\<upsilon\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>+<matrix|<tformat|<table|<row|<cell|2>|<cell|-1>|<cell|-1>|<cell|-2>>|<row|<cell|0>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|3>|<cell|0>|<cell|1>>|<row|<cell|-1>|<cell|2>|<cell|0>|<cell|-2>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|4>|<cell|-1>|<cell|0>|<cell|-3>>|<row|<cell|-1>|<cell|0>|<cell|4>|<cell|1>>|<row|<cell|0>|<cell|4>|<cell|0>|<cell|1>>|<row|<cell|-3>|<cell|3>|<cell|1>|<cell|-2>>>>>>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|X<rsub|<around*|[|\<mu\>\<upsilon\>|]>>>|<cell|=>|<cell|\<eta\><rsub|\<mu\>\<sigma\>>X<rsup|<around*|[|\<sigma\>\<rho\>|]>>\<eta\><rsub|\<rho\>v>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsub|\<mu\>\<sigma\>><frac|1|2><around*|(|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>-<matrix|<tformat|<table|<row|<cell|2>|<cell|-1>|<cell|-1>|<cell|-2>>|<row|<cell|0>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|3>|<cell|0>|<cell|1>>|<row|<cell|-1>|<cell|2>|<cell|0>|<cell|-2>>>>>|)>\<eta\><rsub|\<rho\>\<upsilon\>>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsub|\<mu\>\<sigma\>><frac|1|2><matrix|<tformat|<table|<row|<cell|0>|<cell|1>|<cell|2>|<cell|1>>|<row|<cell|-1>|<cell|0>|<cell|2>|<cell|3>>|<row|<cell|-2>|<cell|-2>|<cell|0>|<cell|-1>>|<row|<cell|-1>|<cell|-1>|<cell|1>|<cell|0>>>>>\<eta\><rsub|\<rho\>\<upsilon\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>><matrix|<tformat|<table|<row|<cell|0>|<cell|1>|<cell|2>|<cell|1>>|<row|<cell|-1>|<cell|0>|<cell|2>|<cell|3>>|<row|<cell|-2>|<cell|-2>|<cell|0>|<cell|-1>>|<row|<cell|-1>|<cell|-1>|<cell|1>|<cell|0>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|0>|<cell|-1>|<cell|-2>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|2>|<cell|3>>|<row|<cell|-2>|<cell|-2>|<cell|0>|<cell|-1>>|<row|<cell|-1>|<cell|-1>|<cell|1>|<cell|0>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><matrix|<tformat|<table|<row|<cell|0>|<cell|-1>|<cell|-2>|<cell|-1>>|<row|<cell|1>|<cell|0>|<cell|2>|<cell|3>>|<row|<cell|2>|<cell|-2>|<cell|0>|<cell|-1>>|<row|<cell|1>|<cell|-1>|<cell|1>|<cell|0>>>>>>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|X<rsup|\<lambda\>><rsub|
+        \ \ \ \ \ \<lambda\>>>|<cell|=>|<cell|X<rsup|\<lambda\>\<sigma\>>\<eta\><rsub|\<sigma\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|tr<around*|(|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|tr<around*|(|<matrix|<tformat|<table|<row|<cell|-2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|-3>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|V<rsup|\<mu\>>V<rsub|\<mu\>>>|<cell|=>|<cell|<around*|(|-1|)><rsup|2>+2<rsup|2>+0<rsup|2>+<around*|(|-2|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|1+4+4>>|<row|<cell|>|<cell|=>|<cell|9>>>>
+      </eqnarray*>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|V<rsup|\<mu\>>X<rsup|\<mu\>v>>|<cell|=>|<cell|<around*|(|-1,2,0,-2|)><matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-2-2+0+4>>|<row|<cell|-2>>|<row|<cell|-1+6+0-2>>|<row|<cell|1+4+4>>>>>=<matrix|<tformat|<table|<row|<cell|0>>|<row|<cell|-2>>|<row|<cell|3>>|<row|<cell|9>>>>>>>>>
+      </eqnarray*>
+    </enumerate>
+
     \;
 
     \ 
