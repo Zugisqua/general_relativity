@@ -124,8 +124,7 @@
       <tformat|<table|<row|<cell|\<theta\><rsub|i>>|<cell|=>|<cell|<frac|\<pi\>|4>>>|<row|<cell|\<theta\><rsub|r>>|<cell|=>|<cell|<around*|\||arc<around|tan(|<frac|<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>
     </eqnarray*>
 
-    what it be 0 0 when <math|u\<rightarrow\>\<infty\>> and
-    <math|u\<rightarrow\>0> they are the same orz. and
+    what it be 0 0 whe <math|u\<rightarrow\>0> they are the same orz. and
     <math|u=<frac|v|<sqrt|1-v<rsup|2>>>> the max <math|\<Delta\>\<theta\>>.
 
     when <math|a=-1>
@@ -165,8 +164,7 @@
       <choice|<tformat|<table|<row|<cell|\<theta\><rsub|i>=<around*|\||arc<around|tan||><around*|(|<frac|1-<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>|<row|<cell|\<theta\><rsub|r>=<around*|\||arc<around|tan(|<frac|1+<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>>
     </equation*>
 
-    when <math|u\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|3\<pi\>|4>>,<math|\<theta\><rsub|r>=<tfrac|\<pi\>|4>>,
-    and <math|u\<rightarrow\>\<infty\>> <math|\<theta\><rsub|i>=\<theta\><rsub|r>>
+    when <math|u\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|3\<pi\>|4>>,<math|\<theta\><rsub|r>=<tfrac|\<pi\>|4>>,\ 
 
     \;
 
