@@ -124,10 +124,8 @@
       <tformat|<table|<row|<cell|\<theta\><rsub|i>>|<cell|=>|<cell|<frac|\<pi\>|4>>>|<row|<cell|\<theta\><rsub|r>>|<cell|=>|<cell|<around*|\||arc<around|tan(|<frac|<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>
     </eqnarray*>
 
-    what it be 0 0 whe <math|u\<rightarrow\>0> they are the same orz. and
-    <math|u=<frac|v|<sqrt|1-v<rsup|2>>>> the max <math|\<Delta\>\<theta\>>.
-
-    when <math|a=-1>
+    <math|v\<rightarrow\>0> ,<math|\<theta\><rsub|r>\<rightarrow\><frac|\<pi\>|4>>;
+    \ <math|v\<rightarrow\>1>,<math|\<theta\><rsub|r>=<frac|\<pi\>|2>>
 
     the speed
 
@@ -144,7 +142,7 @@
       1|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>>
     </equation*>
 
-    <math|u\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|\<pi\>|4>,\<theta\><rsub|r>=<frac|\<pi\>|4>>
+    <math|v\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|\<pi\>|2>,\<theta\><rsub|r>=<frac|\<pi\>|2>>
 
     <math|a=1>
 
@@ -164,7 +162,9 @@
       <choice|<tformat|<table|<row|<cell|\<theta\><rsub|i>=<around*|\||arc<around|tan||><around*|(|<frac|1-<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>|<row|<cell|\<theta\><rsub|r>=<around*|\||arc<around|tan(|<frac|1+<frac|v|u>|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>>
     </equation*>
 
-    when <math|u\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|3\<pi\>|4>>,<math|\<theta\><rsub|r>=<tfrac|\<pi\>|4>>,\ 
+    when <math|v\<rightarrow\>0> <math|\<theta\><rsub|i>=0>,<math|\<theta\><rsub|r>=0>,
+    <math|v\<rightarrow\>1 \ , \ \<theta\><rsub|i>\<rightarrow\><frac|3\<pi\>|4>
+    , \<theta\><rsub|r>\<rightarrow\><frac|\<pi\>|4>>
 
     \;
 
@@ -174,11 +174,28 @@
 
     <item>dragram
 
-    <item>
+    <item>on the earth,
 
-    <\equation*>
-      v<rsub|app>=v<around|sin|\<theta\>|>
-    </equation*>
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|t<rprime|'>=t+<frac|v
+      t<rsup|2>+D<rsup|2>-2D v t<around|cos|\<theta\>|>|1>>>|<row|<cell|y<rprime|'>=v
+      t<around|sin|\<theta\>|>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<upsilon\><rsub|app>>|<cell|=>|<cell|<frac|\<mathd\>y<rprime|'>|\<mathd\>t<rprime|'>>=<frac|\<mathd\>t+2v
+      t\<mathd\>t-2D v<around|cos|\<theta\>|>\<mathd\>t|v<around|sin|\<theta\>|>\<mathd\>t>>>|<row|<cell|>|<cell|=>|<cell|<frac|1+2v
+      t-2D v<around|cos|\<theta\>|>|v <around|sin|\<theta\>|>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|v<around|sin|\<theta\>|>>+<frac|2t|<around|sin|\<theta\>|>>-<frac|2D|<around|tan|\<theta\>|>>>>>>
+    </eqnarray*>
+
+    let <math|v<rsub|app>\<gtr\>0> for any time ,therefor set <math|t=0>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|1|v<around|sin|\<theta\>|>>-<frac|2D|<around|tan|\<theta\>|>>>|<cell|\<gtr\>>|<cell|1>>|<row|<cell|<frac|1|v<around|sin|\<theta\>|>>>|<cell|\<gtr\>>|<cell|<frac|2D|<around|tan|\<theta\>|>>+1>>|<row|<cell|<frac|1|<around*|(|<frac|2D|<around|tan|\<theta\>|>>+1|)><around|sin|\<theta\>|>>>|<cell|\<gtr\>>|<cell|v>>|<row|<cell|v>|<cell|\<less\>>|<cell|<frac|1|2D<around|cos|\<theta\>+<around|sin|\<theta\>|>|>>>>>>
+    </eqnarray*>
+
+    if <math|v ,\<theta\>> meet the relation. the superluminal effect will
+    happen on the earth.
 
     <item>the muon moving in the circular accelerator is not in inertial
     reference frame.
@@ -283,7 +300,7 @@
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|X<rsup|\<lambda\>><rsub|
-        \ \ \ \ \ \<lambda\>>>|<cell|=>|<cell|X<rsup|\<lambda\>\<sigma\>>\<eta\><rsub|\<sigma\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|tr<around*|(|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|tr<around*|(|<matrix|<tformat|<table|<row|<cell|-2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|-3>>>>
+        \ \ \ \ \ \<lambda\>>>|<cell|=>|<cell|X<rsup|\<lambda\>\<sigma\>>\<eta\><rsub|\<sigma\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|tr<around*|(|<matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>><matrix|<tformat|<table|<row|<cell|-1>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|1>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|1>>>>>|)>>>|<row|<cell|>|<cell|=>|<cell|tr<matrix|<tformat|<table|<row|<cell|-2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|1>|<cell|1>|<cell|-1>>>>>>>|<row|<cell|>|<cell|=>|<cell|-3>>>>
       </eqnarray*>
 
       <item>
@@ -297,6 +314,49 @@
       <\eqnarray*>
         <tformat|<table|<row|<cell|V<rsup|\<mu\>>X<rsup|\<mu\>v>>|<cell|=>|<cell|<around*|(|-1,2,0,-2|)><matrix|<tformat|<table|<row|<cell|2>|<cell|0>|<cell|1>|<cell|-1>>|<row|<cell|-1>|<cell|0>|<cell|3>|<cell|2>>|<row|<cell|-1>|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|-2>|<cell|1>|<cell|1>|<cell|-2>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-2-2+0+4>>|<row|<cell|-2>>|<row|<cell|-1+6+0-2>>|<row|<cell|1+4+4>>>>>=<matrix|<tformat|<table|<row|<cell|0>>|<row|<cell|-2>>|<row|<cell|3>>|<row|<cell|9>>>>>>>>>
       </eqnarray*>
+
+      \;
+    </enumerate>
+
+    <item>
+
+    <\enumerate>
+      <item>
+
+      \;
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<partial\><rsub|<around*|[|\<mu\>|\<nobracket\>>>F<rsub|v\<lambda\><around*|]||\<nobracket\>>>>|<cell|=>|<cell|<frac|1|6><around*|(|\<partial\><rsub|\<mu\>>F<rsub|v\<lambda\>>-\<partial\><rsub|\<mu\>>F<rsub|\<lambda\>\<upsilon\>>+\<partial\><rsub|\<lambda\>>F<rsub|\<mu\>\<upsilon\>>-\<partial\><rsub|\<upsilon\>>F<rsub|\<mu\>\<lambda\>>+\<partial\><rsub|\<upsilon\>>F<rsub|\<lambda\>\<mu\>>-\<partial\><rsub|\<lambda\>>F<rsub|\<upsilon\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3><around*|(|\<partial\><rsub|\<mu\>>F<rsub|v\<lambda\>>+\<partial\><rsub|\<lambda\>>F<rsub|\<mu\>\<upsilon\>>+\<partial\><rsub|\<upsilon\>>F<rsub|\<lambda\>\<mu\>>|)>>>>>
+      </eqnarray*>
+
+      <math|\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>>F<rsub|v\<lambda\><around*|]||\<nobracket\>>>=0>
+      \ \ then <math|> <math|\<partial\><rsub|\<mu\>>F<rsub|v\<lambda\>>+\<partial\><rsub|\<lambda\>>F<rsub|\<mu\>\<upsilon\>>+\<partial\><rsub|\<upsilon\>>F<rsub|\<lambda\>\<mu\>>=0>
+
+      <item>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|1|1|2|2|cell-halign|c>|<table|<row|<cell|\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>E<rsub|k>+\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<varepsilon\><rsup|i
+        j k>>|<cell|=>|<cell|24<around*|(|\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<gamma\>>-\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<beta\>>+\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<beta\>>-\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<gamma\>>+\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<alpha\>>-\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<alpha\>>|)>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|if>|<cell|>|<cell|>>|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsub|i
+        j k>\<varepsilon\><rsup|i j k>\<partial\><rsub|j>E<rsub|k>+\<varepsilon\><rsub|i
+        j k>\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<varepsilon\><rsub|i
+        j k>\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>\<varepsilon\><rsub|j
+        k i>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>\<varepsilon\><rsub|j
+        k i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>\<eta\><rsub|k\<alpha\>>E<rsup|\<alpha\>>+\<partial\><rsub|0>\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<varepsilon\><rsup|\<gamma\>\<alpha\>\<beta\>>B<rsub|\<beta\>>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<varepsilon\><rsup|\<gamma\>\<alpha\>\<beta\>>B<rsub|\<beta\>>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<eta\><rsub|k\<alpha\>>\<partial\><rsub|j>F<rsup|0\<alpha\>>+\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<partial\><rsub|0>F<rsup|\<gamma\>\<beta\>>>|<cell|=>|<cell|0>>|<row|<cell|\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<partial\><rsub|i>F<rsup|\<gamma\>\<beta\>>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>F<rsub|0k>+\<partial\><rsub|0>F<rsub|j
+        k>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>F<rsub|j
+        k>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      maybe not right.
     </enumerate>
 
     \;
