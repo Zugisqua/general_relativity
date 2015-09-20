@@ -334,29 +334,45 @@
 
       <item>
 
-      <\eqnarray*>
-        <tformat|<table|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|1|1|2|2|cell-halign|c>|<table|<row|<cell|\<varepsilon\><rsup|i
-        j k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<varepsilon\><rsup|i
-        j k>\<partial\><rsub|j>E<rsub|k>+\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
-      </eqnarray*>
+      Based
+
+      <\itemize>
+        <item>
+
+        <\equation*>
+          <choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsup|i
+          j k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>
+        </equation*>
+
+        <item> the definition
+
+        <\equation*>
+          <choice|<tformat|<table|<row|<cell|F<rsup|0i>=E<rsup|i>>>|<row|<cell|F<rsup|i
+          j>=\<varepsilon\><rsup|i j k>B<rsub|k>=\<varepsilon\><rsup|i
+          j><rsub| \ \ \ \ \ \ \ \ k>B<rsup|k>>>>>>
+        </equation*>
+      </itemize>
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>>\<varepsilon\><rsup|i
-        j k>>|<cell|=>|<cell|24<around*|(|\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<gamma\>>-\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<beta\>>+\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<beta\>>-\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<gamma\>>+\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<alpha\>>-\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<alpha\>>|)>>>>>
+        j k>>|<cell|=>|<cell|\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<gamma\>>-\<delta\><rsup|i><rsub|\<alpha\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<beta\>>+\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<beta\>>-\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<gamma\>>+\<delta\><rsup|i><rsub|\<beta\>>\<delta\><rsup|j><rsub|\<gamma\>>\<delta\><rsup|k><rsub|\<alpha\>>-\<delta\><rsup|i><rsub|\<gamma\>>\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<alpha\>>>>>>
       </eqnarray*>
 
       <\eqnarray*>
-        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|if>|<cell|>|<cell|>>|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsub|i
-        j k>\<varepsilon\><rsup|i j k>\<partial\><rsub|j>E<rsub|k>+\<varepsilon\><rsub|i
-        j k>\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<varepsilon\><rsub|i
-        j k>\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>\<varepsilon\><rsub|j
-        k i>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>\<varepsilon\><rsub|j
-        k i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>\<eta\><rsub|k\<alpha\>>E<rsup|\<alpha\>>+\<partial\><rsub|0>\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<varepsilon\><rsup|\<gamma\>\<alpha\>\<beta\>>B<rsub|\<beta\>>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<varepsilon\><rsup|\<gamma\>\<alpha\>\<beta\>>B<rsub|\<beta\>>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<eta\><rsub|k\<alpha\>>\<partial\><rsub|j>F<rsup|0\<alpha\>>+\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<partial\><rsub|0>F<rsup|\<gamma\>\<beta\>>>|<cell|=>|<cell|0>>|<row|<cell|\<eta\><rsub|\<gamma\>j>\<eta\><rsub|k\<alpha\>>\<partial\><rsub|i>F<rsup|\<gamma\>\<beta\>>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<partial\><rsub|j>F<rsub|0k>+\<partial\><rsub|0>F<rsub|j
-        k>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>F<rsub|j
-        k>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
+        <tformat|<table|<row|<cell|\<varepsilon\><rsup|i j
+        k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>\<eta\><rsub|k\<mu\>>E<rsup|\<mu\>>+\<partial\><rsub|0>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<alpha\>\<beta\>><rsub|
+        \ \ \ \ \ \ \ \ \ \ \ i>\<varepsilon\><rsup|i j ><rsub|
+        \ \ \ \ \ \ \ \ k>\<partial\><rsub|j>F<rsup|0\<mu\>>+\<varepsilon\><rsup|\<alpha\>\<beta\>><rsub|
+        \ \ \ \ \ \ \ \ \ \ \ \ i>\<partial\><rsub|0>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsup|\<alpha\>i>\<eta\><rsup|\<beta\>j>\<eta\><rsub|i
+        k>\<partial\><rsub|j>F<rsup|0\<mu\>>+\<partial\><rsub|0>F<rsup|\<alpha\>\<beta\>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><rsup|\<alpha\>><rsub|k>\<partial\><rsup|\<beta\>>F<rsup|0\<mu\>>+\<partial\><rsub|0>F<rsup|\<alpha\>\<beta\>>>>>>
       </eqnarray*>
 
-      maybe not right.
+      some thing worng
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+      </eqnarray*>
     </enumerate>
 
     \;
