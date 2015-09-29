@@ -142,7 +142,7 @@
       1|<sqrt|1-v<rsup|2>>>|)>-<frac|\<pi\>|4>|\|>>>>>>
     </equation*>
 
-    <math|v\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|\<pi\>|2>,\<theta\><rsub|r>=<frac|\<pi\>|2>>
+    <math|v\<rightarrow\>0> <math|\<theta\><rsub|i>=<frac|\<pi\>|2>,\<theta\><rsub|r>=<frac|\<pi\>|2>>\ 
 
     <math|a=1>
 
@@ -346,11 +346,31 @@
 
         <item> the definition
 
-        <\equation*>
-          <choice|<tformat|<table|<row|<cell|F<rsup|0i>=E<rsup|i>>>|<row|<cell|F<rsup|i
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|F<rsup|0i>=E<rsup|i>>>|<row|<cell|F<rsup|i
           j>=\<varepsilon\><rsup|i j k>B<rsub|k>=\<varepsilon\><rsup|i
-          j><rsub| \ \ \ \ \ \ \ \ k>B<rsup|k>>>>>>
-        </equation*>
+          j><rsub| \ \ \ \ \ \ \ \ k>B<rsup|k>>>>>>>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|F<rsup|><rsub|0i>=\<eta\><rsub|0\<alpha\>>F<rsup|\<alpha\>><rsub|
+          \ \ \ \ \ \ i>>>>>>>>>>
+        </eqnarray*>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|F<rsup|><rsub|0i>>|<cell|=>|<cell|\<eta\><rsub|0\<alpha\>>F<rsup|\<alpha\>><rsub|
+          \ \ \ \ \ \ i>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsub|00>F<rsup|0><rsub|
+          \ \ \ \ \ \ i>+\<eta\><rsub|01>F<rsup|1><rsub|
+          \ \ \ \ \ \ i>+\<eta\><rsub|02>F<rsup|2><rsub|
+          \ \ \ \ \ \ i>+\<eta\><rsub|03>F<rsup|3><rsub|
+          \ \ \ \ \ \ i>>>|<row|<cell|>|<cell|=>|<cell|-F<rsup|0><rsub|
+          \ \ \ \ \ \ i>=-\<eta\><rsub| i
+          j>F<rsup|0j>>>|<row|<cell|>|<cell|=>|<cell|-\<delta\><rsub|i
+          j>E<rsup|j>=-E<rsub|i>>>>>
+        </eqnarray*>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|F<rsub|i
+          j>>|<cell|=>|<cell|\<eta\><rsub|i\<alpha\>>\<eta\><rsub|j\<beta\>>F<rsup|\<alpha\>\<beta\>>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsub|i\<alpha\>>\<eta\><rsub|j\<beta\>>\<varepsilon\><rsup|\<alpha\>\<beta\>><rsub|
+          \ \ \ \ \ \ \ \ k>B<rsup|k>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsub|i
+          j k>B<rsup|k>>>>>
+        </eqnarray*>
       </itemize>
 
       <\eqnarray*>
@@ -360,15 +380,23 @@
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|\<varepsilon\><rsup|i j
-        k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|\<varepsilon\><rsup|i
-        j k>\<partial\><rsub|j>\<eta\><rsub|k\<mu\>>E<rsup|\<mu\>>+\<partial\><rsub|0>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<alpha\>\<beta\>><rsub|
-        \ \ \ \ \ \ \ \ \ \ \ i>\<varepsilon\><rsup|i j ><rsub|
-        \ \ \ \ \ \ \ \ k>\<partial\><rsub|j>F<rsup|0\<mu\>>+\<varepsilon\><rsup|\<alpha\>\<beta\>><rsub|
-        \ \ \ \ \ \ \ \ \ \ \ \ i>\<partial\><rsub|0>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<eta\><rsup|\<alpha\>i>\<eta\><rsup|\<beta\>j>\<eta\><rsub|i
-        k>\<partial\><rsub|j>F<rsup|0\<mu\>>+\<partial\><rsub|0>F<rsup|\<alpha\>\<beta\>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><rsup|\<alpha\>><rsub|k>\<partial\><rsup|\<beta\>>F<rsup|0\<mu\>>+\<partial\><rsub|0>F<rsup|\<alpha\>\<beta\>>>>>>
+        k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|\<varepsilon\><rsub|i\<alpha\>\<beta\>><around*|(|\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<delta\><rsup|j><rsub|\<alpha\>>\<delta\><rsup|k><rsub|\<beta\>>-\<delta\><rsup|j><rsub|\<beta\>>\<delta\><rsup|k><rsub|\<alpha\>>|)>\<partial\><rsub|j>E<rsub|k>-\<partial\><rsub|0>\<varepsilon\><rsub|
+        \<alpha\>\<beta\>i>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<alpha\>>E<rsub|\<beta\>>-\<partial\><rsub|\<beta\>>E<rsub|\<alpha\>>-\<partial\><rsub|0>\<varepsilon\><rsub|
+        \<alpha\>\<beta\>i>B<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<alpha\>>F<rsub|0\<beta\>>-\<partial\><rsub|\<beta\>>F<rsub|0\<alpha\>>-\<partial\><rsub|0>F<rsub|\<alpha\>\<beta\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<alpha\>>F<rsub|0\<beta\>>+\<partial\><rsub|\<beta\>>F<rsub|\<alpha\>0>+\<partial\><rsub|0>F<rsub|\<beta\>\<alpha\>>=0>>>>
       </eqnarray*>
 
-      some thing worng
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|\<partial\><rsub|1>B<rsup|1>+\<partial\><rsub|2>B<rsup|2>+\<partial\><rsub|3>B<rsup|3>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1>\<varepsilon\><rsub|123>B<rsup|1>+\<partial\><rsub|2>\<varepsilon\><rsub|231>B<rsup|2>+\<partial\><rsub|3>\<varepsilon\><rsub|312>B<rsup|3>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1>F<rsub|23>+\<partial\><rsub|2>F<rsub|31>+\<partial\><rsub|3>F<rsub|12>=0>>>>
+      </eqnarray*>
+
+      conclusion:
+
+      <\equation*>
+        \<partial\><rsub|\<mu\>>F<rsub|v\<lambda\>>+\<partial\><rsub|\<lambda\>>F<rsub|\<mu\>\<upsilon\>>+\<partial\><rsub|\<upsilon\>>F<rsub|\<lambda\>\<mu\>>=0
+      </equation*>
+
+      \;
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
