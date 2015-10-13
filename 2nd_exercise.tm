@@ -8,6 +8,77 @@
   <\description>
     <item*|2>
 
+    <item*|4>if <math|\<partial\><rsub|\<upsilon\>>Y<rsup|\<mu\>>=0>
+    everything was done.
+
+    now let's talking about the question
+
+    for a tangent vector at a certain point <math|p>\ 
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>f|\<mathd\>\<lambda\>>|)><rsub|p>>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>\<partial\><rsub|\<mu\>>f|)><rsub|p>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>|)><rsub|p>\<partial\><rsub|\<mu\>>f\|<rsub|p>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>|)><rsub|p>>|<cell|=>|<cell|constant>>>>
+    </eqnarray*>
+
+    there are different in vector field
+
+    and the question equel to how can <math|<frac|\<mathd\>|\<mathd\>\<lambda\>>>
+    act on a vector.impossible !?!?
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|X<around*|(|Y
+      f|)>>|<cell|=>|<cell|X<rsup|\<upsilon\>>\<partial\><rsub|\<upsilon\>><around*|(|Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f|)>?>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<upsilon\>><around*|(|\<partial\><rsub|\<upsilon\>>Y<rsup|\<mu\>>|)><around*|(|\<partial\><rsub|\<mu\>>f|)>+X<rsup|\<upsilon\>>Y<rsup|\<mu\>>\<partial\><rsub|\<upsilon\>>\<partial\><rsub|\<mu\>>f>>>>
+    </eqnarray*>
+
+    example
+
+    <math|f<around*|(|x<rsup|1>,x<rsup|2>|)>=1+<around*|(|x<rsup|1>|)><rsup|2>+<around*|(|x<rsup|2>|)><rsup|3>>,<math|X=<frac|\<mathd\>|\<mathd\>\<lambda\>>>
+
+    <\description>
+      <item*|1>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|[|X,Y|]><around*|(|a f+b
+        g|)>>|<cell|=>|<cell|X<around*|(|Y<around*|(|a f+b
+        g|)>|)>-Y<around*|(|X<around*|(|<around*|(|a f+b
+        g|)>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|a Y f+b Y
+        g|)>-Y<around*|(|a X f+b X g|)>>>|<row|<cell|>|<cell|=>|<cell|a
+        X<around*|(|Y f|)>+b X<around*|(|Y g|)>-a Y<around*|(|X f|)>-b
+        Y<around*|(|X g|)>>>|<row|<cell|>|<cell|=>|<cell|a<around*|(|X<around*|(|Y
+        f|)>-Y<around*|(|X f|)>|)>+b<around*|(|X<around*|(|Y
+        g|)>-Y<around*|(|X g|)>|)>>>|<row|<cell|>|<cell|=>|<cell|a<around*|[|X,Y|]>f+b<around*|[|X,Y|]>g>>>>
+      </eqnarray*>
+
+      <item*|2>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|[|X,Y|]><around*|(|f
+        g|)>>|<cell|=>|<cell|X<around*|(|Y<around*|(|f
+        g|)>|)>-Y<around*|(|X<around*|(|f
+        g|)>|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>><around*|(|f
+        g|)>|)>-Y<around*|(|X<rsup|\<mu\>>\<partial\><rsub|\<mu\>><around*|(|f
+        g|)>|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|Y<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>f|)>g+Y<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>g|)>f|)>-Y<around*|(|X<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>f|)>g+X<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>g|)>f|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<upsilon\>>\<partial\><rsub|\<upsilon\>><around*|(|Y<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>f|)>g+Y<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>g|)>f|)>-Y<rsup|\<upsilon\>>\<partial\><rsub|\<upsilon\>><around*|(|X<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>f|)>g+X<rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>g|)>f|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+      </eqnarray*>
+
+      <item*|3>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<around*|[|X,Y|]>f>|<cell|=>|<cell|X<around*|(|Y
+        f|)>-Y<around*|(|X f|)>>>|<row|<cell|>|<cell|=>|<cell|X<around*|(|Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f|)>-Y<around*|(|X<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>Y<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f-Y<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>X<rsup|\<mu\>>\<partial\><rsub|\<mu\>>f>>|<row|<cell|<around*|[|X,Y|]><rsup|\<mu\>>\<partial\><rsub|\<mu\>>f>|<cell|=>|<cell|<around*|(|X<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>Y<rsup|\<mu\>>-Y<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>X<rsup|\<mu\>>|)>\<partial\><rsub|\<mu\>>f>>>>
+      </eqnarray*>
+
+      therefore <math|<around*|[|X,Y|]><rsup|\<mu\>>=><math|X<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>Y<rsup|\<mu\>>-Y<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>X<rsup|\<mu\>>>
+
+      <item*|4>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><around*|[|X,Y|]><rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><around*|(|X<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>Y<rsup|\<mu\>>-Y<rsup|\<lambda\>>\<partial\><rsub|\<lambda\>>X<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|X<rsup|>>>>>
+      </eqnarray*>
+    </description>
+
     <item*|5>
 
     <item*|6>
