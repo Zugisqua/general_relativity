@@ -108,8 +108,104 @@
         <tformat|<table|<row|<cell|\<varepsilon\><rsub|\<mu\><rsub|1>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|n>>>|<cell|=>|<cell|<sqrt|<around*|\||g<around*|(|x<rsup|\<mu\>>|)>|\|>><wide|\<varepsilon\>|~><rsub|\<mu\><rsub|1>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|n>>>>>>
       </eqnarray*>
     </description>
+  </description>
+
+  2. Differential forms (mainly just some symbol)
+
+  <\itemize-dot>
+    <item>N-form:
+
+    a special (0,N) tensor which requires completely antimymetreic
+
+    <item>The number of Differential forms isn't more than the number of
+    demension.
+
+    under the requirement\ 
+
+    therefore: <math|A<rsub|\<alpha\>\<beta\>\<gamma\>>=A<rsub|<around*|[|\<alpha\>\<beta\>\<gamma\>|]>>>\ 
+
+    The number of Differential forms equel to
+    <math|<frac|<big|prod><rsub|N>Demension|A<rsub|N><rsup|N>>=>
+  </itemize-dot>
+
+  <\description>
+    <item*|Wedge product>
+
+    <math|Definition>:
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>>|<cell|=>|<cell|<frac|<around*|(|p+q|)>!|q!p!>A<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|\<nobracket\>>>B<rsub|\<mu\><rsub|p+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>>>
+    </eqnarray*>
+
+    here <math|A> is a p-form,and <math|B> is a q-form
+
+    <item*|exterior derivative>
+
+    <math|Definition>:
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\><around*|(|A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+1>>>|<cell|=>|<cell|<around*|(|p+1|)>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>A<rsub|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1><around*|]||\<nobracket\>>>>>>>
+    </eqnarray*>
+
+    <item*|Hodge duality>
+
+    <math|Definition>:
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|\<ast\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
+    </eqnarray*>
+
+    notice that <math|\<varepsilon\>> have already a tensor, therefore it's
+    free to lower or raise its indice.
 
     \;
+
+    <item*|The useful claim>
+
+    <\itemize>
+      <item>About wedge product
+
+      <\description>
+        <item*|Some low-form>
+
+        <\description>
+          <item*|><math|A> and <math|B> are one-form
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<upsilon\>\<mu\>>>|<cell|=>|<cell|<frac|<around*|(|1+1|)>!|1!1!>A<rsub|<around*|[|\<upsilon\>|\<nobracket\>>>B<rsub|\<mu\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|2\<times\><frac|1|2!><around*|(|A<rsub|\<upsilon\>>B<rsub|\<mu\>>-A<rsub|\<mu\>>B<rsub|\<upsilon\>>|)>>>|<row|<cell|>|<cell|=>|<cell|A<rsub|\<upsilon\>>B<rsub|\<mu\>>-A<rsub|\<mu\>>B<rsub|\<upsilon\>>>>>>
+          </eqnarray*>
+
+          <item*|><math|A> is one form and <math|B> is two-form
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\>\<upsilon\>\<sigma\>>>|<cell|=>|<cell|<frac|<around*|(|1+2|)>!|1!2!>A<rsub|<around*|[|\<mu\>|\<nobracket\>>>B<rsub|\<upsilon\>\<sigma\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|6|2>\<times\><frac|1|3!><around*|(|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>>-A<rsub|\<mu\>>B<rsub|\<sigma\>\<upsilon\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>>-A<rsub|\<upsilon\>>B<rsub|\<mu\>\<sigma\>>+A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<mu\>>-A<rsub|\<sigma\>>B<rsub|\<upsilon\>\<mu\>><rsub|>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\>2<around*|(|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>>+A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>>+A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<mu\>>>>>>
+          </eqnarray*>
+
+          <item*|><math|A> is one form and <math|B> is three-form
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\>\<upsilon\>\<sigma\>\<rho\>>>|<cell|=>|<cell|<frac|<around*|(|1+3|)>!|1!3!>A<rsub|<around*|[|\<mu\>|\<nobracket\>>>B<rsub|\<upsilon\>\<sigma\>\<rho\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|24|6>\<times\><frac|1|24><around*|(|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>\<rho\>>-A<rsub|\<mu\>>B<rsub|\<upsilon\>\<rho\>\<sigma\>>+A<rsub|\<mu\>>B<rsub|\<rho\>\<upsilon\>\<sigma\>>-A<rsub|\<mu\>>B<rsub|\<sigma\>\<upsilon\>\<rho\>>+A<rsub|\<mu\>>B<rsub|\<sigma\>\<rho\>\<upsilon\>>-A<rsub|\<mu\>>B<rsub|\<rho\>\<sigma\>\<upsilon\>>+A<rsub|\<upsilon\>>B<rsub|\<mu\>\<rho\>\<sigma\>>-A<rsub|\<upsilon\>>B<rsub|\<mu\>\<sigma\>\<rho\>>+A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<mu\>\<rho\>>-A<rsub|\<upsilon\>>B<rsub|\<rho\>\<mu\>\<sigma\>>+A<rsub|\<upsilon\>>B<rsub|\<rho\>\<sigma\>\<mu\>>-A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<rho\>\<mu\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>\<rho\>>-A<rsub|\<sigma\>>B<rsub|\<mu\>\<rho\>\<upsilon\>>+A<rsub|\<sigma\>>B<rsub|\<rho\>\<mu\>\<upsilon\>>-A<rsub|\<sigma\>>B<rsub|\<upsilon\>\<mu\>\<rho\>>+A<rsub|\<sigma\>>B<rsub|\<upsilon\>\<rho\>\<mu\>>-A<rsub|\<sigma\>>B<rsub|\<rho\>\<upsilon\>\<mu\>>+A<rsub|\<rho\>>B<rsub|\<mu\>\<sigma\>\<upsilon\>>-A<rsub|\<rho\>>B<rsub|\<mu\>\<upsilon\>\<sigma\>>+A<rsub|\<rho\>>B<rsub|\<upsilon\>\<mu\>\<sigma\>>-A<rsub|\<rho\>>B<rsub|\<sigma\>\<mu\>\<upsilon\>>+A<rsub|\<rho\>>B<rsub|\<sigma\>\<upsilon\>\<mu\>>-A<rsub|\<rho\>>B<rsub|\<upsilon\>\<sigma\>\<mu\>><rsub|>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|6>\<times\>2<around*|(|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>\<rho\>>+A<rsub|\<mu\>>B<rsub|\<rho\>\<upsilon\>\<sigma\>>+A<rsub|\<mu\>>B<rsub|\<sigma\>\<rho\>\<upsilon\>>+A<rsub|\<upsilon\>>B<rsub|\<mu\>\<rho\>\<sigma\>>+A<rsub|\<upsilon\>>B<rsub|\<sigma\>\<mu\>\<rho\>>+A<rsub|\<upsilon\>>B<rsub|\<rho\>\<sigma\>\<mu\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>\<rho\>>+A<rsub|\<sigma\>>B<rsub|\<rho\>\<mu\>\<upsilon\>>+A<rsub|\<sigma\>>B<rsub|\<upsilon\>\<rho\>\<mu\>>+A<rsub|\<rho\>>B<rsub|\<mu\>\<sigma\>\<upsilon\>>+A<rsub|\<rho\>>B<rsub|\<upsilon\>\<mu\>\<sigma\>>+A<rsub|\<rho\>>B<rsub|\<sigma\>\<upsilon\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>\<times\>3<around*|(|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>\<rho\>>+A<rsub|\<upsilon\>>B<rsub|\<mu\>\<rho\>\<sigma\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>\<rho\>>+A<rsub|\<rho\>>B<rsub|\<sigma\>\<upsilon\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|A<rsub|\<mu\>>B<rsub|\<upsilon\>\<sigma\>\<rho\>>+A<rsub|\<upsilon\>>B<rsub|\<mu\>\<rho\>\<sigma\>>+A<rsub|\<sigma\>>B<rsub|\<mu\>\<upsilon\>\<rho\>>+A<rsub|\<rho\>>B<rsub|\<sigma\>\<upsilon\>\<mu\>>>>>>
+          </eqnarray*>
+
+          <item*|><math|A> and <math|B> are one-form
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\>\<upsilon\>\<sigma\>\<rho\>>>|<cell|=>|<cell|<frac|<around*|(|1+3|)>!|2!2!>A<rsub|<around*|[|\<mu\>\<upsilon\>|\<nobracket\>>>B<rsub|\<sigma\>\<rho\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|24|4>\<times\><frac|1|24><around*|(||)>>>>>
+          </eqnarray*>
+        </description>
+      </description>
+
+      <\equation*>
+        <choice|<tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>=<frac|<around*|(|p+q|)>!|q!p!>A<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|\<nobracket\>>>B<rsub|\<mu\><rsub|p+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>|<row|<cell|<around*|(|B\<wedge\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>=<frac|<around*|(|p+q|)>!|q!p!>B<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|\<nobracket\>>>A<rsub|\<mu\><rsub|p+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>>>>
+      </equation*>
+
+      then if p=q
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+      </eqnarray*>
+    </itemize>
   </description>
 </body>
 
