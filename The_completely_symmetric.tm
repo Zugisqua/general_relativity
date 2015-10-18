@@ -57,6 +57,16 @@
 
     <item*|<math|Conclusion>>just some conclusion and I don't the reason
 
+    <item*|<math|Guide>>or idea or most fundamental
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|T<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>\<nu\><rsub|1>\<ldots\>\<nu\><rsub|q>|]>>>|<cell|\<Longrightarrow\>>|<cell|T<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|]><around*|[|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|q>|]>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
     <item*|For >some special tensor
 
     <\description>
