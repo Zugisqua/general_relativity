@@ -203,20 +203,24 @@
           <choice|<tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>=<frac|<around*|(|p+q|)>!|q!p!>A<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|\<nobracket\>>>B<rsub|\<mu\><rsub|p+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>|<row|<cell|<around*|(|B\<wedge\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>=<frac|<around*|(|p+q|)>!|q!p!>B<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|q>|\<nobracket\>>>A<rsub|\<mu\><rsub|q+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>>>>
         </equation*>
 
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|A\<wedge\>B|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q>>>|<cell|=>|<cell|<frac|<around*|(|p+q|)>!|q!p!>A<rsub|<around*|[|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>|\<nobracket\>>>B<rsub|\<mu\><rsub|p+1>\<ldots\>\<mu\><rsub|p+q><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q|)>!|q!p!>>>>>
+        </eqnarray*>
+
         <with|color|red|the question is the times of permutation...orz>
       </description>
 
       <item>wedge product & exterior derivative
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<mathd\><around*|(|w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>><rsub|>>|<cell|=>|<cell|<around*|(|p+q+1|)>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><around*|(|w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+q+1<around*|]||\<nobracket\>>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|p+q+1|)>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><frac|<around*|(|p+q|)>!|q!p!>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<around*|(|\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>w<rsub|<around*|[|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>|\<nobracket\>>>|)>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>+\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><around*|(|-1|)><rsup|p
+        <tformat|<cwith|10|10|3|3|cell-halign|r>|<table|<row|<cell|\<mathd\><around*|(|w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>><rsub|>>|<cell|=>|<cell|<around*|(|p+q+1|)>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><around*|(|w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+q+1<around*|]||\<nobracket\>>>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|p+q+1|)>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><frac|<around*|(|p+q|)>!|q!p!>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!>\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<around*|(|\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>w<rsub|<around*|[|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>|\<nobracket\>>>|)>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>+\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>><around*|(|-1|)><rsup|p
         q>\<eta\><rsub|<around*|[||\<nobracket\>>\<mu\><rsub|2>\<ldots\>\<mu\><rsub|q+1>>w<rsub|\<mu\><rsub|q+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<around*|(|\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>w<rsub|<around*|[|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|p+1>|\<nobracket\>>>|)>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>+<around*|(|-1|)><rsup|p
         q><around*|(|\<partial\><rsub|<around*|[|\<mu\><rsub|1>|\<nobracket\>>>\<eta\><rsub|<around*|[|\<mu\><rsub|2>\<ldots\>\<mu\><rsub|q+1>|\<nobracket\>>>|)>w<rsub|\<mu\><rsub|q+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||]>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<frac|1|<around*|(|p+1|)>>\<mathd\>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>+<around*|(|-1|)><rsup|p
-        q><frac|1|<around*|(|q+1|)>>\<mathd\>\<eta\><rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|q+1>>w<rsub|\<mu\><rsub|q+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<mathd\>w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>>+<around*|(|-1|)><rsup|p
-        q><around*|(|\<mathd\>\<eta\>\<wedge\>w|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>>>>>>
+        q><frac|1|<around*|(|q+1|)>>\<mathd\>\<eta\><rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|q+1>>w<rsub|\<mu\><rsub|q+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<frac|1|<around*|(|p+1|)>>\<mathd\>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>+<around*|(|-1|)><rsup|p
+        q><frac|1|<around*|(|q+1|)>><around*|(|-1|)><rsup|p<around*|(|q+1|)>>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>>\<mathd\>\<eta\><rsub|\<mu\><rsub|q+1>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|p+q+1|)>!|q!p!><around*|(|<frac|1|<around*|(|p+1|)>>\<mathd\>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+1>>\<eta\><rsub|\<mu\><rsub|p+2>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>+<around*|(|-1|)><rsup|2p
+        q+p><frac|1|<around*|(|q+1|)>>w<rsub|<around*|[||\<nobracket\>>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>>\<mathd\>\<eta\><rsub|\<mu\><rsub|q+1>\<ldots\>\<mu\><rsub|p+q+1><around*|]||\<nobracket\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<mathd\>w\<wedge\>\<eta\>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>>+<around*|(|-1|)><rsup|p
+        ><around*|(|w\<wedge\>\<mathd\>\<eta\>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p+q+1>>>>|<row|<cell|>|<cell|>|<cell|\<blacksquare\>>>>>
       </eqnarray*>
-
-      <with|color|red|orz>
 
       <item>exterior derivative
 
@@ -242,8 +246,10 @@
         <math|\<circ\>> low-order
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|\<mathd\><around*|(|\<mathd\>w|)><rsub|\<mu\>\<nu\>\<sigma\>>>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>><around*|(|\<mathd\>w|)><rsub|\<nu\>\<sigma\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>>\<partial\><rsub|<around*|[|\<nu\>|\<nobracket\>>>w<rsub|\<sigma\><around*|]||]>>>>|<row|<cell|>|<cell|=>|<cell|3\<times\><around*|(|\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>>\<partial\><rsub|\<nu\>>w<rsub|\<sigma\><around*|]||\<nobracket\>>>-\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\><around*|]||\<nobracket\>>>|)>>>|<row|<cell|>|<cell|=>|<cell|3\<times\><frac|1|3><around*|(|\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>w<rsub|\<sigma\>>|)>\<neq\>0?>>>>
+          <tformat|<table|<row|<cell|\<mathd\><around*|(|\<mathd\>w|)><rsub|\<mu\>\<nu\>\<sigma\>>>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[||\<nobracket\>>\<mu\>><around*|(|\<mathd\>w|)><rsub|\<nu\>\<sigma\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|3\<times\><frac|1|3!><around*|(|\<partial\><rsub|\<mu\>><around*|(|\<mathd\>w|)><rsub|\<nu\>\<sigma\>>-\<partial\><rsub|\<mu\>><around*|(|\<mathd\>w|)><rsub|\<sigma\>\<nu\>>+\<partial\><rsub|\<sigma\>><around*|(|\<mathd\>w|)><rsub|\<mu\>\<nu\>>-\<partial\><rsub|\<nu\>><around*|(|\<mathd\>w|)><rsub|\<mu\>\<sigma\>>+\<partial\><rsub|\<nu\>><around*|(|\<mathd\>w|)><rsub|\<sigma\>\<mu\>>-\<partial\><rsub|\<sigma\>><around*|(|\<mathd\>w|)><rsub|\<nu\>\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|\<partial\><rsub|\<mu\>><around*|(|\<partial\><rsub|\<nu\>>w<rsub|\<sigma\>>-\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>|)>-\<partial\><rsub|\<mu\>><around*|(|\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>-\<partial\><rsub|\<nu\>>w<rsub|\<sigma\>>|)>+\<partial\><rsub|\<sigma\>><around*|(|\<partial\><rsub|\<mu\>>w<rsub|\<nu\>>-\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>|)>-\<partial\><rsub|\<nu\>><around*|(|\<partial\><rsub|\<mu\>>w<rsub|\<sigma\>>-\<partial\><rsub|\<sigma\>>w<rsub|\<mu\>>|)>+\<partial\><rsub|\<nu\>><around*|(|\<partial\><rsub|\<sigma\>>w<rsub|\<mu\>>-\<partial\><rsub|\<mu\>>w<rsub|\<sigma\>>|)>-\<partial\><rsub|\<sigma\>><around*|(|\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>-\<partial\><rsub|\<mu\>>w<rsub|\<nu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>w<rsub|\<sigma\>>-\<partial\><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>-\<partial\><rsub|\<mu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<nu\>>+\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>w<rsub|\<sigma\>>+\<partial\><rsub|\<sigma\>>\<partial\><rsub|\<mu\>>w<rsub|\<nu\>>-\<partial\><rsub|\<sigma\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>-\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>w<rsub|\<sigma\>>+\<partial\><rsub|\<nu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<mu\>>+\<partial\><rsub|\<nu\>>\<partial\><rsub|\<sigma\>>w<rsub|\<mu\>>-\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>w<rsub|\<sigma\>>-\<partial\><rsub|\<sigma\>>\<partial\><rsub|\<nu\>>w<rsub|\<mu\>>+\<partial\><rsub|\<sigma\>>\<partial\><rsub|\<mu\>>w<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\>0>>|<row|<cell|>|<cell|=>|<cell|0>>>>
         </eqnarray*>
+
+        the compute could improve
       </description>
 
       <item>Hodge duality
@@ -252,10 +258,56 @@
         <item*|fomula_1>need verify
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|<around*|(|\<ast\>\<ast\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<around*|(|-1|)><rsup|s+p<around*|(|n-p|)>>A<rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>>>>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>\<ast\>A|)>>|<cell|=>|<cell|<around*|(|-1|)><rsup|s+p<around*|(|n-p|)>>A>>>>
+        </eqnarray*>
+
+        calculate:
+
+        1.
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
+        </eqnarray*>
+
+        2.
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>\<ast\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|p>>>|<cell|=>|<cell|\<ast\><around*|(|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|<around*|(|n-p|)>!>\<varepsilon\><rsup|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>><op|<rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>><frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|p!<around*|(|n-p|)>!>\<varepsilon\><rsup|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>><op|<rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|p!<around*|(|n-p|)>!>\<times\><around*|(|n-p|)>!\<delta\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>><op|A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|p!>\<delta\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>><op|A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>|<row|<cell|>|<cell|=>|<cell|\<ldots\>\<ldots\>>>>>
         </eqnarray*>
 
         <item*|<item*|Maxwell equation>need verify>
+
+        <\description>
+          <item*|homogenous>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|<around*|[|\<mu\>|\<nobracket\>>>F<rsub|\<nu\>\<lambda\><around*|]||\<nobracket\>>>>|<cell|=>|<cell|0>>>>
+          </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|<around*|[|\<mu\>|\<nobracket\>>>F<rsub|\<nu\>\<lambda\><around*|]||\<nobracket\>>>>|<cell|=>|<cell|<frac|1|<around*|(|2+1|)>><around*|(|\<mathd\>F|)><rsub|\<mu\>\<nu\>\<lambda\>>>>>>
+          </eqnarray*>
+
+          obviously
+
+          <item*|inhomogenous>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|\<mu\>>F<rsup|\<nu\>\<mu\>>>|<cell|=>|<cell|J<rsup|\<nu\>>>>>>
+          </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|<around*|(|\<ast\>J|)><rsup|\<mu\><rsub|1>\<mu\><rsub|2>\<mu\><rsub|3>>>|<cell|=>|<cell|<frac|1|1!>\<varepsilon\><rsup|\<mu\><rsub|1>\<mu\><rsub|2>\<mu\><rsub|3>><op|<rsub|\<nu\>>>J<rsup|\<nu\>>>>>>
+          </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)>>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[|k|\<nobracket\>>><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)><rsub|<around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|3\<times\><frac|1|3!><around*|(|\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)>-\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<nu\>\<mu\>>|)>+\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|k\<mu\>>|)>-\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|k\<nu\>>|)>+\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|\<nu\>k>|)>-\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|\<mu\>k>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>-\<ast\>F<rsup|\<mu\>\<nu\>>|)>+\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|k\<mu\>>-\<ast\>F<rsup|\<mu\>k>|)>+\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|\<nu\>k>-\<ast\>F<rsup|k\<nu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<stack|<tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<frac|1|2>\<times\><around*|[||\<nobracket\>>>>|<row|<cell|\<partial\><rsub|k><around*|(|<frac|1|2>\<varepsilon\><rsub|\<mu\>\<nu\>><op|<rsup|\<rho\>\<sigma\>>>F<rsup|\<mu\>\<nu\>>-<frac|1|2>\<varepsilon\><rsub|\<nu\>\<mu\>><op|<rsup|\<rho\>\<sigma\>>>F<rsup|\<nu\>\<mu\>>|)>>>|<row|<cell|+\<partial\><rsub|\<nu\>><around*|(|<frac|1|2>|)>>>>>>>>>>
+          </eqnarray*>
+        </description>
 
         \;
       </description>
