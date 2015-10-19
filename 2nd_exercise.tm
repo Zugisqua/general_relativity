@@ -171,7 +171,7 @@
 
       <math|y=0 > then let <math|\<phi\>=0>
 
-      <item*|>(a)
+      (a)
 
       <\equation*>
         <choice|<tformat|<table|<row|<cell|x>|<cell|=>|<cell|sinh\<chi\><around|sin|\<theta\>|>>>|<row|<cell|z>|<cell|=>|<cell|cosh\<chi\><around|cos|\<theta\>|>>>>>>
@@ -191,7 +191,7 @@
         <tformat|<table|<row|<cell|<frac|\<partial\>\<chi\>|\<partial\>x>>|<cell|=>|<cell|<frac|<around|sin|\<theta\>|>cosh\<chi\>|cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<chi\>|\<partial\>y>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|>sinh\<chi\>|cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>x>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|>sinh\<chi\>|cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>y>>|<cell|=>|<cell|<frac|-<around|sin|\<theta\>|>cosh\<chi\>|cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>>>>>>
       </eqnarray*>
 
-      <item*|>(b)
+      (b)
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|sinh\<chi\><around|cos|\<theta\>|>\<mathd\>\<theta\>+cosh\<chi\><around|sin|\<theta\>|>\<mathd\>\<chi\>|)><rsup|2>+<around*|(|-cosh\<chi\><around|sin|\<theta\>|>\<mathd\>\<theta\>+sinh\<chi\><around|cos|\<theta\>|>\<mathd\>\<chi\>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>\<mathd\>\<theta\><rsup|2>+cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>\<mathd\>\<chi\><rsup|2>+sinh\<chi\><around|cos|\<theta\>|>cosh\<chi\><around|sin|\<theta\>|>\<mathd\>\<theta\>\<mathd\>\<chi\>+cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>\<mathd\>\<theta\><rsup|2>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>\<mathd\>\<chi\><rsup|2>-cosh\<chi\><around|sin|\<theta\>|>sinh\<chi\><around|cos|\<theta\>|>\<mathd\>\<theta\>\<mathd\>\<chi\>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>+cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>|)>\<mathd\>\<theta\><rsup|2>+<around*|(|cosh<rsup|2>\<chi\><around|sin|<rsup|2>\<theta\>|>+sinh<rsup|2>\<chi\><around|cos|<rsup|2>\<theta\>|>|)>\<mathd\>\<chi\><rsup|2>>>>>
@@ -202,9 +202,23 @@
 
       <math|>
 
-      \;
+      <item*|9>
 
       \;
+
+      <\description>
+        <item*|a>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|>>>>
+        </eqnarray*>
+
+        <item*|b>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|\<ast\>F>|<cell|=>|<cell|q<around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|q<around|sin|\<theta\>|><around*|(|<frac|<around*|(|1+1|)>!|1!1!>|)>>>>>
+        </eqnarray*>
+      </description>
     </description>
   </description>
 </body>
