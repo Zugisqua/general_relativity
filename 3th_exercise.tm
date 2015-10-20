@@ -3,6 +3,8 @@
 <style|generic>
 
 <\body>
+  \;
+
   <section|<math|exercise \ \ 3th>>
 
   <\description>
@@ -24,10 +26,8 @@
     <\description>
       <item*|gradient>
 
-      component
-
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\><rprime|'>>\<phi\>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<nabla\><rsub|\<mu\>>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<partial\><rsub|\<mu\>>\<phi\>>>>>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>\<phi\><wide|e|^><rsup|\<nu\>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<nabla\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<partial\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\><rprime|'>>\<phi\><wide|e|^><rsup|\<mu\><rprime|'>>>>>>
       </eqnarray*>
 
       <\eqnarray*>
@@ -45,7 +45,13 @@
       <item*|div>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>V<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>><around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>V<rsup|\<mu\><rprime|'>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<nabla\><rsub|\<mu\>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>|)>V<rsup|\<mu\><rprime|'>>+<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<nabla\><rsub|\<mu\>>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<around*|(|\<nabla\><rsub|\<mu\>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>|)>+<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<nabla\><rsub|\<mu\>>|)>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<mu\>><around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>|)>+<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<partial\><rsub|\<mu\>>|)>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\><rsup|2>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\>>\<partial\>x<rsup|\<mu\><rprime|'>>>+<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<partial\><rsub|\<mu\>>|)>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>\<partial\><rsub|\<mu\>>V<rsup|\<mu\><rprime|'>>>>>>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>V<rsup|\<mu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<nabla\><rsub|\<mu\><rprime|'>>\<delta\><rsup|\<mu\>><rsub|\<nu\>><around*|(|<frac|\<partial\>x<rsup|\<nu\>><rsup|>|\<partial\>x<rsup|\<nu\><rprime|'>>>V<rsup|\<nu\><rprime|'>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<delta\><rsup|\<mu\>><rsub|\<nu\>><around*|(|<frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>+<around*|(|\<nabla\><rsub|\<mu\><rprime|'>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>|)>V<rsup|\<nu\><rprime|'>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<delta\><rsup|\<mu\>><rsub|\<nu\>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>+<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<delta\><rsup|\<mu\>><rsub|\<nu\>><around*|(|\<nabla\><rsub|\<mu\><rprime|'>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>|)>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>+<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>><around*|(|\<nabla\><rsub|\<mu\><rprime|'>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>|)>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>+<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>><around*|(|\<nabla\><rsub|\<nu\><rprime|'>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>|)>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<nabla\><rsub|\<mu\><rprime|'>>+<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>><around*|(|\<nabla\><rsub|\<nu\><rprime|'>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>|)>|)>V<rsup|\<mu\><rprime|'>>>>>>
+      </eqnarray*>
+
+      <item*|curl>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<wide|\<varepsilon\>|~><rsup|\<mu\>\<nu\>><op|<rsub|\<sigma\>>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>|<cell|=>|<cell|g<rsub|\<rho\>\<sigma\>><wide|\<varepsilon\>|~><rsup|\<mu\>\<nu\>\<rho\>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<rho\>\<sigma\>><sqrt|<around*|\||g|\|>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<around*|\||g|\|>><frac|\<partial\>x<rsup|\<rho\>>|\<partial\>x<rsup|\<rho\><rprime|'>>><frac|\<partial\>x<rsup|\<sigma\>>|\<partial\>x<rsup|\<sigma\><rprime|'>>>g<rsub|\<rho\>\<sigma\>>\<delta\><rsub|\<alpha\>><rsup|\<sigma\>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>><frac|\<partial\>x<rsup|\<alpha\>>|\<partial\>x<rsup|\<alpha\><rprime|'>>>\<varepsilon\><rsup|\<mu\><rprime|'>\<nu\><rprime|'>\<alpha\><rprime|'>>>>>>
       </eqnarray*>
 
       therefore
