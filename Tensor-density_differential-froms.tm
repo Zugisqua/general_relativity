@@ -156,6 +156,8 @@
       \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
     </eqnarray*>
 
+    \;
+
     notice that <math|\<varepsilon\>> have already a tensor, therefore it's
     free to lower or raise its indice.
 
@@ -255,7 +257,23 @@
       <item>Hodge duality
 
       <\description>
-        <item*|fomula_1>need verify
+        <item*|other demend>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|\<ast\>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
+        </eqnarray*>
+
+        and
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|\<ast\>B<rsup|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>>|<cell|=>|<cell|\<ast\><around*|(|g<rsup|\<nu\><rsub|1>\<sigma\><rsub|1>>\<ldots\>g
+          <rsup|\<nu\><rsub|p>\<sigma\><rsub|p>>B<rsub|\<sigma\><rsub|1>\<ldots\>\<sigma\><rsub|p>>|)>>>|<row|<cell|>|<cell|=>|<cell|?>>>>
+        </eqnarray*>
+
+        \;
+
+        <item*|<item*|fomula_1>need verify>
 
         <\eqnarray*>
           <tformat|<table|<row|<cell|<around*|(|\<ast\>\<ast\>A|)>>|<cell|=>|<cell|<around*|(|-1|)><rsup|s+p<around*|(|n-p|)>>A>>>>
