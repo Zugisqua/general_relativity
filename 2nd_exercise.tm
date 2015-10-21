@@ -103,9 +103,6 @@
       <tformat|<table|<row|<cell|V>|<cell|=>|<cell|a<around*|(|<frac|\<eta\><rsub|p>|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>X<rsub|p>-<frac|\<lambda\><rsub|p>+1|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>Y<rsub|p>|)>+b<around*|(|<frac|\<eta\><rsub|p>+1|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>X<rsub|p>-<frac|\<lambda\><rsub|p>|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>Y<rsub|p>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|a\<eta\><rsub|p>+b<around*|(|\<eta\><rsub|p>+1|)>|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>X<rsub|p>-<frac|a<around*|(|\<lambda\><rsub|p>+1|)>+b\<lambda\><rsub|p>|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>Y<rsub|p>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|a+b|)>\<eta\><rsub|p>+b|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>X<rsub|p>-<frac|<around*|(|a+b|)>\<lambda\><rsub|p>+a|\<eta\><rsub|p>+\<lambda\><rsub|p>+1>Y<rsub|p>>>>>
     </eqnarray*>
 
-    now here try transforming <math|<around*|(|X,Y|)>\<rightarrow\><around*|(|\<partial\><rsub|1>,\<partial\><rsub|2>|)>>
-    orz
-
     <item*|6>
 
     <\description>
@@ -117,19 +114,9 @@
         <choice|<tformat|<table|<row|<cell|x>|<cell|=>|<cell|r<around|sin|\<theta\><around|cos|\<phi\>|>|>>>|<row|<cell|y>|<cell|=>|<cell|r<around|sin|\<theta\><around|sin|\<phi\>|>|>>>|<row|<cell|z>|<cell|=>|<cell|r<around|cos|\<theta\>|>>>>>>
       </equation*>
 
-      <\eqnarray*>
-        <tformat|<table|<row|<cell|>|<cell|>|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<partial\>r|\<partial\>x>=<around|sin|\<theta\>|><around|cos|\<phi\>|>>>|<row|<cell|<frac|\<partial\>r|\<partial\>y>=<around|sin|\<theta\>|><around|sin|\<phi\>|>>>|<row|<cell|<frac|\<partial\>r|\<partial\>z>=-<around|cos|\<theta\>|>>>>>>>>>>
-      </eqnarray*>
-
-      \;
-
-      <\equation*>
-        <choice|<tformat|<table|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>x>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|><around|cos|\<phi\>|>|r>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>y>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|><around|sin|\<phi\>|>|r>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>z>>|<cell|=>|<cell|-<frac|<around|sin|\<theta\>|>|r>>>>>>
-      </equation*>
-
-      <\equation*>
-        <choice|<tformat|<table|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>x>=-<frac|<around|sin|\<phi\>|>|r<around|sin|\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>y>=<frac|<around|cos|\<phi\>|>|r<around|sin|\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>z>=0>>>>>
-      </equation*>
+      <math|<choice|<tformat|<table|<row|<cell|<frac|\<partial\>r|\<partial\>x>=<around|sin|\<theta\>|><around|cos|\<phi\>|>>>|<row|<cell|<frac|\<partial\>r|\<partial\>y>=<around|sin|\<theta\>|><around|sin|\<phi\>|>>>|<row|<cell|<frac|\<partial\>r|\<partial\>z>=-<around|cos|\<theta\>|>>>>>>>
+      <math|<choice|<tformat|<table|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>x>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|><around|cos|\<phi\>|>|r>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>y>>|<cell|=>|<cell|<frac|<around|cos|\<theta\>|><around|sin|\<phi\>|>|r>>>|<row|<cell|<frac|\<partial\>\<theta\>|\<partial\>z>>|<cell|=>|<cell|-<frac|<around|sin|\<theta\>|>|r>>>>>>>
+      <math|<choice|<tformat|<table|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>x>=-<frac|<around|sin|\<phi\>|>|r<around|sin|\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>y>=<frac|<around|cos|\<phi\>|>|r<around|sin|\<theta\>|>>>>|<row|<cell|<frac|\<partial\>\<phi\>|\<partial\>z>=0>>>>>>
 
       therefore the curve
 
@@ -140,8 +127,6 @@
       <\eqnarray*>
         <tformat|<table|<row|<cell|r>|<cell|=>|<cell|<around|cos|\<lambda\>|><around|sin|\<theta\>|><around|cos|\<phi\>|>+<around|sin|\<lambda\>|><around|sin|\<theta\>|><around|sin|\<phi\>+\<lambda\><around|cos|\<theta\>|>|>>>|<row|<cell|\<theta\>>|<cell|=>|<cell|<around|cos|\<lambda\>|><around|cos|\<theta\>|><around|cos|\<phi\>|>+<around|sin|\<lambda\>|><around|cos|\<theta\>|><around|sin|\<phi\>|>-\<lambda\><around|sin|\<theta\>|>>>|<row|<cell|\<phi\>>|<cell|=>|<cell|-<around|cos|\<lambda\>|><around|sin|\<phi\>|>+<around|sin|\<lambda\>|><around|cos|\<phi\>|>>>>>
       </eqnarray*>
-
-      still transcend
 
       <item*|(b)>set tangent vector as symbol <math|<wide|v|\<vect\>>>
 
@@ -162,9 +147,6 @@
           <tformat|<table|<row|<cell|<wide|\<upsilon\>|\<vect\>>>|<cell|=>|<cell|<big|sum><rsub|i>f<rsub|i><wide|a|\<vect\>><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|i><big|sum><rsub|j>x<rsub|i><around*|(|<frac|1|h<rsub|i>><frac|\<partial\>a<rsub|i>|\<partial\>x<rsub|j>>|)><around*|(|h<rsub|i><frac|\<partial\>x<rsub|i>|\<partial\>a<rsub|i>>|)><wide|e<rsub|i>|\<vect\>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-<around|sin|\<lambda\>|>>|<cell|<around|cos|\<lambda\>|>>|<cell|1>>>>>M
           M<rsup|-1><matrix|<tformat|<table|<row|<cell|<wide|e|\<vect\>><rsub|x>>>|<row|<cell|<wide|e|\<vect\>><rsub|y>>>|<row|<cell|<wide|e|\<vect\>><rsub|z>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|-<around|sin|\<lambda\>|>>|<cell|<around|cos|\<lambda\>|>>|<cell|1>>>>>M<matrix|<tformat|<table|<row|<cell|<wide|a|\<vect\>><rsub|r>>>|<row|<cell|<wide|a|\<vect\>><rsub|\<theta\>>>>|<row|<cell|<wide|a|\<vect\>><rsub|\<phi\>>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<stack|<tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<around*|(|-<around|sin|\<lambda\>|><around|sin|\<theta\>|><around|cos|\<phi\>|>+<around|cos|\<lambda\>|><around|sin|\<theta\>|><around|sin|\<phi\>+<around|cos|\<theta\>|>|>|)><wide|a|\<vect\>><rsub|r>>>|<row|<cell|+<around*|(|-<around|sin|\<lambda\>|><around|cos|\<theta\>|><around|cos|\<phi\>|>+<around|cos|\<lambda\>|><around|cos|\<theta\>|><around|sin|\<phi\>|>-1<around|sin|\<theta\>|>|)><wide|a|\<vect\>><rsub|\<theta\>>>>|<row|<cell|+<around*|(|<around|sin|\<lambda\>|><around|sin|\<phi\>|>+<around|cos|\<lambda\>|><around|cos|\<phi\>|>|)><wide|a|\<vect\>><rsub|\<phi\>>>>>>>>>>>
         </eqnarray*>
-
-        but <math|<wide|\<upsilon\>|\<vect\>>> seems like the same as the
-        covariant form
       </description>
 
       <item*|7>
@@ -201,24 +183,6 @@
       <math|\<mathd\>\<chi\>=<frac|\<mathd\>r|r>> they are the same.
 
       <math|>
-
-      <item*|9>
-
-      \;
-
-      <\description>
-        <item*|a>
-
-        <\eqnarray*>
-          <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|>>>>
-        </eqnarray*>
-
-        <item*|b>
-
-        <\eqnarray*>
-          <tformat|<table|<row|<cell|\<ast\>F>|<cell|=>|<cell|q<around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|q<around|sin|\<theta\>|><around*|(|<frac|<around*|(|1+1|)>!|1!1!>|)>>>>>
-        </eqnarray*>
-      </description>
     </description>
   </description>
 </body>
