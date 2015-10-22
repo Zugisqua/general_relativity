@@ -338,14 +338,42 @@
           if <math|\<lambda\>=1;\<nu\>=2;\<mu\>=3> then
 
           <\eqnarray*>
-            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|23>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|2>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|31>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|3>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|12>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1><around*|(|F<rsub|01>-F<rsub|10>|)>+\<partial\><rsub|2><around*|(|F<rsub|02>-F<rsub|20>|)>+\<partial\><rsub|3><around*|(|F<rsub|30>-F<rsub|03>|)>|)>>>>>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|23>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|2>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|31>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|3>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|12>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1><around*|(|F<rsub|01>-F<rsub|10>|)>+\<partial\><rsub|2><around*|(|F<rsub|02>-F<rsub|20>|)>+\<partial\><rsub|3><around*|(|F<rsub|03>-F<rsub|30>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1>F<rsub|01>+\<partial\><rsub|2>F<rsub|02>+\<partial\><rsub|3>F<rsub|03>>>>>
           </eqnarray*>
+
+          <math|0312\<rightarrow\>0132\<rightarrow\>0123;0231\<rightarrow\>0132\<rightarrow\>0123>
 
           <\eqnarray*>
             <tformat|<table|<row|<cell|\<ast\>J>|<cell|=>|<cell|\<varepsilon\><rsup|\<sigma\>><op|<rsub|123>>J<rsub|\<sigma\>>=J<rsub|0>>>>>
           </eqnarray*>
 
-          \;
+          therefore
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|1>F<rsub|01>+\<partial\><rsub|2>F<rsub|02>+\<partial\><rsub|3>F<rsub|03>>|<cell|=>|<cell|J<rsub|0>>>>>
+          </eqnarray*>
+
+          if <math|\<lambda\>=0;\<nu\>=1;\<mu\>=2> then
+
+          <math|<stack|<tformat|<cwith|3|3|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|0312\<rightarrow\>0132\<rightarrow\>0123>>|<row|<cell|1320\<rightarrow\>0321\<rightarrow\>0123>>|<row|<cell|2301\<rightarrow\>0321\<rightarrow\>0123>>|<row|<cell|3012\<rightarrow\>0312\<rightarrow\>0132\<rightarrow\>0123>>>>>>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|0>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|12>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|1>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|20>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|2>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|01>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|0><around*|(|F<rsub|03>-F<rsub|30><rsub|>|)>+\<partial\><rsub|1><around*|(|F<rsub|13>-F<rsub|31>|)>+\<partial\><rsub|2><around*|(|F<rsub|23>-F<rsub|32>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|0>F<rsub|03>+\<partial\><rsub|1>F<rsub|13>+\<partial\><rsub|2>F<rsub|23>>>>>
+          </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<ast\>J>|<cell|=>|<cell|\<varepsilon\><rsup|3><op|<rsub|012>>J<rsub|3>>>|<row|<cell|>|<cell|=>|<cell|-J<rsub|3>>>>>
+          </eqnarray*>
+
+          therefore\ 
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|0>F<rsub|03>+\<partial\><rsub|1>F<rsub|13>+\<partial\><rsub|2>F<rsub|23>>|<cell|=>|<cell|-J<rsub|3>>>|<row|<cell|\<partial\><rsub|0>F<rsub|30>+\<partial\><rsub|1>F<rsub|31>+\<partial\><rsub|2>F<rsub|32>>|<cell|=>|<cell|J<rsub|3>>>>>
+          </eqnarray*>
+
+          maybe could done, however they too ugly and imply
+          <math|\<partial\><rsub|\<mu\>>F<rsub|\<nu\>\<mu\>>=J<rsub|\<nu\>>>
+          is true orz
 
           \;
         </description>
