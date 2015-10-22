@@ -161,8 +161,33 @@
           <item*|><math|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>=0>
 
           <\eqnarray*>
-            <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<mu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<alpha\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<nu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<alpha\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<rho\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<alpha\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<sigma\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+            <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>><sqrt|<around*|\||g|\|>><wide|\<varepsilon\>|~><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>>>>|<row|<cell|>|<cell|>|<cell|>>>>
           </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<mu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<alpha\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<nu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<alpha\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<rho\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<alpha\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<sigma\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<alpha\>>>>>>
+          </eqnarray*>
+
+          <\description>
+            <item*|><math|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>=0
+            >
+
+            <\eqnarray*>
+              <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>+\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<nu\>>\<varepsilon\><rsub|\<sigma\>\<mu\>>+\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<mu\>>\<varepsilon\><rsub|\<nu\>\<sigma\>>>>>>
+            </eqnarray*>
+
+            <\eqnarray*>
+              <tformat|<table|<row|<cell|\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<delta\><rsup|\<rho\>><rsub|<around*|[|\<nu\>|\<nobracket\>>>\<delta\><rsup|\<sigma\>><rsub|\<mu\><around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><rsup|\<rho\>><rsub|\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>-\<delta\><rsup|\<rho\>><rsub|\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>>>>>
+            </eqnarray*>
+
+            <\eqnarray*>
+              <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|>|<cell|+\<Gamma\><rsup|\<alpha\>><rsub|\<lambda\>\<nu\>><rsub|>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<alpha\>\<mu\>>+\<Gamma\><rsup|\<alpha\>><rsub|\<lambda\>\<mu\>><rsub|>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<alpha\>>>>|<row|<cell|>|<cell|>|<cell|-\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<alpha\>><rsub|>\<varepsilon\><rsup|\<alpha\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>-\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<alpha\>><rsub|>\<varepsilon\><rsup|\<rho\>\<alpha\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>><around*|(|\<delta\><rsup|\<rho\>><rsub|\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>-\<delta\><rsup|\<rho\>><rsub|\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|>|<cell|+\<Gamma\><rsup|\<alpha\>><rsub|\<lambda\>\<nu\>><rsub|><around*|(|\<delta\><rsup|\<rho\>><rsub|\<alpha\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>-\<delta\><rsup|\<rho\>><rsub|\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<alpha\>>|)>+\<Gamma\><rsup|\<alpha\>><rsub|\<lambda\>\<mu\>><rsub|><around*|(|\<delta\><rsup|\<rho\>><rsub|\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<alpha\>>-\<delta\><rsup|\<rho\>><rsub|\<alpha\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|>|<cell|-\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<alpha\>><rsub|><around*|(|\<delta\><rsup|\<alpha\>><rsub|\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>-\<delta\><rsup|\<alpha\>><rsub|\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>|)>-\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<alpha\>><rsub|><around*|(|\<delta\><rsup|\<rho\>><rsub|\<nu\>>\<delta\><rsup|\<alpha\>><rsub|\<mu\>>-\<delta\><rsup|\<rho\>><rsub|\<mu\>>\<delta\><rsup|\<alpha\>><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>-\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<nu\>>\<delta\><rsup|\<rho\>><rsub|\<mu\>>+\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>>>|<row|<cell|>|<cell|>|<cell|-\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>+\<Gamma\><rsup|\<rho\>><rsub|\<lambda\>\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>-\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>+\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<nu\>>\<delta\><rsup|\<rho\>><rsub|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+            </eqnarray*>
+
+            <\eqnarray*>
+              <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<varepsilon\><rsub|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>+\<varepsilon\><rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+            </eqnarray*>
+          </description>
 
           <item*|><math|\<nabla\><rsub|\<rho\>>g<rsup|\<mu\>\<nu\>>=0>
 
