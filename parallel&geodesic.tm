@@ -23,7 +23,7 @@
     if a tensor satisfies the relation,we could say the tensor could be
     parallel transported along the curve which parament by <math|\<lambda\>>.
 
-    Some conclusion:
+    Some conclusion: could take some notice.
 
     <\description>
       <item*|1>
@@ -57,7 +57,23 @@
 
     geodesic equation:
 
+    countderivation
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|D|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<nabla\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>><around*|(|\<partial\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>>|)>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<partial\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<nu\>>>|)>+\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0>>|<row|<cell|\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|0!>>>>
+    </eqnarray*>
+
+    otz what's this?
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|D|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>\<partial\><rsub|\<mu\>>f>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<nabla\><rsub|\<nu\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>\<partial\><rsub|\<mu\>>f|)>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>><around*|(|\<partial\><rsub|\<mu\>>f\<nabla\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>\<nabla\><rsub|\<nu\>><around*|(|\<partial\><rsub|\<mu\>>f|)>|)>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>><around*|(|\<partial\><rsub|\<mu\>>f\<partial\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>>\<partial\><rsub|\<mu\>>f<frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>f-<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>\<Gamma\><rsub|\<nu\>\<mu\>><rsup|\<rho\>>\<partial\><rsub|\<rho\>>f|)>>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
     <item*|Derivation from variational principle>
+
+    \;
+
+    \;
   </description>
 
   \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
