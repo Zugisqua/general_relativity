@@ -116,6 +116,21 @@
 
     construct from some requirements. under some ulterior motivation
 
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<rho\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>>>>
+    </eqnarray*>
+
+    derivation form the requirements below:
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|5|5|cell-halign|c>|<cwith|2|2|6|6|cell-halign|r>|<cwith|1|1|6|6|cell-halign|r>|<cwith|3|3|6|6|cell-halign|c>|<table|<row|<cell|\<nabla\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<mu\>>g<rsub|\<lambda\>\<nu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<rho\>\<nu\>>g<rsub|\<mu\>\<lambda\>>>|<cell|=>|<cell|0>|<cell|<around*|(|1|)>>>|<row|<cell|\<nabla\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<lambda\>\<rho\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<rho\>>g<rsub|\<mu\>\<lambda\>>>|<cell|=>|<cell|0>|<cell|<around*|(|2|)>>>|<row|<cell|\<nabla\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<rho\>>g<rsub|\<lambda\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<mu\>>g<rsub|\<rho\>\<lambda\>><rsub|>>|<cell|=>|<cell|0>|<cell|
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <around*|(|3|)>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<around*|(|2|)>+<around*|(|3|)>-<around*|(|1|)>>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<nabla\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<nabla\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<lambda\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<mu\>>g<rsub|\<rho\>\<lambda\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|\<Rightarrow\>>|<cell|>|<cell|>>|<row|<cell|2\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<lambda\>\<rho\>>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>>>|<row|<cell|\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>g<rsub|\<lambda\>\<rho\>>g<rsup|\<sigma\>\<rho\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<rho\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>\<delta\><rsup|\<sigma\>><rsub|\<lambda\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<rho\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<rho\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>>>>
+    </eqnarray*>
+
     <\description>
       <item*|convariant of <math|\<nabla\>>>
 
@@ -134,6 +149,8 @@
       <\eqnarray*>
         <tformat|<table|<row|<cell|\<Gamma\><rsup|\<nu\><rprime|'>><rsub|\<mu\><rprime|'>\<lambda\><rprime|'>><frac|\<partial\>x<rsup|\<lambda\><rprime|'>>|\<partial\>x<rsup|\<lambda\>>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>\<Gamma\><rsup|\<nu\>><rsub|\<mu\>\<lambda\>>-\<partial\><rsub|\<mu\><rprime|'>><around*|(|<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>|)>\<delta\><rsup|\<nu\>><rsub|\<lambda\>>>>|<row|<cell|\<Gamma\><rsup|\<nu\><rprime|'>><rsub|\<mu\><rprime|'>\<lambda\><rprime|'>><frac|\<partial\>x<rsup|\<lambda\><rprime|'>>|\<partial\>x<rsup|\<lambda\>>><frac|\<partial\>x<rsup|\<lambda\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>>>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>\<Gamma\><rsup|\<nu\>><rsub|\<mu\>\<lambda\>>-\<partial\><rsub|\<mu\><rprime|'>><around*|(|<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>|)>\<delta\><rsup|\<nu\>><rsub|\<lambda\>>|)><frac|\<partial\>x<rsup|\<lambda\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>>>>|<row|<cell|\<Gamma\><rsup|\<nu\><rprime|'>><rsub|\<mu\><rprime|'>\<lambda\><rprime|'>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<lambda\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>\<Gamma\><rsup|\<nu\>><rsub|\<mu\>\<lambda\>>-\<partial\><rsub|\<mu\><rprime|'>><around*|(|<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>|)><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<lambda\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>\<Gamma\><rsup|\<nu\>><rsub|\<mu\>\<lambda\>>-\<partial\><rsub|\<mu\><rprime|'>><around*|(|<frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>>|)>+\<partial\><rsub|\<mu\><rprime|'>><around*|(|<frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>>|)><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<lambda\>>|\<partial\>x<rsup|\<lambda\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>\<Gamma\><rsup|\<nu\>><rsub|\<mu\>\<lambda\>>+<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>><frac|\<partial\><rsup|2>x<rsup|\<nu\>>|\<partial\>x<rsup|\<mu\>>\<partial\>x<rsup|\<lambda\><rprime|'>>>>>>>
       </eqnarray*>
+
+      \;
 
       a little bit different
 
@@ -161,8 +178,10 @@
           <item*|><math|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>=0>
 
           <\eqnarray*>
-            <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>><sqrt|<around*|\||g|\|>><wide|\<varepsilon\>|~><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>>>>|<row|<cell|>|<cell|>|<cell|>>>>
+            <tformat|<table|<row|<cell|\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>-\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<lambda\>>4!-\<varepsilon\><rsup|\<alpha\>\<beta\>\<gamma\>\<eta\>>g<rsub|\<mu\>\<alpha\>>g<rsub|\<nu\>\<beta\>>g<rsub|\<rho\>\<gamma\>>g<rsub|\<sigma\>\<eta\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-\<varepsilon\><rsup|\<alpha\>\<beta\>\<gamma\>\<eta\>>\<nabla\><rsub|\<lambda\>>g<rsub|\<mu\>\<alpha\>>g<rsub|\<nu\>\<beta\>>g<rsub|\<rho\>\<gamma\>>g<rsub|\<sigma\>\<eta\>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-\<varepsilon\><rsup|\<alpha\>\<beta\>\<gamma\>\<eta\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<alpha\>\<beta\>\<gamma\>\<eta\>>>>|<row|<cell|2\<times\>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|0>>>>
           </eqnarray*>
+
+          therefore <math|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>\<sigma\>>=0>
 
           <\eqnarray*>
             <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<mu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<alpha\>\<nu\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<nu\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<alpha\>\<rho\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<rho\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<alpha\>\<sigma\>>+\<Gamma\><rsub|\<lambda\>\<sigma\>><rsup|\<alpha\>>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<alpha\>>>>>>
@@ -185,8 +204,10 @@
             </eqnarray*>
 
             <\eqnarray*>
-              <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<varepsilon\><rsub|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>>+\<varepsilon\><rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+              <tformat|<table|<row|<cell|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<nu\>\<mu\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>|<cell|=>|<cell|\<varepsilon\><rsub|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<nu\>\<mu\>>+\<varepsilon\><rsup|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<rho\>\<sigma\>>g<rsub|\<nu\>\<rho\>>g<rsub|\<sigma\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsup|\<nu\>\<mu\>>+\<varepsilon\><rsup|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>g<rsub|\<nu\>\<rho\>>g<rsub|\<sigma\>\<mu\>>\<varepsilon\><rsup|\<nu\>\<mu\>>+\<varepsilon\><rsup|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<rho\>\<sigma\>>+\<varepsilon\><rsup|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|2\<times\>\<varepsilon\><rsup|\<nu\>\<mu\>>\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>=0>>>>
             </eqnarray*>
+
+            therefore <math|\<nabla\><rsub|\<lambda\>>\<varepsilon\><rsub|\<nu\>\<mu\>>=0>
           </description>
 
           <item*|><math|\<nabla\><rsub|\<rho\>>g<rsup|\<mu\>\<nu\>>=0>
@@ -227,11 +248,7 @@
       symbol
     </description>
 
-    last form
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<rho\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>\<rho\>>+\<partial\><rsub|\<nu\>>g<rsub|\<rho\>\<mu\>>-\<partial\><rsub|\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>>>>
-    </eqnarray*>
+    \;
   </description>
 
   \ 
