@@ -117,6 +117,8 @@
 
     a special (0,N) tensor which requires completely antimymetreic
 
+    PS : they are all about low indice calculation.
+
     <item>The number of Differential forms isn't more than the number of
     demension.
 
@@ -155,6 +157,8 @@
       <tformat|<table|<row|<cell|<around*|(|\<ast\>A|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
       \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
     </eqnarray*>
+
+    \;
 
     notice that <math|\<varepsilon\>> have already a tensor, therefore it's
     free to lower or raise its indice.
@@ -255,7 +259,28 @@
       <item>Hodge duality
 
       <\description>
-        <item*|fomula_1>need verify
+        <item*|other demend>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>><rsub|>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsup|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>><rsub|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>A<rsub|\<upsilon\><rsub|1>\<ldots\>\<upsilon\><rsub|p>>>>>>
+        </eqnarray*>
+
+        if indice could be more arbitary\ 
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>B<rsup|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<frac|1|p!>\<varepsilon\><rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>B<rsup|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>>>>>
+        </eqnarray*>
+
+        however it's not consistent with what in wiki: should
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|(|\<ast\>B<rsup|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>|)><rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>>|<cell|=>|<cell|<frac|1|<around*|(|n-p|)>!>\<varepsilon\><rsub|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n-p>>B<rsup|\<nu\><rsub|1>\<ldots\>\<nu\><rsub|p>>>>>>
+        </eqnarray*>
+
+        \;
+
+        <item*|<item*|fomula_1>need verify>
 
         <\eqnarray*>
           <tformat|<table|<row|<cell|<around*|(|\<ast\>\<ast\>A|)>>|<cell|=>|<cell|<around*|(|-1|)><rsup|s+p<around*|(|n-p|)>>A>>>>
@@ -300,14 +325,62 @@
             <tformat|<table|<row|<cell|\<partial\><rsub|\<mu\>>F<rsup|\<nu\>\<mu\>>>|<cell|=>|<cell|J<rsup|\<nu\>>>>>>
           </eqnarray*>
 
+          assumption: <math|\<partial\><rsub|\<mu\>>F<rsub|\<nu\>\<mu\>>=J<rsub|\<nu\>>>
+
           <\eqnarray*>
-            <tformat|<table|<row|<cell|<around*|(|\<ast\>J|)><rsup|\<mu\><rsub|1>\<mu\><rsub|2>\<mu\><rsub|3>>>|<cell|=>|<cell|<frac|1|1!>\<varepsilon\><rsup|\<mu\><rsub|1>\<mu\><rsub|2>\<mu\><rsub|3>><op|<rsub|\<nu\>>>J<rsup|\<nu\>>>>>>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|\<mathd\><around*|(|<frac|1|2!>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<nu\>\<mu\>>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[|\<lambda\>|\<nobracket\>>><frac|1|2!>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<nu\>\<mu\><around*|]||\<nobracket\>>>>F<rsub|\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|3|2>\<times\>\<partial\><rsub|<around*|[|\<lambda\>|\<nobracket\>>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<nu\>\<mu\><around*|]||\<nobracket\>>>>F<rsub|\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|<around*|[|\<nu\>\<mu\>|]>>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|\<nu\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|<around*|[|\<mu\>\<lambda\>|]>>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|\<mu\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|<around*|[|\<lambda\>\<nu\>|]>>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|\<lambda\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<nu\>\<mu\>>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|\<nu\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<mu\>\<lambda\>>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|\<mu\>>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|\<lambda\>\<nu\>>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|>|<cell|>>>>
           </eqnarray*>
 
           <\eqnarray*>
-            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)>>|<cell|=>|<cell|3\<times\>\<partial\><rsub|<around*|[|k|\<nobracket\>>><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)><rsub|<around*|]||\<nobracket\>>>>>|<row|<cell|>|<cell|=>|<cell|3\<times\><frac|1|3!><around*|(|\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>|)>-\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<nu\>\<mu\>>|)>+\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|k\<mu\>>|)>-\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|k\<nu\>>|)>+\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|\<nu\>k>|)>-\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|\<mu\>k>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|\<partial\><rsub|k><around*|(|\<ast\>F<rsup|\<mu\>\<nu\>>-\<ast\>F<rsup|\<mu\>\<nu\>>|)>+\<partial\><rsub|\<nu\>><around*|(|\<ast\>F<rsup|k\<mu\>>-\<ast\>F<rsup|\<mu\>k>|)>+\<partial\><rsub|\<mu\>><around*|(|\<ast\>F<rsup|\<nu\>k>-\<ast\>F<rsup|k\<nu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<stack|<tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<frac|1|2>\<times\><around*|[||\<nobracket\>>>>|<row|<cell|\<partial\><rsub|k><around*|(|<frac|1|2>\<varepsilon\><rsub|\<mu\>\<nu\>><op|<rsup|\<rho\>\<sigma\>>>F<rsup|\<mu\>\<nu\>>-<frac|1|2>\<varepsilon\><rsub|\<nu\>\<mu\>><op|<rsup|\<rho\>\<sigma\>>>F<rsup|\<nu\>\<mu\>>|)>>>|<row|<cell|+\<partial\><rsub|\<nu\>><around*|(|<frac|1|2>|)>>>>>>>>>>
+            <tformat|<table|<row|<cell|\<ast\>J>|<cell|=>|<cell|\<varepsilon\><rsup|\<sigma\>><op|<rsub|\<lambda\>\<nu\>\<mu\>>>J<rsub|\<sigma\>>>>>>
           </eqnarray*>
+
+          if <math|\<lambda\>=1;\<nu\>=2;\<mu\>=3> then
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|23>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|2>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|31>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|3>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|12>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|1><around*|(|F<rsub|01>-F<rsub|10>|)>+\<partial\><rsub|2><around*|(|F<rsub|02>-F<rsub|20>|)>+\<partial\><rsub|3><around*|(|F<rsub|03>-F<rsub|30>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1>F<rsub|01>+\<partial\><rsub|2>F<rsub|02>+\<partial\><rsub|3>F<rsub|03>>>>>
+          </eqnarray*>
+
+          <math|0312\<rightarrow\>0132\<rightarrow\>0123;0231\<rightarrow\>0132\<rightarrow\>0123>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<ast\>J>|<cell|=>|<cell|\<varepsilon\><rsup|\<sigma\>><op|<rsub|123>>J<rsub|\<sigma\>>=J<rsub|0>>>>>
+          </eqnarray*>
+
+          therefore
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|1>F<rsub|01>+\<partial\><rsub|2>F<rsub|02>+\<partial\><rsub|3>F<rsub|03>>|<cell|=>|<cell|J<rsub|0>>>>>
+          </eqnarray*>
+
+          if <math|\<lambda\>=0;\<nu\>=1;\<mu\>=2> then
+
+          <math|<stack|<tformat|<cwith|3|3|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|0312\<rightarrow\>0132\<rightarrow\>0123>>|<row|<cell|1320\<rightarrow\>0321\<rightarrow\>0123>>|<row|<cell|2301\<rightarrow\>0321\<rightarrow\>0123>>|<row|<cell|3012\<rightarrow\>0312\<rightarrow\>0132\<rightarrow\>0123>>>>>>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<mathd\><around*|(|\<ast\>F|)>>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|0>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|12>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|1>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|20>>F<rsub|\<rho\>\<sigma\>>+\<partial\><rsub|2>\<varepsilon\><rsup|\<rho\>\<sigma\>><op|<rsub|01>>F<rsub|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<times\><around*|(|\<partial\><rsub|0><around*|(|F<rsub|03>-F<rsub|30><rsub|>|)>+\<partial\><rsub|1><around*|(|F<rsub|13>-F<rsub|31>|)>+\<partial\><rsub|2><around*|(|F<rsub|23>-F<rsub|32>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|0>F<rsub|03>+\<partial\><rsub|1>F<rsub|13>+\<partial\><rsub|2>F<rsub|23>>>>>
+          </eqnarray*>
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<ast\>J>|<cell|=>|<cell|\<varepsilon\><rsup|3><op|<rsub|012>>J<rsub|3>>>|<row|<cell|>|<cell|=>|<cell|-J<rsub|3>>>>>
+          </eqnarray*>
+
+          therefore\ 
+
+          <\eqnarray*>
+            <tformat|<table|<row|<cell|\<partial\><rsub|0>F<rsub|03>+\<partial\><rsub|1>F<rsub|13>+\<partial\><rsub|2>F<rsub|23>>|<cell|=>|<cell|-J<rsub|3>>>|<row|<cell|\<partial\><rsub|0>F<rsub|30>+\<partial\><rsub|1>F<rsub|31>+\<partial\><rsub|2>F<rsub|32>>|<cell|=>|<cell|J<rsub|3>>>>>
+          </eqnarray*>
+
+          maybe could done, however they too ugly and imply
+          <math|\<partial\><rsub|\<mu\>>F<rsub|\<nu\>\<mu\>>=J<rsub|\<nu\>>>
+          is true orz
+
+          \;
         </description>
+
+        \;
+
+        \;
 
         \;
       </description>
@@ -320,14 +393,19 @@
         <tformat|<table|<row|<cell|\<ast\><around*|(|U\<wedge\>V|)><rsub|i>>|<cell|=>|<cell|\<varepsilon\><rsub|i><op|<rsup|j
         k>>U<rsub|j>V<rsub|k>>>>>
       </eqnarray*>
+
+      then
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<ast\><around*|(|U\<wedge\>V|)><rsub|i>>|<cell|=>|<cell|\<ast\><around*|(|<frac|<around*|(|1+1|)>!|1!1!>U<rsub|<around*|[|\<mu\>|\<nobracket\>>>V<rsub|\<nu\><around*|]||\<nobracket\>>>|)><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|\<ast\><around*|(|2\<times\><frac|1|2!><around*|(|U<rsub|\<mu\>>V<rsub|\<nu\>>-U<rsub|\<nu\>>V<rsub|\<mu\>>|)>|)><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|\<ast\><around*|(|U<rsub|\<mu\>>V<rsub|\<nu\>>-U<rsub|\<nu\>>V<rsub|\<mu\>>|)><rsub|i>>>|<row|<cell|set>|<cell|=>|<cell|\<ast\><around*|(|A<rsub|\<mu\>\<nu\>>|)><rsub|i>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2!>\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>>A<rsub|\<nu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>><around*|(|U<rsub|\<mu\>>V<rsub|\<nu\>>-U<rsub|\<nu\>>V<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>>U<rsub|\<mu\>>V<rsub|\<nu\>>-<frac|1|2>\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>>U<rsub|\<nu\>><rsub|>V<rsub|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>>U<rsub|\<mu\>>V<rsub|\<nu\>>-<frac|1|2>\<varepsilon\><rsup|\<nu\>\<mu\>><op|<rsub|i>>U<rsub|\<mu\>>V<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|i>>U<rsub|\<mu\>>V<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsub|i><op|<rsup|j
+        k>>U<rsub|j>V<rsub|k>>>>>
+      </eqnarray*>
     </itemize>
   </description>
 
   3.integration
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
-  </eqnarray*>
+  \;
 </body>
 
 <\initial>
