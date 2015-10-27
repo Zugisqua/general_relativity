@@ -172,6 +172,33 @@
         ?>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|\<sigma\>><around*|(|<wide|\<varepsilon\>|~><rsup|\<mu\>\<nu\>><frac|\<partial\>\<xi\><rsup|i>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>\<xi\><rsup|j>|\<partial\>x<rsup|\<nu\>>>|)>d
         x<rsup|\<sigma\><rsub|1>>\<wedge\>d x<rsup|\<sigma\><rsub|2>>>>>>
       </eqnarray*>
+
+      <item*|more general too>
+
+      <\eqnarray*>
+        <tformat|<cwith|6|6|3|3|cell-halign|r>|<cwith|5|5|1|1|cell-halign|l>|<table|<row|<cell|F<rsup|\<ast\>><around*|(|d
+        x<rsup|\<mu\><rsub|1><rprime|'>>\<wedge\>d
+        x<rsup|\<mu\><rsub|2><rprime|'>>\<ldots\>d
+        x<rsup|\<mu\><rsub|n><rprime|'>>|)>>|<cell|=>|<cell|<around*|(|F<rsup|\<ast\>>d
+        x<rsup|\<mu\><rsub|1><rprime|'>>|)>\<wedge\><around*|(|F<rsup|\<ast\>>d
+        x<rsup|\<mu\><rsub|2><rprime|'>>|)>\<ldots\>\<wedge\><around*|(|F<rsup|\<ast\>>d
+        x<rsup|\<mu\><rsub|n><rprime|'>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|1><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|1>>>d
+        x<rsup|\<mu\><rsub|1>>|)>\<wedge\><around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|2><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|2>>>d
+        x<rsup|\<mu\><rsub|2>>|)>\<ldots\>\<wedge\><around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|n><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|n>>>d
+        x<rsup|\<mu\><rsub|n>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|1><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|1>>><frac|\<partial\>x<rsup|\<mu\><rsub|2><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|2>>>\<ldots\><frac|\<partial\>x<rsup|\<mu\><rsub|n><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|n>>>|)>d
+        x<rsup|\<mu\><rsub|1>>\<wedge\>d x<rsup|\<mu\><rsub|2>>\<ldots\>\<wedge\>d
+        x<rsup|\<mu\><rsub|n>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|1><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|1>>><frac|\<partial\>x<rsup|\<mu\><rsub|2><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|2>>>\<ldots\><frac|\<partial\>x<rsup|\<mu\><rsub|n><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|n>>>|)>d
+        x<rsup|<around*|\<nobracket\>||[>\<mu\><rsub|1>>\<wedge\>d
+        x<rsup|\<mu\><rsub|2>>\<ldots\>\<wedge\>d
+        x<rsup|\<mu\><rsub|n><around*|\<nobracket\>||]>>>>|<row|<cell|<with|color|blue|Reference:plore_1>>|<cell|=>|<cell|n!\<times\><around*|(|<frac|\<partial\>x<rsup|\<mu\><rsub|1><rprime|'>>|\<partial\>x<rsup|<around*|\<nobracket\>||[>\<mu\><rsub|1>>><frac|\<partial\>x<rsup|\<mu\><rsub|2><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|2>>>\<ldots\><frac|\<partial\>x<rsup|\<mu\><rsub|n><rprime|'>>|\<partial\>x<rsup|\<mu\><rsub|n><around*|\<nobracket\>||]>>>|)>d
+        x<rsup|\<mu\><rsub|1>>\<wedge\>d x<rsup|\<mu\><rsub|2>>\<ldots\>\<wedge\>d
+        x<rsup|\<mu\><rsub|n>>>>|<row|<cell|>|<cell|>|<cell|need
+        \<mu\><rsub|1>\<less\>\<mu\><rsub|2>\<ldots\>\<less\>\<mu\><rsub|n>>>|<row|<cell|>|<cell|=>|<cell|n!\<times\><frac|1|n!><around*|\||<frac|\<partial\><around*|(|x<rsup|\<mu\><rsub|1><rprime|'>>,x<rsup|\<mu\><rsub|2><rprime|'>>,\<ldots\>,x<rsup|\<mu\><rsub|n><rprime|'>>|)>|\<partial\><around*|(|x<rsup|\<mu\><rsub|1>>,x<rsup|\<mu\><rsub|2>>,\<ldots\>,x<rsup|\<mu\><rsub|n>>|)>>|\|>d
+        x<rsup|\<mu\><rsub|1>>\<wedge\>d x<rsup|\<mu\><rsub|2>>\<ldots\>\<wedge\>d
+        x<rsup|\<mu\><rsub|n>>>>|<row|<cell|>|<cell|=>|<cell|<around*|\||<frac|\<partial\><around*|(|x<rsup|\<mu\><rsub|1><rprime|'>>,x<rsup|\<mu\><rsub|2><rprime|'>>,\<ldots\>,x<rsup|\<mu\><rsub|n><rprime|'>>|)>|\<partial\><around*|(|x<rsup|\<mu\><rsub|1>>,x<rsup|\<mu\><rsub|2>>,\<ldots\>,x<rsup|\<mu\><rsub|n>>|)>>|\|>d
+        x<rsup|\<mu\><rsub|1>>\<wedge\>d x<rsup|\<mu\><rsub|2>>\<ldots\>\<wedge\>d
+        x<rsup|\<mu\><rsub|n>>>>>>
+      </eqnarray*>
     </description>
   </description>
 
