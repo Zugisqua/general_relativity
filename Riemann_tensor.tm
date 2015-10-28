@@ -35,10 +35,45 @@
     <\description>
       <item*|symmetry>
 
+      \;
+
       <item*|Bianchi identity>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|<around*|\<nobracket\>||[>\<lambda\>>R<rsub|\<rho\>\<sigma\><around*|\<nobracket\>||]>\<mu\>\<nu\>>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
     </description>
 
-    \;
+    <item*|contraction form>
+
+    <\description>
+      <item*|<math|Ricci \ \ tensor>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|R<rsup|\<lambda\>><op|<rsub|\<mu\>\<lambda\>\<nu\>>>>>>>
+      </eqnarray*>
+
+      properities:
+
+      <item*|<math|Ricci \ \ scalar>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>>>
+      </eqnarray*>
+
+      <item*|<math|Weyl \ \ tensor>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|C<rsub|\<rho\>\<sigma\>\<mu\>\<nu\>>>|<cell|=>|<cell|R<rsub|\<rho\>\<sigma\>\<mu\>\<nu\>>-<frac|2|<around*|(|n-2|)>><around*|(|g<rsub|\<rho\><around*|\<nobracket\>||[>\<mu\>>R<rsub|\<nu\><around*|\<nobracket\>||]>\<sigma\>>-g<rsub|\<sigma\><around*|\<nobracket\>||[>\<mu\>>R<rsub|\<nu\><around*|\<nobracket\>||]>\<rho\>>|)>+<frac|2|<around*|(|n-1|)><around*|(|n-2|)>>g<rsub|\<rho\><around*|\<nobracket\>||[>\<mu\>>g<rsub|\<nu\><around*|\<nobracket\>||]>\<sigma\>>R>>>>
+      </eqnarray*>
+
+      <item*|<math|Einstein \ \ tensor>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|G<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
+        g<rsub|\<mu\>\<nu\>>>>>>
+      </eqnarray*>
+    </description>
   </description>
 
   2.something about the <math|R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>=0>
