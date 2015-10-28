@@ -5,6 +5,8 @@
 <\body>
   \;
 
+  \;
+
   <section|<math|exercise \ \ 3th>>
 
   <\description>
@@ -41,22 +43,41 @@
       <item*|gradient>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>\<phi\><wide|e|^><rsup|\<nu\>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<nabla\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<partial\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\><rprime|'>>\<phi\><wide|e|^><rsup|\<mu\><rprime|'>>>>>>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>\<phi\><wide|e|^><rsup|\<nu\>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>>\<nabla\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<partial\><rsub|\<mu\><rprime|'>>\<phi\>\<delta\><rsup|\<mu\>><rsub|\<nu\>><wide|e|^><rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\><rprime|'>>\<phi\><wide|e|^><rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|r>\<phi\>\<mathd\>r+\<partial\><rsub|\<theta\>>\<phi\>\<mathd\>\<theta\>+\<partial\><rsub|\<phi\>>\<phi\>\<mathd\>\<phi\>>>>>
       </eqnarray*>
 
       <item*|div>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>V<rsup|\<mu\>>>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>V<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\>><rsup|>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><rsup|\<mu\><rprime|'>><rsub|\<nu\><rprime|'>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>>>>>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\>>V<rsup|\<mu\>>>|<cell|=>|<cell|\<nabla\><rsub|\<mu\>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>V<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\>><rsup|>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>\<delta\><rsup|\<mu\>><rsub|\<nu\>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><rsup|\<mu\><rprime|'>><rsub|\<nu\><rprime|'>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|r>V<rsup|r>+\<Gamma\><rsup|r><rsub|r\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>+\<partial\><rsub|\<theta\>>V<rsup|\<theta\>>+\<Gamma\><rsup|\<theta\>><rsub|\<theta\>\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>+\<partial\><rsub|\<phi\>>V<rsup|\<phi\>>+\<Gamma\><rsup|\<phi\>><rsub|\<phi\>\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>>>>>
       </eqnarray*>
 
-      <item*|curl>
+      reference:pro_3 <math|\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>=\<partial\><rsub|\<mu\>><around|ln|<around*|\||<sqrt|g<rsub|\<lambda\>\<lambda\>>>|\|>|>>
+      and <math|g<rsub|r r>=1;g<rsub|\<theta\>\<theta\>>=r;g<rsub|\<phi\>\<phi\>>=r<around|sin|\<theta\>|>>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|<wide|\<varepsilon\>|~><rsup|\<mu\>\<nu\>><op|<rsub|\<sigma\>>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>|<cell|=>|<cell|g<rsub|\<rho\>\<sigma\>><wide|\<varepsilon\>|~><rsup|\<mu\>\<nu\>\<rho\>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsub|\<rho\>\<sigma\>><sqrt|<around*|\||g|\|>>\<varepsilon\><rsup|\<mu\>\<nu\>\<rho\>><wide|e|^><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>V<rsup|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<around*|\||g|\|>><frac|\<partial\>x<rsup|\<rho\>>|\<partial\>x<rsup|\<rho\><rprime|'>>><frac|\<partial\>x<rsup|\<sigma\>>|\<partial\>x<rsup|\<sigma\><rprime|'>>>g<rsub|\<rho\>\<sigma\>>\<delta\><rsub|\<alpha\>><rsup|\<sigma\>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>><frac|\<partial\>x<rsup|\<nu\>>|\<partial\>x<rsup|\<nu\><rprime|'>>><frac|\<partial\>x<rsup|\<alpha\>>|\<partial\>x<rsup|\<alpha\><rprime|'>>>\<varepsilon\><rsup|\<mu\><rprime|'>\<nu\><rprime|'>\<alpha\><rprime|'>>>>>>
+        <tformat|<table|<row|<cell|\<Gamma\><rsup|r><rsub|r
+        r>=0>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<theta\>r>=<frac|1|r>>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<phi\>r>=<frac|1|r>>>|<row|<cell|\<Gamma\><rsup|r><rsub|r\<theta\>>=0>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<theta\>\<theta\>>=0>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<phi\>\<theta\>>=<frac|1|<around|sin|\<theta\>|>>>>|<row|<cell|\<Gamma\><rsup|r><rsub|r\<phi\>>=0>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<theta\>\<phi\>>=0>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<phi\>\<phi\>>=0>>>>
       </eqnarray*>
 
-      therefore
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<mu\><rprime|'>>>|<cell|=>|<cell|\<partial\><rsub|r>V<rsup|r>+\<partial\><rsub|\<theta\>>V<rsup|\<theta\>>+\<partial\><rsub|\<phi\>>V<rsup|\<phi\>>+<frac|2V<rsup|r>|r>+<frac|V<rsup|\<theta\>>|<around|sin|\<theta\>|>>>>>>
+      </eqnarray*>
+
+      <item*|curl> reference: <math|\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>=-<frac|1|2><around*|(|g<rsub|\<lambda\>\<lambda\>>|)><rsup|-1>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<Gamma\><rsup|r><rsub|\<phi\>\<phi\>>=-<frac|1|2><around|sin|\<theta\>|>>|<cell|<stack|<tformat|<table|<row|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<phi\>\<phi\>>=-<frac|1|2r>\<partial\><rsub|\<theta\>>r<around|sin|\<theta\>|>>>|<row|<cell|=-<frac|1|2><around|cos|\<theta\>|>>>>>>>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<theta\>\<theta\>>=0>>|<row|<cell|\<Gamma\><rsup|r><rsub|\<theta\>\<theta\>>=<frac|1|2>>|<cell|\<Gamma\><rsup|\<theta\>><rsub|r
+        r>=0>|<cell|>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|g<rsup|\<mu\>\<alpha\>>g<rsup|\<beta\>\<nu\>>\<varepsilon\><rsub|\<alpha\>\<nu\>\<beta\>>\<nabla\><rsub|\<mu\>>V<rsup|\<nu\>>\<partial\><rsub|\<sigma\>>>|<cell|=>|<cell|g<rsup|\<mu\><rprime|'>\<alpha\><rprime|'>>g<rsup|\<beta\><rprime|'>\<nu\><rprime|'>>\<varepsilon\><rsub|\<alpha\><rprime|'>\<nu\><rprime|'>\<beta\><rprime|'>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\>><rprime|'>\<partial\><rsub|\<sigma\><rprime|'>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\><rprime|'>\<alpha\><rprime|'>>g<rsup|\<beta\><rprime|'>\<nu\><rprime|'>><sqrt|<around*|\||g|\|>><wide|\<varepsilon\>|~><rsub|\<alpha\><rprime|'>\<nu\><rprime|'>\<beta\><rprime|'>>\<nabla\><rsub|\<mu\><rprime|'>>V<rsup|\<nu\>><rprime|'>\<partial\><rsub|\<sigma\><rprime|'>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|=>|<cell|<around*|(|\<nabla\><rsub|\<theta\>>V<rsup|\<phi\>>-\<nabla\><rsub|\<phi\>>V<rsup|\<theta\>>|)>\<partial\><rsub|r>+<around*|(|\<nabla\><rsub|\<phi\>>V<rsup|r>-\<nabla\><rsub|r>V<rsup|\<phi\>>|)>\<partial\><rsub|\<theta\>>+<around*|(|\<nabla\><rsub|r>V<rsup|\<theta\>>-\<nabla\><rsub|\<theta\>>V<rsup|r>|)>\<partial\><rsub|\<phi\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<theta\>>V<rsup|\<phi\>>+\<Gamma\><rsup|\<phi\>><rsub|\<theta\>\<nu\>>V<rsup|\<nu\>>-\<partial\><rsub|\<phi\>>V<rsup|\<theta\>>-\<Gamma\><rsup|\<theta\>><rsub|\<phi\>\<nu\>>V<rsup|\<nu\>>|)>\<partial\><rsub|r>+<around*|(|\<partial\><rsub|\<phi\>>V<rsup|r>+\<Gamma\><rsup|r><rsub|\<phi\>\<nu\>>V<rsup|\<nu\>>-\<partial\><rsub|r>V<rsup|\<phi\>>-\<Gamma\><rsup|\<phi\>><rsub|r\<nu\>>V<rsup|\<nu\>>|)>\<partial\><rsub|\<theta\>>>>|<row|<cell|>|<cell|>|<cell|+<around*|(|\<partial\><rsub|r>V<rsup|\<theta\>>+\<Gamma\><rsup|\<theta\>><rsub|r\<nu\>>V<rsup|\<nu\>>-\<partial\><rsub|\<theta\>>V<rsup|r>-\<Gamma\><rsup|r><rsub|\<theta\>\<nu\>>V<rsup|\<nu\>>|)>\<partial\><rsub|\<phi\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<theta\>>V<rsup|\<phi\>>-\<partial\><rsub|\<phi\>>V<rsup|\<theta\>>+<frac|1|2><around|cos|\<theta\>|>V<rsup|\<phi\>>|)>\<partial\><rsub|r>+<around*|(|\<partial\><rsub|\<phi\>>V<rsup|r>+\<partial\><rsub|r>V<rsup|\<phi\>>-<frac|1|2>V<rsup|\<phi\>>|)>\<partial\><rsub|\<theta\>>>>|<row|<cell|>|<cell|>|<cell|+<around*|(|\<partial\><rsub|r>V<rsup|\<theta\>>-\<partial\><rsub|\<theta\>>V<rsup|r>+<around*|(|<frac|1|r>-<frac|1|2>|)>V<rsup|\<theta\>>|)>\<partial\><rsub|\<phi\>>>>>>
+      </eqnarray*>
     </description>
 
     <item*|3>
@@ -112,7 +133,25 @@
 
       \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <math|<stack|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<frac|\<partial\>x|\<partial\>u>=\<upsilon\><around|cos|\<phi\>|>>>|<row|<cell|<frac|\<partial\>x|\<partial\>\<upsilon\>>=u<around|cos|\<phi\>|>>>|<row|<cell|<frac|\<partial\>x|\<partial\>\<phi\>>=-u\<upsilon\><around|sin|\<phi\>|>>>>>>>
       \ \ \ <math|<stack|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<frac|\<partial\>y|\<partial\>u>=\<upsilon\><around|sin|\<phi\>|>>>|<row|<cell|<frac|\<partial\>y|\<partial\>\<upsilon\>>=u<around|sin|\<phi\>|>>>|<row|<cell|<frac|\<partial\>y|\<partial\>\<phi\>>=u\<upsilon\><around|cos|\<phi\>|>>>>>>>
-      \ \ \ <math|<stack|<tformat|<table|<row|<cell|<frac|\<partial\>z|\<partial\>u>=u>>|<row|<cell|<frac|\<partial\>z|\<partial\>\<upsilon\>>=\<upsilon\>>>|<row|<cell|>>>>>>
+      \ \ \ <math|<stack|<tformat|<table|<row|<cell|<frac|\<partial\>z|\<partial\>u>=u>>|<row|<cell|<frac|\<partial\>z|\<partial\>\<upsilon\>>=\<upsilon\>>>|<row|<cell|<frac|\<partial\>z|\<partial\>\<phi\>>=0>>>>>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|<choice|<tformat|<table|<row|<cell|\<mathd\>x=\<upsilon\><around|cos|\<phi\>|>\<mathd\>u+u<around|cos|\<phi\>|>\<mathd\>\<upsilon\>-u\<upsilon\><around|sin|\<phi\>|>\<mathd\>\<phi\>>>|<row|<cell|\<mathd\>y=\<upsilon\><around|sin|\<phi\>|>\<mathd\>u+u<around|sin|\<phi\>|>\<mathd\>\<upsilon\>+u\<upsilon\><around|cos|\<phi\>|>\<mathd\>\<phi\>>>|<row|<cell|\<mathd\>z=2u\<mathd\>u-2\<upsilon\>\<mathd\>\<upsilon\>>>>>>>>|<row|<cell|<around|cos|\<phi\>|>\<mathd\>x+<around|sin|\<phi\>|>\<mathd\>y>|<cell|=>|<cell|\<upsilon\><around*|(|<around|cos|<rsup|2>\<phi\>|>+<around|sin|<rsup|2>\<phi\>|\<nobracket\>>|)>\<mathd\>u+u<around*|(|<around|cos|<rsup|2>\<phi\>|>+<around|sin|<rsup|2>\<phi\>|\<nobracket\>>|)>\<mathd\>\<upsilon\>>>|<row|<cell|>|<cell|=>|<cell|\<upsilon\>\<mathd\>u+u\<mathd\>\<upsilon\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|<choice|<tformat|<table|<row|<cell|\<upsilon\>\<mathd\>u+u\<mathd\>\<upsilon\>>|<cell|=>|<cell|<around|cos|\<phi\>|>\<mathd\>x+<around|sin|\<phi\>|>\<mathd\>y>>|<row|<cell|u\<mathd\>u-\<upsilon\>\<mathd\>\<upsilon\>>|<cell|=>|<cell|<frac|1|2>\<mathd\>z>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<cwith|1|1|2|2|cell-halign|c>|<table|<row|<cell|<around*|(|\<upsilon\><rsup|2>+u<rsup|2>|)>\<mathd\>u>|<cell|=>|<cell|\<upsilon\><around*|(|<around|cos|\<phi\>|>\<mathd\>x+<around|sin|\<phi\>|>\<mathd\>y|)>+<frac|1|2>u\<mathd\>z>>|<row|<cell|<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>\<mathd\>\<upsilon\>>|<cell|=>|<cell|u<around*|(|<around|cos|\<phi\>|>\<mathd\>x+<around|sin|\<phi\>|>\<mathd\>y|)>-<frac|1|2>\<upsilon\>\<mathd\>z>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|\<mathd\>u>|<cell|=>|<cell|<frac|\<upsilon\><around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>x+<frac|\<upsilon\><around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>y+<frac|u|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>\<mathd\>z>>|<row|<cell|\<mathd\>\<upsilon\>>|<cell|=>|<cell|<frac|u<around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>x+<frac|u<around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>y-<frac|\<upsilon\>|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>\<mathd\>z>>>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<mathd\>x>|<cell|=>|<cell|\<upsilon\><around|cos|\<phi\>|><around*|(|<frac|\<upsilon\><around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>x+<frac|\<upsilon\><around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>y+<frac|u|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>\<mathd\>z|)>>>|<row|<cell|>|<cell|>|<cell|+u<around|cos|\<phi\>|><around*|(|<frac|u<around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>x+<frac|u<around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>\<mathd\>y-<frac|\<upsilon\>|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>\<mathd\>z|)>>>|<row|<cell|>|<cell|>|<cell|-u\<upsilon\><around|sin|\<phi\>|>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|<around|cos|<rsup|2>\<phi\>|>\<mathd\>x+<around|cos|\<phi\>|><around|sin|\<phi\>|>\<mathd\>y-u\<upsilon\><around|sin|\<phi\>|>\<mathd\>\<phi\>>>|<row|<cell|u\<upsilon\><around|sin|\<phi\>|>\<mathd\>\<phi\>\<mathd\>\<phi\>>|<cell|=>|<cell|-<around|sin|<rsup|2>\<phi\>|>\<mathd\>x+<around|cos|\<phi\>|><around|sin|\<phi\>|>\<mathd\>y>>|<row|<cell|\<mathd\>\<phi\>>|<cell|=>|<cell|-<frac|<around|sin|\<phi\>|>|u\<upsilon\>>\<mathd\>x+<frac|<around|cos|\<phi\>|>|u\<upsilon\>>\<mathd\>y>>>>
+      </eqnarray*>
+
+      then
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>u|\<partial\>x>=<frac|\<upsilon\><around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>>|<cell|<frac|\<partial\>\<upsilon\>|\<partial\>x>=<frac|u<around|cos|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>>|<cell|<frac|\<partial\>\<phi\>|\<partial\>x>=-<frac|<around|sin|\<phi\>|>|u\<upsilon\>>>>|<row|<cell|<frac|\<partial\>u|\<partial\>y>=<frac|\<upsilon\><around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>>|<cell|<frac|\<partial\>\<upsilon\>|\<partial\>y>=<frac|u<around|sin|\<phi\>|>|u<rsup|2>+\<upsilon\><rsup|2>>>|<cell|<frac|\<partial\>\<phi\>|\<partial\>y>=<frac|<around|sin|\<phi\>|>|u\<upsilon\>>>>|<row|<cell|<frac|\<partial\>u|\<partial\>z>=<frac|u|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>>|<cell|<frac|\<partial\>\<upsilon\>|\<partial\>z>=-<frac|\<upsilon\>|2<around*|(|u<rsup|2>+\<upsilon\><rsup|2>|)>>>|<cell|<frac|\<partial\>\<phi\>|\<partial\>z>=0>>>>
+      </eqnarray*>
 
       <item*|b>
 
