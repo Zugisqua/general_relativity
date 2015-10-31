@@ -264,23 +264,36 @@
     </eqnarray*>
 
     <\equation*>
-      <choice|<tformat|<table|<row|<cell|<around*|(|\<ast\>F|)><rsub|12>>|<cell|=>|<cell|-q
+      <choice|<tformat|<cwith|4|4|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|\<ast\>F|)><rsub|12>>|<cell|=>|<cell|-q
       r<rsup|2><around|sin|<rsup|2>\<theta\>|><around|cos|\<theta\>|>>>|<row|<cell|<around*|(|\<ast\>F|)><rsub|23>>|<cell|=>|<cell|-q
       r<rsup|2><around|sin|<rsup|3>\<theta\>|><around|sin|\<phi\>|>>>|<row|<cell|<around*|(|\<ast\>F|)><rsub|31>>|<cell|=>|<cell|-q
-      r<rsup|2><around|sin|<rsup|3>\<theta\>|><around|cos|\<phi\>|>>>>>>
+      r<rsup|2><around|sin|<rsup|3>\<theta\>|><around|cos|\<phi\>|>>>|<row|<cell|others>|<cell|=>|<cell|0>>>>>
     </equation*>
 
     <\description>
-      <item*|a>
+      <item*|a>failed Orz
 
       <item*|b>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<ast\><around*|(|\<ast\>F|)><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>><around*|(|\<ast\>F<rsup|>|)><rsup|\<mu\>\<nu\>>>>|<row|<cell|-F<rsub|\<rho\>\<sigma\>>>|<cell|=>|<cell|\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>><around*|(|\<ast\>F|)><rsup|\<mu\>\<nu\>>
-        \ \ and \<mu\>\<less\>\<nu\>>>|<row|<cell|>|<cell|=>|<cell|\<varepsilon\><rsub|\<mu\>\<nu\>\<rho\>\<sigma\>><around*|(|\<ast\>F|)><rsup|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+        <tformat|<table|<row|<cell|\<ast\><around*|(|\<ast\>F\<mathd\>x<rsup|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<nu\>>|)>>|<cell|=>|<cell|<frac|1|2!>\<varepsilon\><op|<rsup|\<mu\>\<nu\>>><rsub|\<sigma\>\<rho\>><around*|(|\<ast\>F|)><rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>>>|<row|<cell|-F<rsub|\<sigma\>\<rho\>>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>>|<cell|=>|<cell|\<varepsilon\><rsup|\<mu\>\<nu\>><op|<rsub|\<sigma\>\<rho\>>><around*|(|\<ast\>F|)><rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>
+        \ <around*|(|\<mu\>\<less\>\<nu\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<varepsilon\><rsup|12><op|<rsub|\<sigma\>\<rho\>><around*|(|\<ast\>F|)><rsub|12>>+\<varepsilon\><rsup|23><op|<rsub|\<sigma\>\<rho\>>><around*|(|\<ast\>F|)><rsub|23>+\<varepsilon\><rsup|13><op|<rsub|\<sigma\>\<rho\>><around*|(|\<ast\>F|)><rsub|13>>|)>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>>>|<row|<cell|F<rsub|\<sigma\>\<rho\>>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>>|<cell|=>|<cell|-<around*|(|\<varepsilon\><rsup|12><op|<rsub|\<sigma\>\<rho\>><around*|(|\<ast\>F|)><rsub|12>>+\<varepsilon\><rsup|23><op|<rsub|\<sigma\>\<rho\>>><around*|(|\<ast\>F|)><rsub|23>+\<varepsilon\><rsup|13><op|<rsub|\<sigma\>\<rho\>><around*|(|\<ast\>F|)><rsub|13>>|)>\<mathd\>x<rsup|\<sigma\>>\<wedge\>\<mathd\>x<rsup|\<rho\>>>>>>
       </eqnarray*>
 
-      <item*|c>
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|F<rsub|01>>|<cell|=>|<cell|-<around*|(|\<ast\>F|)><rsub|23>=q
+        r<rsup|2><around|sin|<rsup|3>\<theta\>|><around|sin|\<phi\>|>>>|<row|<cell|F<rsub|02>>|<cell|=>|<cell|<around*|(|\<ast\>F|)><rsub|13>=q
+        r<rsup|2><around|sin|<rsup|3>\<theta\>|><around|cos|\<phi\>|>>>|<row|<cell|F<rsub|03>>|<cell|=>|<cell|-<around*|(|\<ast\>F|)><rsub|12>=q
+        r<rsup|2><around|sin|<rsup|2>\<theta\>|><around|cos|\<theta\>|>>>|<row|<cell|others>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
+
+      <item*|c>see above <math|c=1>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<wide|E|\<vect\>>>|<cell|=>|<cell|q
+        r<rsup|2><around|sin|<rsup|2>\<theta\>|><around*|(|<around|sin|\<theta\>|><around|sin|\<phi\>|>\<mathd\>x+<around|sin|\<theta\>|><around|cos|\<phi\>|\<nobracket\>>\<mathd\>y+<around|cos|\<theta\>|>\<mathd\>z|)>>>|<row|<cell|>|<cell|=>|<cell|q
+        r<rsup|2><around|sin|<rsup|2>\<theta\>|>\<mathd\>r>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|<wide|B|\<vect\>>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
 
       <item*|d>
 
@@ -318,6 +331,38 @@
       </eqnarray*>
     </description>
 
+    <item*|11>
+
+    <\description>
+      <item*|>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|S>|<cell|=>|<cell|<big|int><rsub|\<gamma\>>A<rsup|<around*|(|3|)>>>>|<row|<cell|F<rsup|<around*|(|4|)>>>|<cell|=>|<cell|\<mathd\>A<rsup|<around*|(|3|)>>>>>>
+      </eqnarray*>
+
+      <math|F<rsub|<around*|[|\<mu\>\<nu\>\<sigma\>\<rho\>|]>>=F<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>
+      ;F<rsub|<around*|(|\<mu\>\<nu\>\<sigma\>\<rho\>|)>>=0
+      \ \<Rightarrow\>\<mu\>\<less\>\<nu\>\<less\>\<sigma\>\<less\>\<rho\>>
+      and <math|\<mu\>,\<nu\>,\<sigma\>\<comma\>\<rho\>=0,1,\<ldots\>10>
+
+      <item*|a><math|A<rsup|<around*|(|1|)>>\<rightarrow\>>0-from particle
+      \ <math|\<Rightarrow\>> <math|A<rsup|<around*|(|3|)>>\<rightarrow\>>2-from
+      particle ?\ 
+
+      <item*|b><math|<tabular|<tformat|<table|<row|<cell|E<rsub|\<mu\>\<nu\>\<sigma\>>>|<cell|=>|<cell|F<rsub|0\<mu\>\<nu\>\<sigma\>>>>>>>\<Longrightarrow\>
+      #E<rsub|\<mu\>\<nu\>\<sigma\>>=3\<times\>C<rsub|10><rsup|3>=360>\ 
+
+      according to <math|\<nabla\><rsub|\<mu\>>E<rsub|\<mu\>>=q>
+      \ \ \ \ definite charge <math|q=\<nabla\><rsub|\<mu\>>E<rsub|\<mu\>\<nu\>\<sigma\>>>
+      and is have 36 componets
+
+      <item*|c><math|<around*|(|\<ast\>F<rsup|<around*|(|4|)>>|)> > is 7-form
+      \ the <math|<wide|A|~><rsup|<around*|(|6|)>>> 6-form
+      <math|\<rightarrow\>> 3-form particle
+
+      <item*|d>no idea ,but guess <math|A<rsup|<around*|(|3|)>>>
+    </description>
+
     \;
 
     \;
@@ -328,7 +373,7 @@
 
 <\initial>
   <\collection>
-    <associate|font|sys-chinese>
+    <associate|font|roman>
     <associate|language|chinese>
   </collection>
 </initial>
