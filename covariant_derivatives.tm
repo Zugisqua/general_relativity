@@ -249,14 +249,24 @@
     </description>
 
     \;
+
+    <item*|Other way for Christoffel symbol>
+
+    as we know
+
+    \;
+
+    \;
   </description>
+
+  \;
 
   \ 
 </body>
 
 <\initial>
   <\collection>
-    <associate|font|sys-chinese>
+    <associate|font|stix>
     <associate|language|chinese>
   </collection>
 </initial>
