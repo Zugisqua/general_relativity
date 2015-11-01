@@ -14,12 +14,25 @@
     <\itemize>
       <item>The quility of manifold :<math|g<rsub|\<mu\>\<nu\>>>
 
-      <item>transformation : <math|x<rsup|\<mu\><rprime|'>>=x<rsup|\<mu\>>+\<epsilon\>K<rsup|\<mu\>>>
+      <item>transformation : <math|x<rprime|'><rsup|\<mu\>>=x<rsup|\<mu\>>+\<epsilon\>K<rsup|\<mu\>>>
       \ ( <math|K<rsup|\<mu\>>> is not a constant)
 
       [here considering the infinity transformation will not be strange, if
       we know little about the lie algebra ,the <math|K<rsup|\<mu\>>> may be
       a generator of Poincare group,I guess]
+    </itemize>
+
+    <item*|Symbol convention>
+
+    <\itemize>
+      <item>for tensor <math|T<rsub|\<mu\>\<nu\>>> under different coordiante
+      system, mark as <math|T<rprime|'><rsub|\<mu\>\<nu\>>> intead of
+      <math|T<rsub|\<mu\><rprime|'>\<nu\><rprime|'>>> like before.[until
+      now,the marks have made me get into some trouble.]
+
+      <item>then for example <math|x<rprime|'><rsup|\<mu\>>> or
+      <math|x<rsup|\<mu\>>> the <math|\<mu\>=0,1,2\<ldots\>> always, and
+      <math|x<rprime|'><rsup|\<mu\>>\<rightarrow\>x<rsup|<rprime|'>1<around*|(|example|)>>\<rightarrow\>r>
     </itemize>
 
     Calculation:
@@ -42,76 +55,53 @@
         <item>transformation of tensor
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|T<rsub|\<sigma\>\<rho\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<sigma\><rprime|'>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rsup|\<rho\><rprime|'>>|\<partial\>x<rsup|\<rho\>>>T<rprime|'><rsub|\<sigma\><rprime|'>\<rho\><rprime|'>>>>>>
+          <tformat|<table|<row|<cell|T<rsub|\<sigma\>\<rho\>>>|<cell|=>|<cell|<frac|\<partial\>x<rprime|'><rsup|\<mu\>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rprime|'><rsup|\<nu\>>|\<partial\>x<rsup|\<rho\>>>T<rprime|'><rsub|\<mu\>\<nu\>>>>>>
         </eqnarray*>
 
-        PS: The tensor <math|T<rprime|'><rsub|\<sigma\><rprime|'>\<rho\><rprime|'>>>
-        in stead of <math|T<rsub|\<sigma\><rprime|'>\<rho\><rprime|'>>> as
-        usual . However, here is more strict. \ 
+        PS: The tensor <math|T<rprime|'><rsub|\<mu\>\<nu\>>> in stead of
+        <math|T<rsub|\<mu\>\<nu\>>> as usual . However, here is more strict\ 
 
-        <item>repersentation of only-tranform-variable
+        if a tensor feilds
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|T<rsub|\<sigma\>\<rho\>>>|<cell|\<rightarrow\>>|<cell|T<rsub|\<sigma\><rprime|'>\<rho\><rprime|'>>>>>>
+          <tformat|<table|<row|<cell|T<rsub|\<sigma\>\<rho\>><around*|(|x<rsup|i>|)>>|<cell|=>|<cell|<frac|\<partial\>x<rprime|'><rsup|\<mu\>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rprime|'><rsup|\<nu\>>|\<partial\>x<rsup|\<rho\>>>T<rprime|'><rsub|\<mu\>\<nu\>><around*|(|<frac|\<partial\>x<rsup|i>|\<partial\>x<rprime|'><rsup|j>>x<rsup|j>|)>>>>>
         </eqnarray*>
 
-        let <math|x<rprime|'>=M<around*|(|x|)>> then\ 
-
-        <\eqnarray*>
-          <tformat|<table|<row|<cell|T<rsub|\<sigma\><rprime|'>\<rho\><rprime|'>><around*|(|x<rsup|\<mu\><rprime|'>>|)>>|<cell|=>|<cell|T<rsub|\<sigma\><rprime|'>\<rho\><rprime|'>><around*|(|M<around*|(|x<rsup|\<mu\>>|)>|)>>>>>
-        </eqnarray*>
-
-        here are something not clear:
-
-        <\description>
-          <item*|1>In the calculation of tensiors, I hardly ever think of
-          they are a fields
-
-          nomally \ <math|<tabular|<tformat|<table|<row|<cell|<around*|\<nobracket\>|T<rsub|\<sigma\>\<rho\>>|\|><rsub|p<rsub|0>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<sigma\><rprime|'>>|\<partial\>x<rsup|\<sigma\>>><frac|\<partial\>x<rsup|\<rho\><rprime|'>>|\<partial\>x<rsup|\<rho\>>><around*|\<nobracket\>|T<rsub|\<sigma\><rprime|'>\<rho\><rprime|'>>|\|><rsub|p<rsub|0>>>>>>>>
-
-          <item*|2>but we all know that the transformation could make sense
-          only if the tensors are at the same point,although might be
-          different altas.
-
-          for example\ 
-
-          <\equation*>
-            <choice|<tformat|<table|<row|<cell|x=r<around|cos|\<theta\>|>>>|<row|<cell|y=r<around|sin|\<theta\>|>>>>>>
-          </equation*>
-
-          <\equation*>
-            x<rsup|\<mu\><rprime|'>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>x<rsup|\<mu\><rprime|'>>>=x<rsup|\<mu\>>
-          </equation*>
-
-          <\eqnarray*>
-            <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|\<theta\>|>>|<cell|<around|sin|\<theta\>|>>>|<row|<cell|-r<around|sin|\<theta\>|>>|<cell|r<around|cos|\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|x<rsup|1<rprime|'>>>>|<row|<cell|x<rsup|2<rprime|'>>>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|x<rsup|1>>>|<row|<cell|x<rsup|2>>>>>>>>>>
-          </eqnarray*>
-
-          then if <math|V<rsup|\<mu\><rprime|'>>=<around*|(|2,<frac|\<pi\>|3>|)>
-          \<rightarrow\> \ V<rsup|\<mu\>>=<around*|(|1,<sqrt|3>|)>>
-
-          <\eqnarray*>
-            <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|<around|cos|<frac|\<pi\>|3>|>>|<cell|<around|sin|<frac|\<pi\>|3>|\<nobracket\>>>>|<row|<cell|-2<around|sin|<frac|\<pi\>|3>|>>|<cell|2<around|cos|<frac|\<pi\>|3>|>>>>>><matrix|<tformat|<table|<row|<cell|2>>|<row|<cell|<frac|\<pi\>|3>>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|2<around|cos|<frac|\<pi\>|2>|>+<frac|\<pi\>|3><around|sin|<frac|\<pi\>|3>|>>>|<row|<cell|-4<around|sin|<frac|\<pi\>|2>|>+<frac|2\<pi\>|3><around|cos|<frac|\<pi\>|3>|>>>>>>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<matrix|<tformat|<table|<row|<cell|1>>|<row|<cell|<sqrt|3>>>>>>>>>>
-          </eqnarray*>
-
-          \ 
-        </description>
+        Hint:if should satisfy <math|T\<phi\><around*|(|x|)>=D<around*|(|T|)>\<phi\><around*|(|T<rsup|-1>x|)>>,the
+        field of contravariant tensor must be covariant. \ the similarly for
+        <math|T<rsup|\<mu\>\<nu\>>>
       </itemize>
+
+      <with|math-font|cal|<math|<with|math-font|cal|Here>>>: infinity
+      transformation: <math|x<rprime|'><rsup|\<mu\>>=x<rsup|\<mu\>>+\<epsilon\>K<rsup|\<mu\>>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<partial\>x<rprime|'><rsup|\<mu\>>|\<partial\>x<rsup|\<nu\>>>>|<cell|=>|<cell|<frac|\<partial\><around*|(|x<rsup|\<mu\>>+\<epsilon\>K<rsup|\<mu\>>|)>|\<partial\>x<rsup|\<nu\>>>=\<delta\><rsup|\<mu\>><rsub|\<nu\>>+\<epsilon\><frac|\<partial\>K<rsup|\<mu\>>|\<partial\>x<rsup|\<nu\>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|g<rprime|'><rsub|\<mu\>\<nu\>><around*|(|x<rsup|i>|)>=g<rsub|\<mu\>\<nu\>><around*|(|x<rsup|i>|)>>|<cell|=>|<cell|<frac|\<partial\>x<rprime|'><rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rprime|'><rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|<frac|\<partial\>x<rsup|i>|\<partial\>x<rprime|'><rsup|j>>x<rsup|j>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>>+\<epsilon\><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>|)><around*|(|\<delta\><rsup|\<sigma\>><rsub|\<nu\>>+\<epsilon\><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>|)>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|<around*|(|\<delta\><rsup|i><rsub|j>+\<epsilon\><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>|)>x<rsup|j>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>>\<delta\><rsup|\<sigma\>><rsub|\<nu\>>+\<epsilon\><around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+\<delta\><rsup|\<sigma\>><rsub|\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>|)>+\<epsilon\><rsup|2><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>|)>>>|<row|<cell|>|<cell|>|<cell|\<times\>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|x<rsup|i>+\<epsilon\>x<rsup|j><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rprime|'><rsub|\<mu\>\<nu\>><around*|(|x<rsup|i>+\<epsilon\>x<rsup|j><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>|)>+\<epsilon\><around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+\<delta\><rsup|\<sigma\>><rsub|\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>|)>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|x<rsup|i>+\<epsilon\>x<rsup|j><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>|)>>>|<row|<cell|g<rprime|'><rsub|\<mu\>\<nu\>><around*|(|x<rsup|i>|)>>|<cell|=>|<cell|g<rprime|'><rsub|\<mu\>\<nu\>><around*|(|x<rsup|i>|)>+<around*|\<nobracket\>|\<partial\><rsub|i>g<rprime|'><rsub|\<mu\>\<nu\>>|\|><rsub|\<epsilon\>=0>\<epsilon\>x<rsup|j><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>+\<epsilon\><around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+\<delta\><rsup|\<sigma\>><rsub|\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>|)>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|x<rprime|'><rsup|i>|)>>>|<row|<cell|0>|<cell|=>|<cell|\<partial\><rsub|i>g<rprime|'><rsub|\<mu\>\<nu\>><around*|(|x<rprime|'><rsup|i>|)>\<epsilon\>x<rsup|j><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>+\<epsilon\><around*|(|\<delta\><rsup|\<rho\>><rsub|\<mu\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+\<delta\><rsup|\<sigma\>><rsub|\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>|)>g<rprime|'><rsub|\<rho\>\<sigma\>><around*|(|x<rprime|'><rsup|i>|)>>>|<row|<cell|0>|<cell|=>|<cell|\<partial\><rsub|i>g<rprime|'><rsub|\<mu\>\<nu\>><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>x<rsup|j>+g<rprime|'><rsub|\<mu\>\<sigma\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+g<rprime|'><rsub|\<rho\>\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>>>>>
+      </eqnarray*>
+
+      next : if allow <math|K<rsup|i>> [it must be]
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|K<rsup|i>>|<cell|=>|<cell|<frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>x<rsup|j>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|i>g<rprime|'><rsub|\<mu\>\<nu\>><frac|\<partial\>K<rsup|i>|\<partial\>x<rsup|j>>x<rsup|j>+g<rprime|'><rsub|\<mu\>\<sigma\>><frac|\<partial\>K<rsup|\<sigma\>>|\<partial\>x<rsup|\<nu\>>>+g<rprime|'><rsub|\<rho\>\<nu\>><frac|\<partial\>K<rsup|\<rho\>>|\<partial\>x<rsup|\<mu\>>>>>|<row|<cell|>|<cell|=>|<cell|K<rsup|i>\<partial\><rsub|i>g<rprime|'><rsub|\<mu\>\<nu\>>+g<rprime|'><rsub|\<mu\>\<sigma\>>\<partial\><rsub|\<nu\>>K<rsup|\<sigma\>>+g<rprime|'><rsub|\<rho\>\<nu\>>\<partial\><rsub|\<mu\>>K<rsup|\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|K<rsup|i>\<partial\><rsub|i>g<rsub|\<mu\>\<nu\>><rprime|'>+\<partial\><rsub|\<nu\>><around*|(|g<rprime|'><rsub|\<mu\>\<sigma\>>K<rsup|\<sigma\>>|)>-K<rsup|\<sigma\>>\<partial\><rsub|\<nu\>>g<rprime|'><rsub|\<mu\>\<sigma\>>+\<partial\><rsub|\<mu\>><around*|(|g<rprime|'><rsub|\<rho\>\<nu\>>K<rsup|\<rho\>>|)>-K<rsup|\<rho\>>\<partial\><rsub|\<mu\>>g<rprime|'><rsub|\<rho\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|K<rsup|i>\<partial\><rsub|i>g<rsub|\<mu\>\<nu\>><rprime|'>-K<rsup|\<sigma\>>\<partial\><rsub|\<nu\>>g<rprime|'><rsub|\<mu\>\<sigma\>>-K<rsup|\<rho\>>\<partial\><rsub|\<mu\>>g<rprime|'><rsub|\<rho\>\<nu\>>+\<partial\><rsub|\<nu\>><around*|(|g<rsub|\<mu\>\<sigma\>>K<rsup|\<sigma\>>|)>+\<partial\><rsub|\<mu\>><around*|(|g<rsub|\<rho\>\<nu\>>K<rsup|\<rho\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>K<rsub|\<mu\>>+\<partial\><rsub|\<mu\>>K<rsub|\<nu\>>-2\<times\><frac|1|2>K<rsup|i><around*|(|\<partial\><rsub|\<nu\>>g<rprime|'><rsub|\<mu\>i>+\<partial\><rsub|\<mu\>>g<rsub|i\<nu\>>-\<partial\><rsub|i>g<rsub|\<mu\>\<nu\>><rprime|'>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>K<rsub|\<mu\>>+\<partial\><rsub|\<mu\>>K<rsub|\<nu\>>-2\<times\><frac|1|2>K<rsub|j>g<rsup|j
+        i><around*|(|\<partial\><rsub|\<nu\>>g<rprime|'><rsub|\<mu\>i>+\<partial\><rsub|\<mu\>>g<rsub|i\<nu\>>-\<partial\><rsub|i>g<rsub|\<mu\>\<nu\>><rprime|'>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>K<rsub|\<mu\>>+\<partial\><rsub|\<mu\>>K<rsub|\<nu\>>-2K<rsub|j>\<Gamma\><rsup|j><rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>>K<rsub|\<mu\>>-\<Gamma\><rsup|j><rsub|\<nu\>\<mu\>>K<rsub|j>+\<partial\><rsub|\<mu\>>K<rsub|\<nu\>>-\<Gamma\><rsup|j><rsub|\<mu\>\<nu\>>K<rsub|j>>>|<row|<cell|>|<cell|=>|<cell|\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>+\<nabla\><rsub|\<mu\>>K<rsub|\<nu\>>>>>>
+      </eqnarray*>
+
+      then namely\ 
+
+      <item*|Killing equation>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>+\<nabla\><rsub|\<mu\>>K<rsub|\<nu\>>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
     </description>
-
-    the transformation:
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell| F <rsup|\<ast\>>g<rsub|\<mu\>\<nu\>><around*|(|x<rsup|\<sigma\>>|)>\<rightarrow\>g<rsub|\<mu\><rprime|'>\<nu\><rprime|'>><around*|(|x<rsup|\<sigma\><rprime|'>>|)>>|<cell|=>|<cell|g<rsub|\<mu\><rprime|'>\<nu\><rprime|'>><around*|(|x<rsup|\<mu\>>+\<epsilon\>K<rsup|\<mu\>>|)>>>>>
-    </eqnarray*>
-
-    and another angle:
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|\<partial\>x<rsup|\<mu\><rprime|'>>|\<partial\>x<rsup|\<mu\>>><frac|\<partial\>x<rsup|\<nu\><rprime|'>>|\<partial\>x<rsup|\<nu\>>>g<rprime|'><rsub|\<mu\><rprime|'>\<nu\><rprime|'>>>>>>
-    </eqnarray*>
-
-    seems not be stated well.
 
     <item*|Conservation>
 
