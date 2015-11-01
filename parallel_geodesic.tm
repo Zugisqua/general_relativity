@@ -121,12 +121,16 @@
       <stack|<tformat|<table|<row|<cell|\<Gamma\><rsup|r><rsub|\<theta\>\<theta\>>>|<cell|=>|<cell|-r>|<cell|>|<cell|\<Gamma\><rsup|r><rsub|\<phi\>\<phi\>>>|<cell|=>|<cell|-r<around|sin|<rsup|2>\<theta\>|>>>|<row|<cell|\<Gamma\><rsup|\<theta\>><rsub|r\<theta\>>>|<cell|=>|<cell|<frac|1|r>>|<cell|>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<phi\>\<phi\>>>|<cell|=>|<cell|-<around|cos|\<theta\>|><around|sin|\<theta\>|>>>|<row|<cell|\<Gamma\><rsup|\<phi\>><rsub|r\<phi\>>>|<cell|=>|<cell|<frac|1|r>>|<cell|>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<theta\>\<phi\>>>|<cell|=>|<cell|<frac|1|<around|tan|\<theta\>|>>>>>>>
     </equation*>
 
+    <\description>
+      <item*|topi-1>geodesic in different manifold
+    </description>
+
     <\eqnarray*>
       <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<nu\>\<sigma\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>
     </eqnarray*>
 
     <\description>
-      <item*|r>r=constant
+      <item*|r-1>r=constant
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|r><rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<theta\>><rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<phi\>><rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>>>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|1|1|1|1|cell-halign|c>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|\<Gamma\><rsup|r><rsub|\<theta\>\<theta\>><around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>\<tau\>>|)><rsup|2>+\<Gamma\><rsup|r><rsub|\<phi\>\<phi\>><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<theta\>><rsub|\<phi\>\<phi\>><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|\<phi\>><rsub|\<theta\>\<phi\>><frac|\<mathd\>\<theta\>|\<mathd\>\<tau\>><frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<cwith|3|3|1|1|cell-halign|r>|<table|<row|<cell|r<around*|(|<frac|\<mathd\>\<theta\>|\<mathd\>\<tau\>>|)><rsup|2>+r<around|sin|<rsup|2>\<theta\>|><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<theta\>|\<mathd\>\<tau\><rsup|2>>-<around|cos|\<theta\>|><around|sin|\<theta\>|><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<tau\><rsup|2>>+<frac|1|<around|tan|\<theta\>|>><frac|\<mathd\>\<theta\>|\<mathd\>\<tau\>><frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>>>>>>
@@ -175,7 +179,84 @@
       </eqnarray*>
     </description>
 
-    \ 
+    for geodesic .there seems like not much different.
+
+    <\description>
+      <item*|topic-2>and what does it mean when a vector parallel-transport
+      along a curve or geodiesic
+
+      <\itemize>
+        <item>free particle evolution along the geodesic
+      </itemize>
+
+      therefore\ 
+
+      \;
+    </description>
+
+    <\description>
+      <item*|topic-3>when we could the time is not isometry
+    </description>
+
+    <\description>
+      <item*|>from <math|t-x> coordinate \ \ \ \ \ \ \ \ \ \ \ \ \ <math|\<mathd\><rsup|2>s
+      \ \ = \ \ \<mathd\><rsup|2>t+\<mathd\><rsup|2>x>
+
+      the geodesic\ 
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<tau\><rsup|2>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x|\<mathd\>\<tau\><rsup|2>>>|<cell|=>|<cell|0>>>>>>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|t>|<cell|=>|<cell|a\<tau\>+t<rsub|0>>>|<row|<cell|x>|<cell|=>|<cell|b\<tau\>+x<rsub|0>>>>>>>>>>
+      </eqnarray*>
+
+      could see the speed of time <math|<frac|\<mathd\>t|\<mathd\>\<tau\>>=a
+      >(constant) is independent on <math|x>
+
+      <item*|>form <math|t-x> again \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <math|\<mathd\><rsup|2>s
+      \ \ = \ \ \<mathd\><rsup|2>t+<frac|1|x>\<mathd\><rsup|2>x>
+
+      <\equation*>
+        g=<matrix|<tformat|<table|<row|<cell|1>|<cell|>>|<row|<cell|>|<cell|x>>>>>;g<rsup|-1>=<matrix|<tformat|<table|<row|<cell|1>|<cell|>>|<row|<cell|>|<cell|<frac|1|x>>>>>>
+      </equation*>
+
+      the geodesic
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<Gamma\><rsup|t><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|t
+        t><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>t>+\<partial\><rsub|\<nu\>>g<rsub|\<mu\>t>-\<partial\><rsub|t>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>g<rsup|t
+        t><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>t>+\<partial\><rsub|\<nu\>>g<rsub|\<mu\>t>|)>>>|<row|<cell|\<Gamma\><rsup|t><rsub|t\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|t
+        t><around*|(|\<partial\><rsub|t>g<rsub|\<nu\>t>+\<partial\><rsub|\<nu\>>g<rsub|tt>|)>=<frac|1|2>g<rsup|t
+        t>\<partial\><rsub|\<nu\>>g<rsub|t
+        t>>>|<row|<cell|>|<cell|=>|<cell|<choice|<tformat|<table|<row|<cell|0>|<cell|\<nu\>=t>>|<row|<cell|<frac|1|2>\<times\>\<partial\><rsub|x>x>|<cell|\<nu\>=x>>>>>\<Rightarrow\><choice|<tformat|<table|<row|<cell|0>|<cell|\<nu\>=t>>|<row|<cell|-<frac|1|2>>|<cell|\<nu\>=x>>>>>>>|<row|<cell|\<Gamma\><rsup|t><rsub|x
+        x>>|<cell|=>|<cell|<frac|1|2>g<rsup|t
+        t><around*|(|\<partial\><rsub|x>g<rsub|x
+        t>+\<partial\><rsub|x>g<rsub|x t>|)>=0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<Gamma\><rsup|x><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|x
+        x><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<nu\>x>+\<partial\><rsub|\<nu\>>g<rsub|\<mu\>x>-\<partial\><rsub|x>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|\<Gamma\><rsup|x><rsub|t\<nu\>>>|<cell|=>|<cell|<frac|1|2>g<rsup|x
+        x><around*|(|\<partial\><rsub|t>g<rsub|\<nu\>x>+\<partial\><rsub|\<nu\>>g<rsub|t
+        x>-\<partial\><rsub|x>g<rsub|t\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>g<rsup|x
+        x>\<partial\><rsub|x>g<rsub|t \<nu\>>=0>>|<row|<cell|\<Gamma\><rsup|x><rsub|x
+        x>>|<cell|=>|<cell|<frac|1|2>g<rsup|x x>\<partial\><rsub|x>g<rsub|x
+        x>=<frac|1|2x>\<times\>\<partial\><rsub|x>x=<frac|1|2 x>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|t><rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|x><rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>>>>>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<tau\><rsup|2>>+\<Gamma\><rsup|t><rsub|t
+        x><frac|\<mathd\>t|\<mathd\>\<tau\>><frac|\<mathd\>x|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x|\<mathd\><rsup|2>\<tau\>>+\<Gamma\><rsup|x><rsub|x
+        x><around*|(|<frac|\<mathd\>x|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<tau\><rsup|2>>-<frac|1|2><frac|\<mathd\>t|\<mathd\>\<tau\>><frac|\<mathd\>x|\<mathd\>\<tau\>>>|<cell|=>|<cell|0>>|<row|<cell|<frac|\<mathd\><rsup|2>x|\<mathd\><rsup|2>\<tau\>>+<frac|1|2x><around*|(|<frac|\<mathd\>x|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|0>>>>>>>>>
+      </eqnarray*>
+
+      if here constrain <math|x=constant> then the <math|t=a
+      \<tau\>+t<rsub|0>> still independent on <math|x>
+
+      or could see like this.we have to solve the equations firstly.although
+      do like this. the consequence :when choosing a constant as <math|x>
+      ,here still cause a contant <math|t>.
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      \ \ 
+    </description>
 
     \;
 
