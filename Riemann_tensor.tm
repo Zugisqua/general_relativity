@@ -35,7 +35,13 @@
     <\description>
       <item*|symmetry>
 
-      \;
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<rho\>><rsub|\<nu\>\<sigma\>>+\<Gamma\><rsup|\<rho\>><rsub|\<mu\>\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<sigma\>>-\<partial\><rsub|\<nu\>>\<Gamma\><rsup|\<rho\>><rsub|\<mu\>\<sigma\>>-\<Gamma\><rsup|\<rho\>><rsub|\<nu\>\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<mu\>><around*|(|<frac|1|2>g<rsup|\<rho\>s><around*|(|\<partial\><rsub|\<nu\>>g<rsub|\<sigma\>s>+\<partial\><rsub|\<sigma\>>g<rsub|\<nu\>s>-\<partial\><rsub|s>g<rsub|\<nu\>\<sigma\>>|)>|)>-\<partial\><rsub|\<nu\>><around*|(|<frac|1|2>g<rsup|\<rho\>s><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<sigma\>s>+\<partial\><rsub|\<sigma\>>g<rsub|\<mu\>s>-\<partial\><rsub|s>g<rsub|\<mu\>\<sigma\>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|1|2>g<rsup|\<rho\>s><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>s>+\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>s>-\<partial\><rsub|s>g<rsub|\<mu\>\<lambda\>>|)>\<times\><frac|1|2>g<rsup|\<lambda\>s><around*|(|\<partial\><rsub|\<nu\>>g<rsub|\<sigma\>s>+\<partial\><rsub|\<sigma\>>g<rsub|\<nu\>s>-\<partial\><rsub|s>g<rsub|\<nu\>\<sigma\>>|)>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>g<rsup|\<rho\>s><around*|(|\<partial\><rsub|\<nu\>>g<rsub|\<lambda\>s>+\<partial\><rsub|\<lambda\>>g<rsub|\<nu\>s>-\<partial\><rsub|s>g<rsub|\<nu\>\<lambda\>>|)>\<times\><frac|1|2>g<rsup|\<lambda\>s><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<sigma\>s>+\<partial\><rsub|\<sigma\>>g<rsub|\<mu\>s>-\<partial\><rsub|s>g<rsub|\<mu\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+      </eqnarray*>
+
+      <\itemize>
+        <item><math|R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>=R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>
+      </itemize>
 
       <item*|Bianchi identity>
 
@@ -50,7 +56,7 @@
       <item*|<math|Ricci \ \ tensor>>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|R<rsup|\<lambda\>><op|<rsub|\<mu\>\<lambda\>\<nu\>>>>>>>
+        <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|R<rsup|\<lambda\>><op|<rsub|\<mu\>\<lambda\>\<nu\>>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<mu\>>+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>s>\<Gamma\><rsup|s><rsub|\<nu\>\<mu\>><rsub|><rsub|>-\<partial\><rsub|\<nu\>>\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>s>\<Gamma\><rsup|s><rsub|\<lambda\>\<mu\>><rsub|>>>|<row|<cell|>|<cell|=>|<cell|>>>>
       </eqnarray*>
 
       properities:
@@ -58,7 +64,7 @@
       <item*|<math|Ricci \ \ scalar>>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>>>
+        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
       </eqnarray*>
 
       <item*|<math|Weyl \ \ tensor>>
