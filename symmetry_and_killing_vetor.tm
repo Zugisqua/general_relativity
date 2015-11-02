@@ -105,7 +105,44 @@
 
     <item*|Conservation>
 
-    \;
+    Maybe if we say a quality is a conservation,which mean
+    <math|<frac|\<mathd\>A|\<mathd\> \<tau\>>=0>\ 
+
+    Could mean parallel-transport conception <math|\<rightarrow\>>
+    conservation
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|D A|\<mathd\>
+      \<tau\>>>|<cell|=>|<cell|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<mu\>>A
+      \ = \ 0>>>>
+    </eqnarray*>
+
+    <\description>
+      <item*|>Momentum\ 
+
+      the component along killing are conservation\ 
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|D
+        p<rsub|k>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|D
+        p<rsup|\<mu\>>K<rsub|\<mu\>>|\<mathd\>\<tau\>> \ =
+        \ <frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>><around*|(|p<rsup|\<mu\>>K<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>><around*|(|K<rsub|\<mu\>>\<nabla\><rsub|\<nu\>>p<rsup|\<mu\>>+p<rsup|\<mu\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|m<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>><around*|(|K<rsub|\<mu\>>\<nabla\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|m
+        K<rsub|\<mu\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>+m<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|m<rsub|>K<rsub|\<mu\>><frac|D|\<mathd\>\<tau\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>|)>+<frac|m|2><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|m<rsub|>K<rsub|\<mu\>><frac|D|\<mathd\>\<tau\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>|)>+<frac|m|2><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>+<frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<mu\>>K<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|m<rsub|>K<rsub|\<mu\>><frac|D|\<mathd\>\<tau\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>|)>+<frac|m|2><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>><around*|(|\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>+\<nabla\><rsub|\<mu\>>K<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|m<rsub|>K<rsub|\<mu\>><frac|D|\<mathd\>\<tau\>><around*|(|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>|)>>>|<row|<cell|>|<cell|=>|<cell|K<rsub|\<mu\>><frac|D|\<mathd\>\<tau\>>p<rsup|\<mu\>>>>>>
+      </eqnarray*>
+
+      if <math|p<rsup|\<mu\>>> is a conservation [or the track of particle is
+      geodesic],the <math|p<rsup|\<mu\>>> along <math|K<rsub|\<mu\>>> must
+      be.
+
+      <item*|>Ricci scaler
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|D
+        <around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R|)>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|D
+        <around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>|)>|)>|\<mathd\>\<tau\>>=<frac|D
+        <around*|(|K<rsup|\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>=g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>><around*|(|\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>|)>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>+g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>K<rsup|\<rho\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>><rsub|>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>g<rsup|\<rho\>s><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>><around*|(|\<nabla\><rsub|\<sigma\>>K<rsub|s>|)>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>+g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>K<rsup|\<rho\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>><rsub|>>>>>
+      </eqnarray*>
+    </description>
 
     <item*|Maximally symmetric space>
 
