@@ -356,7 +356,7 @@
       </eqnarray*>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|<wide|V|\<vect\>>>|<cell|=>|<cell|<around*|(|<around|cos(|<around|cos|\<theta\>|>\<lambda\>|)>,-<frac|<around|sin(|<around|cos|\<theta\>\<lambda\>|>|)>|<around|sin|\<theta\>|>>|)>>>>>
+        <tformat|<table|<row|<cell|<wide|V|\<vect\>>>|<cell|=>|<cell|<around*|(|<around|cos(|<around|cos|\<theta\>|>\<lambda\>|)>,<frac||>|)>>>>>
       </eqnarray*>
 
       the curve remain unchange
