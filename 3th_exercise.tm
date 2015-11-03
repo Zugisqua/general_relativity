@@ -9,6 +9,8 @@
 
   \;
 
+  \;
+
   <section|<math|exercise \ \ 3th>>
 
   <\description>
@@ -477,19 +479,11 @@
       proper time:
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|\<mathd\>\<tau\><rsup|2>>|<cell|=>|<cell|-<frac|1|c<rsup|2>>\<mathd\>s<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|c<rsup|2>><around*|(|-<around*|(|c<rsup|2>+2\<Phi\>|)>\<mathd\>t<rsup|2>+r<rsup|2><around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<frac|2|c<rsup|2>>\<Phi\>|)><around*|(|2\<pi\>|)><rsup|2><frac|R<rsup|2>|\<Phi\>>-<frac|R<rsup|2>|c<rsup|2>><around*|(|2\<pi\>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|2><around*|(|<frac|R<rsup|2>|\<Phi\>>+<frac|2R<rsup|2>|c<rsup|2>>-<frac|R<rsup|2>|c<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|2><frac|R<rsup|2>|c<rsup|2>><around*|(|1+<frac|c<rsup|2>|\<Phi\>>|)>>>|<row|<cell|\<tau\>>|<cell|=>|<cell|2\<pi\><frac|R<rsub|2>|c><sqrt|<frac|R<rsup|2>c|\<Phi\>>-3>>>|<row|<cell|>|<cell|=>|<cell|2\<pi\>\<times\><frac|6.371\<times\>10<rsup|6>m|2.998\<times\>10<rsup|8>m*s<rsup|-1>>\<times\><sqrt|<frac|6.371\<times\>10<rsup|6>m\<times\>2.998\<times\>10<rsup|8>m*s<rsup|-1>|6.674\<times\>10<rsup|-11>m<rsup|3>kg<rsup|-1>
-        s<rsup|-2>\<times\>5.972\<times\>10<rsup|24>kg>-3>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>\<times\><frac|6.371|2.998>\<times\><sqrt|<frac|6.371\<times\>2.998<rsup|2>|6.674\<times\>5.972>-3>\<times\>10<rsup|-1>\<times\><sqrt|>|)>s>>>>
+        <tformat|<table|<row|<cell|\<mathd\>\<tau\><rsup|2>>|<cell|=>|<cell|-<frac|1|c<rsup|2>>\<mathd\>s<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|c<rsup|2>><around*|(|-<around*|(|c<rsup|2>+2\<Phi\>|)>\<mathd\>t<rsup|2>+r<rsup|2><around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<frac|2|c<rsup|2>>\<Phi\>|)><around*|(|2\<pi\>|)><rsup|2><around*|(|-<frac|R<rsup|2>|\<Phi\>>|)>-<frac|R<rsup|2>|c<rsup|2>><around*|(|2\<pi\>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|2><around*|(|-<frac|R<rsup|2>|\<Phi\>>-<frac|2R<rsup|2>|c<rsup|2>>-<frac|R<rsup|2>|c<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|2><frac|R<rsup|2>|c<rsup|2>><around*|(|-<frac|c<rsup|2>|\<Phi\>>-3|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|2\<pi\>|)><rsup|2><frac|R<rsup|2>|-\<Phi\>><around*|(|1+<frac|3\<Phi\>|c<rsup|2>>|)>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<Delta\>t>|<cell|=>|<cell|2\<pi\><frac|R<rsub|2>|<sqrt|-\<Phi\>>>=2\<pi\>\<times\>6.371\<times\>10<rsup|6>m\<times\><sqrt|<frac|6.371\<times\>10<rsup|6>m|6.674\<times\>10<rsup|-11>m<rsup|3>kg<rsup|-1>
+        s<rsup|-2>\<times\>5.972\<times\>10<rsup|24>kg>>>>|<row|<cell|>|<cell|=>|<cell|5.061\<times\>10<rsup|3>s>>|<row|<cell|\<Delta\>\<tau\>>|<cell|=>|<cell|2\<pi\><frac|R<rsub|2>|<sqrt|-\<Phi\>>><sqrt|1+<frac|3\<Phi\>|c<rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|\<Delta\>t\<times\><sqrt|1-<frac|3\<times\>6.674\<times\>10<rsup|-11>m<rsup|3>kg<rsup|-1>
+        s<rsup|-2>\<times\>5.972\<times\>10<rsup|24>kg|6.371\<times\>10<rsup|6>m\<times\><around*|(|2.998\<times\>10<rsup|8>m
+        s<rsup|-1>|)><rsup|2>>>>>|<row|<cell|>|<cell|=>|<cell|\<Delta\>t\<times\><sqrt|1-2.088\<times\>10<rsup|-9>>>>|<row|<cell|>|<cell|=>|<cell|5.0609\<times\>10<rsup|3>s>>>>
       </eqnarray*>
-
-      compare:
-
-      <\eqnarray*>
-        <tformat|<table|<row|<cell|<frac|\<mathLaplace\>t|\<Delta\>\<tau\>>=<frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|2\<pi\><sqrt|<frac|R<rsub|1><rsup|3>|G
-        M>>|2\<pi\>R<rsub|1><sqrt|<frac|R<rsub|1><rsup|>|G
-        M>-3>>=<sqrt|<frac|R<rsub|1>|R<rsub|1>-3G M>>>>>>
-      </eqnarray*>
-
-      \;
     </description>
 
     \;
