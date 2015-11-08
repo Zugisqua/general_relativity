@@ -235,8 +235,6 @@
       what I will do next may seem have no relation with the point.<emdash>--
       the convariant of <math|w<rsub|\<sigma\>><op|<rsup|c>><op|<rsub|b>>>,I
       want it! however maybe not now.
-
-      \;
     </itemize>
 
     <item*|Better for curvature>
@@ -286,6 +284,48 @@
     </description>
 
     \;
+
+    \;
+  </description>
+
+  <subparagraph|Some example>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>>>>>
+  </eqnarray*>
+
+  <\description>
+    <item*|step 1>
+  </description>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|e<rsup|1>>|<cell|=>|<cell|<frac|1|y>\<mathd\>x<rsup|1>>>|<row|<cell|e<rsup|2>>|<cell|=>|<cell|\<mathd\>x<rsup|2>>>>>
+  </eqnarray*>
+
+  <\description>
+    <item*|step 2>
+
+    1. set <math|e<rsup|a>=A<rsup|a><rsub|1>\<mathd\>x<rsup|1>+A<rsup|a><rsub|2>\<mathd\>x<rsup|2>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>e<rsup|a>>|<cell|=>|<cell|\<mathd\><around*|(|A<rsup|a><rsub|\<mu\>>\<mathd\>x<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A<rsup|a><rsub|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>=\<partial\><rsub|\<nu\>>A<rsup|a><rsub|\<mu\>>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<nu\>>A<rsup|a><rsub|\<mu\>>-\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>><around*|[|\<nu\>\<less\>\<mu\>|]>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|1>A<rsup|a><rsub|2>-\<partial\><rsub|2>A<rsup|a><rsub|1>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|\<mathd\>e<rsup|1>>|<cell|=>|<cell|-\<partial\><rsub|2><frac|1|y>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|\<mathd\>e<rsup|2>>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    2
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|w<rsup|a><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|a>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|1>>>|<row|<cell|w<rsup|1><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|1><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|<frac|1|y>w<rsup|1><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>+w<rsup|1><op|<rsub|2>>\<wedge\>\<mathd\>x<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|<frac|1|y>w<rsup|1><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>+0>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|w<rsup|1><op|<rsub|1>>=<frac|1|y>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|w<rsup|2><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|2>>>|<row|<cell|w<rsup|2><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|2><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|1|y>w<rsup|2><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>+w<rsup|2><op|<rsub|2>>\<wedge\>\<mathd\>x<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|w<op|<rsup|2>><op|<rsub|1>>=0>>|<row|<cell|w<op|<rsup|2>><op|<rsub|2>>=0>>>>>>>>>
+    </eqnarray*>
+
+    <item*|step 3>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|R<rsup|a><op|<rsub|b>>>>>>>>|<cell|=>|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>w<rsup|a><op|<rsub|b>>>>>>>+w<rsup|a><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|b>>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|w<rsup|1><op|<rsub|1>>|)>+w<op|<rsup|1>><op|<rsub|1>>\<wedge\>w<op|<rsup|1>><op|<rsub|1>>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\><around*|(|<frac|1|y>\<mathd\>x<rsup|2>|)>+<frac|1|y>\<mathd\>x<rsup|2>\<wedge\><frac|1|y>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
   </description>
 
   \;
@@ -304,6 +344,7 @@
     <associate|auto-10|<tuple|4|?>>
     <associate|auto-11|<tuple|5|?>>
     <associate|auto-12|<tuple|6|?>>
+    <associate|auto-13|<tuple|6.1|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|1|?>>
