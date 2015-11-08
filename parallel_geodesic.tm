@@ -75,9 +75,51 @@
       <tformat|<table|<row|<cell|\<delta\><big|int>\<mathd\>s>|<cell|=>|<cell|0>>>>
     </eqnarray*>
 
+    here will use some simplify technique (picked form wiki)
+
+    <\itemize>
+      <item>first
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<delta\><big|int>\<mathd\>s=0>|<cell|\<Longleftrightarrow\>>|<cell|\<delta\><around*|(|<big|int>\<mathd\>s|)><rsup|2>=0>>>>
+      </eqnarray*>
+
+      see:
+
+      \ <math|<stack|<tformat|<cwith|2|2|1|1|cell-halign|l>|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|1<rsup|o>
+      \ \<delta\><big|int>\<mathd\>s=0 >|<cell|\<Rightarrow\>>|<cell|<frac|1|2><big|int>\<mathd\>s\<times\>\<delta\><big|int>\<mathd\>s=0>|<cell|\<Rightarrow\>>|<cell|\<delta\><around*|(|<big|int>\<mathd\>s|)><rsup|2>=0>>|<row|<cell|2<rsup|o>
+      \ \<delta\><around*|(|<big|int>\<mathd\>s|)><rsup|2>=0>|<cell|\<Rightarrow\>>|<cell|2<big|int>\<mathd\>s\<times\>\<delta\><big|int>\<mathd\>s=0>|<cell|\<Rightarrow\>>|<cell|\<delta\><big|int>\<mathd\>s=0
+      >>>>>>
+    </itemize>
+
+    <\itemize>
+      <item>from the inequality (wiki:geodesic)
+    </itemize>
+
     <\eqnarray*>
-      <tformat|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|\<delta\><big|int>\<mathd\>s>|<cell|=>|<cell|\<delta\><big|int><sqrt|g<rsub|\<mu\>\<nu\>>\<mathd\>x<rsup|\<mu\>>\<mathd\>x<rsup|\<nu\>>>>>|<row|<cell|>|<cell|=>|<cell|\<delta\><big|int><sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>><around*|(|\<mathd\>\<lambda\>|)><rsup|2>>=\<delta\><big|int><sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>\<mathd\>\<lambda\>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\>\<lambda\><around*|{|\<delta\><sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|}>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\>\<lambda\><around*|{|<frac|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<delta\>g<rsub|\<mu\>\<nu\>>+<around*|(|\<delta\><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>|)><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>g<rsub|\<mu\>\<nu\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><around*|(|\<delta\><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>|)>g<rsub|\<mu\>\<nu\>>|2<sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>>|}>>>|<row|<cell|>|<cell|=>|<cell|<big|int><frac|\<mathd\>\<lambda\>|2<sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>|>><around*|{|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<delta\>g<rsub|\<mu\>\<nu\>>+<around*|(|\<delta\><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>|)><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>g<rsub|\<mu\>\<nu\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><around*|(|\<delta\><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>|)>g<rsub|\<mu\>\<nu\>>|}>
-      >>|<row|<cell|>|<cell|>|<cell|>>>>
+      <tformat|<table|<row|<cell|<around*|(|<big|int>\<mathd\>s|)><rsup|2>=
+      <around*|(|<big|int><sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>\<times\>1\<mathd\>\<lambda\>|)><rsup|2>>|<cell|\<leqslant\>>|<cell|<big|int><around*|(|<sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|)><rsup|2>\<mathd\>\<lambda\>\<times\><big|int>1<rsup|2>\<mathd\>\<lambda\><rprime|'>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|L<big|int>g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>\<mathd\>\<lambda\>>>>>
+    </eqnarray*>
+
+    only and only if <math|<sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>=constant><math|\<times\>
+    1 >
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<sqrt|g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>>|<cell|=>|<cell|constant>>|<row|<cell|g<rsub|\<mu\>\<nu\>><around*|(|x<around*|(|\<lambda\>|)>|)><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|constant>>|<row|<cell|<frac|\<mathd\>s<rsup|2>|\<mathd\>\<lambda\>\<times\>\<mathd\>\<lambda\>>>|<cell|=>|<cell|constant>>|<row|<cell|<around*|(|<frac|\<mathd\>s|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|constant>>|<row|<cell|<frac|\<mathd\>s|\<mathd\>\<lambda\>>>|<cell|=>|<cell|constant>>>>
+    </eqnarray*>
+
+    in meaningful description that\ 
+
+    <\itemize>
+      <item>other parametrization is not more extreme than along the internal
+
+      <item>the geodesic's parameters are always <math|a s+b> or
+      <math|a\<tau\>+b>
+    </itemize>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<delta\><big|int>\<mathd\>s>|<cell|\<rightarrow\>>|<cell|\<delta\><around*|(|<big|int>\<mathd\>s|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|L\<delta\><big|int>g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<mathd\>\<tau\>>>|<row|<cell|>|<cell|=>|<cell|<big|int>\<mathd\>\<tau\><around*|{|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>\<delta\>g<rsub|\<mu\>\<nu\>>+<around*|(|\<delta\><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>>|)><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>g<rsub|\<mu\>\<nu\>>+<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><around*|(|\<delta\><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>|)>g<rsub|\<mu\>\<nu\>>|}>
+      >>>>
     </eqnarray*>
 
     therefore
@@ -333,6 +375,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|1|?>>
   </collection>
 </references>
 
