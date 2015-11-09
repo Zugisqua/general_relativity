@@ -88,11 +88,41 @@
 
       properities:
 
+      <\itemize>
+        <item>diagonal metric case [we need the Ricci scalar finally]
+        therefore need:
+
+        some detail Reference : plore_5
+
+        <\eqnarray*>
+          <tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|R<rsub|\<mu\>\<mu\>>>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<mu\>>-\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<mu\>>>>|<row|<cell|<around*|(|\<mu\>\<neq\>\<lambda\>\<neq\>\<sigma\>|)>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>+\<partial\><rsub|\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>-\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>-\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>
+          >>|<row|<cell|>|<cell|>|<cell|\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>+\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<mu\>>+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<mu\>>>>|<row|<cell|>|<cell|>|<cell|-\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<lambda\>\<mu\>>-\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<lambda\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>-\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>>>|<row|<cell|>|<cell|>|<cell|+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<mu\>\<mu\>>+\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<sigma\>>\<Gamma\><rsup|\<sigma\>><rsub|\<mu\>\<mu\>>-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<mu\>>\<Gamma\><rsup|\<mu\>><rsub|\<lambda\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<partial\><rsub|\<lambda\>><around*|(|g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>|)>-<frac|1|2>\<partial\><rsub|\<mu\>><around*|(|g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|1|4>g<rsup|\<lambda\>\<lambda\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>|)>g<rsup|\<mu\>\<mu\>>\<partial\><rsub|\<mu\>>g<rsub|\<mu\>\<mu\>>+<frac|1|4>g<rsup|\<lambda\>\<lambda\>><around*|(|\<partial\><rsub|\<sigma\>>g<rsub|\<lambda\>\<lambda\>>|)>g<rsup|\<sigma\>\<sigma\>>\<partial\><rsub|\<sigma\>>g<rsub|\<mu\>\<mu\>>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|4>g<rsup|\<lambda\>\<lambda\>><around*|(|\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>|)>g<rsup|\<mu\>\<mu\>>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|\<partial\><rsub|\<lambda\>>g<rsup|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>+<frac|1|2>g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<lambda\>>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>-<frac|1|2><around*|(|\<partial\><rsub|\<mu\>>g<rsup|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>-<frac|1|2>g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|4>g<rsup|\<lambda\>\<lambda\>>g<rsub|\<mu\>\<mu\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<mu\>>g<rsup|\<mu\>\<mu\>>+<frac|1|4>g<rsup|\<lambda\>\<lambda\>>g<rsub|\<mu\>\<mu\>><around*|(|\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>|)>\<partial\><rsub|\<lambda\>>g<rsup|\<mu\>\<mu\>>>>|<row|<cell|>|<cell|>|<cell|+<frac|1|4>g<rsup|\<lambda\>\<lambda\>>g<rsup|\<sigma\>\<sigma\>><around*|(|\<partial\><rsub|\<sigma\>>g<rsub|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<sigma\>>g<rsub|\<mu\>\<mu\>>>>>>
+        </eqnarray*>
+      </itemize>
+
       <item*|<math|Ricci \ \ scalar>>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>>>
       </eqnarray*>
+
+      as mostly we calculate the diagonal metic
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|<frac|1|2>g<rsup|\<mu\>\<mu\>>\<partial\><rsub|\<lambda\>><around*|(|g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>|)>-<frac|1|2>g<rsup|\<mu\>\<mu\>>\<partial\><rsub|\<mu\>><around*|(|g<rsup|\<lambda\>\<lambda\>>\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>|)>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|4>g<rsup|\<lambda\>\<lambda\>><around*|(|\<partial\><rsub|\<mu\>>g<rsub|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<mu\>>g<rsup|\<mu\>\<mu\>>+<frac|1|4>g<rsup|\<lambda\>\<lambda\>><around*|(|\<partial\><rsub|\<lambda\>>g<rsub|\<mu\>\<mu\>>|)>\<partial\><rsub|\<lambda\>>g<rsup|\<mu\>\<mu\>>+<frac|1|4>g<rsup|\<mu\>\<mu\>>g<rsup|\<lambda\>\<lambda\>>g<rsup|\<sigma\>\<sigma\>><around*|(|\<partial\><rsub|\<sigma\>>g<rsub|\<lambda\>\<lambda\>>|)>\<partial\><rsub|\<sigma\>>g<rsub|\<mu\>\<mu\>>>>>>
+      </eqnarray*>
+
+      check it\ 
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R>|<cell|=>|<cell|<frac|1|2>g<rsup|1>\<partial\><rsub|2><around*|(|g<rsup|2>\<partial\><rsub|2>g<rsub|1>|)>-<frac|1|2>g<rsup|2>\<partial\><rsub|2><around*|(|g<rsup|1>\<partial\><rsub|2>g<rsub|1>|)>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|4>g<rsup|2><around*|(|\<partial\><rsub|1>g<rsub|2>|)>\<partial\><rsub|1>g<rsup|1>+<frac|1|4>g<rsup|2><around*|(|\<partial\><rsub|2>g<rsub|1>|)>\<partial\><rsub|2>g<rsup|1>-<frac|1|4>g<rsup|1><around*|(|\<partial\><rsub|2>g<rsub|1>|)>\<partial\><rsub|2>g<rsup|2>+<frac|1|4>g<rsup|1><around*|(|\<partial\><rsub|1>g<rsub|2>|)>\<partial\><rsub|1>g<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>y<rsup|2>\<partial\><rsub|y>\<partial\><rsub|y><frac|1|y<rsup|2>>-<frac|1|2>\<partial\><rsub|2><around*|(|y<rsup|2>\<partial\><rsub|y><frac|1|y<rsup|2>>|)>+<frac|1|4><around*|(|\<partial\><rsub|y><frac|1|y<rsup|2>>|)>\<partial\><rsub|y>y<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>y<rsup|2>\<times\><frac|6|y<rsup|4>>-<frac|1|2>\<partial\><rsub|y><around*|(|y<rsup|2>\<times\><around*|(|-<frac|2|y<rsup|3>>|)>|)>+<frac|1|4><around*|(|-<frac|2|y<rsup|3>>|)>\<times\>2y>>|<row|<cell|>|<cell|=>|<cell|<frac|3|y<rsup|2>>+<frac|1|y<rsup|2>>-<frac|1|y<rsup|2>>=<frac|2|y<rsup|2>>>>>>
+      </eqnarray*>
+
+      somewhere wrong ?
 
       <item*|<math|Weyl \ \ tensor>>
 
