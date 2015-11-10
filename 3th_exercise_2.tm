@@ -34,10 +34,52 @@
       <tformat|<table|<row|<cell|\<Gamma\><rsup|\<psi\>><rsub|\<theta\>\<theta\>>=-<around|sin|\<psi\>|><around|cos|\<psi\>|>>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<theta\>\<psi\>>=<frac|1|<around|tan|\<psi\>|>>>|<cell|\<Gamma\><rsup|\<phi\>><rsub|\<phi\>\<psi\>>=<frac|1|<around|tan|\<psi\>|>>>>|<row|<cell|\<Gamma\><rsup|\<psi\>><rsub|\<phi\>\<phi\>>=-<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>>|<cell|\<Gamma\><rsup|\<theta\>><rsub|\<phi\>\<phi\>>=-<around|sin|\<theta\>|><around|cos|\<theta\>|>>|<cell|\<mathGamma\><rsup|\<phi\>><rsub|\<phi\>\<theta\>>=<frac|1|<around|tan|\<theta\>|>>>>>>
     </eqnarray*>
 
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|\<mathd\>\<psi\><rsup|2>+<around|sin|<rsup|2>\<psi\>|><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|[|m<rsub|n>|]>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|0>|<cell|0>|<cell|0>>|<row|<cell|2<around|sin|\<psi\>|><around|cos|\<psi\>|>>|<cell|0>|<cell|0>>|<row|<cell|2<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>>|<cell|2<around|sin|<rsup|2>\<psi\>|><around|sin|\<theta\>|><around|cos|\<theta\>|>>|<cell|0>>>>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<Gamma\><rsup|0><rsub|11>>|<cell|=>|<cell|-<frac|1|2>g<rsup|\<psi\>\<psi\>>\<times\>2<around|sin|\<psi\>|><around|cos|\<psi\>|>=<around|sin|\<psi\>|><around|cos|\<psi\>|>>>|<row|<cell|\<Gamma\><rsup|1><rsub|10>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<theta\>\<theta\>>\<times\>2<around|sin|\<psi\>|><around|cos|\<psi\>|>=<frac|1|<around|tan|\<psi\>|>>>>|<row|<cell|\<Gamma\><rsup|0><rsub|22>>|<cell|=>|<cell|-<frac|1|2>g<rsup|\<psi\>\<psi\>>\<times\>2<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>=<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>>>|<row|<cell|\<Gamma\><rsup|2><rsub|20>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<phi\>\<phi\>>\<times\>2<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>=<frac|1|<around|tan|\<psi\>|>>>>|<row|<cell|\<Gamma\><rsup|1><rsub|22>>|<cell|=>|<cell|-<frac|1|2>g<rsup|\<theta\>\<theta\>>\<times\>2<around|sin|<rsup|2>\<psi\>|><around|sin|\<theta\>|><around|cos|\<theta\>|>=-<around|sin|\<theta\>|><around|cos|\<theta\>|>>>|<row|<cell|\<Gamma\><rsup|2><rsub|21>>|<cell|=>|<cell|<frac|1|2>g<rsup|\<phi\>\<phi\>>\<times\>2<around|sin|<rsup|2>\<psi\>|><around|sin|\<theta\>|><around|cos|\<theta\>|>=<frac|1|<around|tan|\<theta\>|>>>>>>
+    </eqnarray*>
+
+    \;
+
     <item*|b>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>|<cell|=>|<cell|\<partial\><rsub|\<mu\>>\<Gamma\><rsup|\<rho\>><rsub|\<nu\>\<sigma\>>+\<Gamma\><rsup|\<rho\>><rsub|\<mu\>\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<sigma\>>-\<partial\><rsub|\<nu\>>\<Gamma\><rsup|\<rho\>><rsub|\<mu\>\<sigma\>>-\<Gamma\><rsup|\<rho\>><rsub|\<nu\>\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<sigma\>>>>>>
+      <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|101>>>|<cell|=>|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|11>-\<partial\><rsub|1>\<Gamma\><rsup|0><rsub|01>+\<Gamma\><rsup|0><rsub|0\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|11>-\<Gamma\><rsup|0><rsub|1\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|01>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|0><around|sin|\<psi\>|><around|cos|\<psi\>|>-\<Gamma\><rsup|0><rsub|11>\<Gamma\><rsup|1><rsub|10>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<partial\><rsub|\<psi\>><around|sin(|2\<psi\>|)>-<around|sin|\<psi\>|><around|cos|\<psi\>|>\<times\><frac|1|<around|tan|\<psi\>|>>>>|<row|<cell|>|<cell|=>|<cell|<around|cos(|2\<psi\>|)>-<around|cos|<rsup|2>\<psi\>|>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|<rsup|2>\<psi\>|>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|102>>>|<cell|=>|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|21>-\<partial\><rsub|2>\<Gamma\><rsup|0><rsub|01>+\<Gamma\><rsup|0><rsub|0\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|21>-\<Gamma\><rsup|0><rsub|2\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|01>>>|<row|<cell|>|<cell|=>|<cell|-\<Gamma\><rsup|0><rsub|22>\<Gamma\><rsup|2><rsub|01>=0>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|112>>>|<cell|=>|<cell|\<partial\><rsub|1>\<Gamma\><rsup|0><rsub|21>-\<partial\><rsub|2>\<Gamma\><rsup|0><rsub|11>+\<Gamma\><rsup|0><rsub|1\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|21>-\<Gamma\><rsup|0><rsub|2\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|11>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|0><rsub|11>\<Gamma\><rsup|1><rsub|12>-\<Gamma\><rsup|0><rsub|22>\<Gamma\><rsup|2><rsub|11>=0>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|202>>>|<cell|=>|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|0><rsub|02>+\<Gamma\><rsup|0><rsub|0\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|22>-\<Gamma\><rsup|0><rsub|2\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|02>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<partial\><rsub|\<psi\>><around|sin(|2\<psi\>|)><around|sin|<rsup|2>\<theta\>|>-\<Gamma\><rsup|0><rsub|22>\<Gamma\><rsup|2><rsub|20>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|<rsup|2>\<theta\>|><around|cos(|2\<psi\>|)>-<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>\<times\><frac|1|<around|tan|\<psi\>|>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|<rsup|2>\<theta\>|><around*|(|<around|cos|<rsup|2>\<psi\>|>-<around|sin|<rsup|2>\<psi\>|>-<around|cos|<rsup|2>\<psi\>|>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|<rsup|2>\<theta\>|><around|sin|<rsup|2>\<psi\>|>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|212>>>|<cell|=>|<cell|\<partial\><rsub|1>\<Gamma\><rsup|0><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|0><rsub|12>+\<Gamma\><rsup|0><rsub|1\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|22>-\<Gamma\><rsup|0><rsub|2\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|12>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>|)>+\<Gamma\><rsup|0><rsub|11>\<Gamma\><rsup|1><rsub|22>-\<Gamma\><rsup|0><rsub|22>\<Gamma\><rsup|2><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|2<around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|\<theta\>|><around|cos|\<theta\>|>+<around|sin|\<psi\>|><around|cos|\<psi\>|>\<times\><around*|(|-<around|sin|\<theta\>|><around|cos|\<theta\>|>|)>-<frac|1|<around|tan|\<theta\>|>>\<times\><around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|1><op|<rsub|212>>>|<cell|=>|<cell|\<partial\><rsub|1>\<Gamma\><rsup|1><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|1><rsub|12>+\<Gamma\><rsup|1><rsub|1\<lambda\>>\<Gamma\><rsup|\<lambda\>><rsub|22>-\<Gamma\><rsup|1><rsub|2\<lambda\>>\<Gamma\><rsup|><rsub|><rsup|\<lambda\>><rsub|12>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|-<around|sin|\<theta\>|><around|cos|\<theta\>|>|)>+\<Gamma\><rsup|1><rsub|10>\<Gamma\><rsup|0><rsub|22>-\<Gamma\><rsup|1><rsub|22>\<Gamma\><rsup|2><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|-<around|cos(|2\<theta\>|)>+<frac|1|<around|tan|\<psi\>|>>\<times\><around|sin|\<psi\>|><around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>-<frac|1|<around|tan|\<theta\>|>>\<times\><around*|(|-<around|sin|\<theta\>|><around|cos|\<theta\>|>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around|cos|<rsup|2>\<theta\>|>+<around|sin|<rsup|2>\<theta\>|>+<around|cos|<rsup|2>\<psi\><around|sin|<rsup|2>\<theta\>|\<nobracket\>>+<around|cos|<rsup|2>\<theta\>|\<nobracket\>>|>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<around|cos|<rsup|2>\<psi\>|>|)><around|sin|<rsup|2>\<theta\>|>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsub|00>>|<cell|=>|<cell|R<rsup|1><op|<rsub|010>>+R<rsup|2><op|<rsub|020>>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|<rsup|2>\<psi\>|>-<around|sin|<rsup|2>\<theta\>|><around|sin|<rsup|2>\<psi\>|>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|1+<around|sin|<rsup|2>\<theta\>|>|)><around|sin|<rsup|2>\<psi\>|>>>|<row|<cell|R<rsub|01>>|<cell|=>|<cell|R<rsup|0><op|<rsub|001>>+R<rsup|1><op|<rsub|011>>+R<rsup|2><op|<rsub|021>>=0>>|<row|<cell|R<rsub|02>>|<cell|=>|<cell|R<rsup|0><op|<rsub|002>>+R<rsup|1><op|<rsub|012>>+R<rsup|2><op|<rsub|022>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|0><op|<rsub|112>>=0>>|<row|<cell|R<rsub|11>>|<cell|=>|<cell|R<rsup|0><op|<rsub|101>>+R<rsup|1><op|<rsub|111>>+R<rsup|2><op|<rsub|121>>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|<rsup|2>\<psi\>|>+<around*|(|1+<around|cos|<rsup|2>\<psi\>|>|)><around|sin|<rsup|2>\<theta\>|>>>|<row|<cell|R<rsub|12>>|<cell|=>|<cell|R<rsup|0><op|<rsub|102>>+R<rsup|1><op|<rsub|112>>+R<rsup|2><op|<rsub|122>>>>|<row|<cell|>|<cell|=>|<cell|R<rsup|0><op|<rsub|102>>=0>>|<row|<cell|R<rsub|22>>|<cell|=>|<cell|R<rsup|0><op|<rsub|202>>+R<rsup|1><op|<rsub|212>>+R<rsup|2><op|<rsub|222>>>>|<row|<cell|>|<cell|=>|<cell|R<rsup|1><op|<rsub|212>>=<around*|(|1+<around|cos|<rsup|2>\<psi\>|>|)><around|sin|<rsup|2>\<theta\>|>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|00>R<rsub|00>+g<rsup|11>R<rsub|11>+g<rsup|22>R<rsub|22>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|1+<around|sin|<rsup|2>\<theta\>|>|)><around|sin|<rsup|2>\<psi\>|>+<frac|1|<around|sin|<rsup|2>\<psi\>|>>\<times\><around*|(|-<around|sin|<rsup|2>\<psi\>|>+<around*|(|1+<around|cos|<rsup|2>\<psi\>|>|)><around|sin|<rsup|2>\<theta\>|>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|1|<around|sin|<rsup|2>\<psi\><around|sin|<rsup|2>\<psi\>|>|>>\<times\><around*|(|1+<around|cos|<rsup|2>\<psi\>|>|)><around|sin|<rsup|2>\<theta\>|>>>>>
     </eqnarray*>
 
     <item*|c><math|calculation>
@@ -238,13 +280,57 @@
       therefore
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|<around*|[|e<rsup|\<mu\>><rsub|a>|]>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>>>>>>>>|<row|<cell|<around*|[|e<rsup|a><rsub|\<mu\>>|]>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<around|sin|\<psi\>|>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<around|sin|\<psi\>|><around|cos|\<theta\>|>>>>>>>>>>
+        <tformat|<table|<row|<cell|<around*|[|e<rsup|\<mu\>><rsub|a>|]>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>>>>>>>>|<row|<cell|<around*|[|e<rsup|a><rsub|\<mu\>>|]>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<around|sin|\<psi\>|>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<around|sin|\<psi\>|><around|sin|\<theta\>|>>>>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|e<rsup|0>=\<mathd\>\<psi\>>|<cell|e<rsup|1>=<around|sin|\<psi\>|>\<mathd\>\<theta\><rsup|>>|<cell|e<rsup|2>=<around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<phi\>>>>>
       </eqnarray*>
 
       <item*|b>
 
       <\eqnarray*>
-        <tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<mathd\>e<rsup|a>+w<rsup|a><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|\<mu\>>e<rsup|a><rsub|\<nu\>>-\<partial\><rsub|\<nu\>>e<rsup|a><rsub|\<mu\>>+w<rsub|>>|<cell|>|<cell|>>>>
+        <tformat|<table|<row|<cell|\<mathd\>e<rsup|0>>|<cell|=>|<cell|0>>|<row|<cell|\<mathd\>e<rsup|1>>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><around|sin|\<psi\>|>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<theta\>=<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>|<row|<cell|\<mathd\>e<rsup|2>>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<phi\>=<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>-<around|sin|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|w<rsup|0><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|0>>>|<row|<cell|w<rsup|0><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|0><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|w<rsup|0><op|<rsub|1>>\<wedge\><around|sin|\<psi\>|>\<mathd\>\<theta\>+w<rsup|0><op|<rsub|2>>\<wedge\><around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>|<row|<cell|<around|sin|\<psi\>|>w<rsup|0><op|<rsub|1>>\<wedge\>\<mathd\>\<theta\>+<around|sin|\<psi\>|><around|cos|\<theta\>|>w<rsup|0><op|<rsub|2>>\<wedge\>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>|<row|<cell|w<rsup|0><op|<rsub|1>>\<wedge\>\<mathd\>\<theta\>+<around|cos|\<theta\>|>w<rsup|0><op|<rsub|2>>\<wedge\>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|1>>>|<row|<cell|w<rsup|1><op|<rsub|0>>\<wedge\>e<rsup|0>+w<rsup|1><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|-<around*|(|<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>|)>>>|<row|<cell|w<rsup|1><op|<rsub|0>>\<wedge\>\<mathd\>\<psi\>+w<rsup|1><op|<rsub|2>>\<wedge\><around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<phi\>>|<cell|=>|<cell|-<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|w<rsup|2><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|2>>>|<row|<cell|w<rsup|2><op|<rsub|0>>\<wedge\>e<rsup|0>+w<rsup|2><op|<rsub|1>>\<wedge\>e<rsup|1>>|<cell|=>|<cell|-<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|w<rsup|2><op|<rsub|0>>\<wedge\>\<mathd\>\<psi\>+<around|sin|\<psi\>|>w<rsup|2><op|<rsub|1>>\<wedge\>\<mathd\>\<theta\>>|<cell|=>|<cell|-<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>-<around|sin|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|w<rsup|0><op|<rsub|1>>>|<cell|=>|<cell|\<alpha\>\<mathd\>\<theta\>>>|<row|<cell|w<rsup|0><op|<rsub|2>>>|<cell|=>|<cell|\<beta\>\<mathd\>\<phi\>>>|<row|<cell|w<rsup|1><op|<rsub|0>>>|<cell|=>|<cell|<around|cos|\<psi\>|>\<mathd\>\<theta\>>>|<row|<cell|w<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|\<gamma\>\<mathd\>\<phi\>>>|<row|<cell|w<rsup|2><op|<rsub|0>>>|<cell|=>|<cell|<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<phi\>>>|<row|<cell|w<rsup|2><op|<rsub|1>>>|<cell|=>|<cell|<around|sin|\<theta\>|>\<mathd\>\<phi\>>>>>>>>>>>>|<cell|\<Rightarrow\>>|<cell|<choice|<tformat|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|w<rsup|0><op|<rsub|1>>>|<cell|=>|<cell|-<around|cos|\<psi\>|>\<mathd\>\<theta\>>>|<row|<cell|w<rsup|0><op|<rsub|2>>>|<cell|=>|<cell|-<around|cos|\<psi\><around|sin|\<theta\>\<mathd\>\<phi\>|>|>>>|<row|<cell|w<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|-<around|sin|\<theta\>\<mathd\>\<phi\>|>>>>>>>>>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|0>>>|<cell|=>|<cell|\<mathd\>w<rsup|0><op|<rsub|0>>+w<rsup|0><op|<rsub|b>>\<wedge\>w<rsup|b><op|<rsub|0>>=0>>|<row|<cell|R<rsup|0><op|<rsub|1>>>|<cell|=>|<cell|\<mathd\>w<rsup|0><op|<rsub|1>>+w<rsup|0><op|<rsub|b>>\<wedge\>w<rsup|b><op|<rsub|1>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>+w<rsup|0><op|<rsub|2>>\<wedge\>w<rsup|2><op|<rsub|1>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>-<around|cos|\<psi\>|><around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|0><op|<rsub|2>>>|<cell|=>|<cell|\<mathd\>w<rsup|0><op|<rsub|2>>+w<rsup|0><op|<rsub|b>>\<wedge\>w<rsup|b><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|\<nu\>><around*|(|<around|cos|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<phi\>+w<rsup|0><op|<rsub|1>>\<wedge\>w<rsup|1><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>-<around|cos|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+<around*|(|-<around|cos|\<psi\>|>\<mathd\>\<theta\>|)>\<wedge\><around*|(|-<around|cos|\<psi\><around|sin|\<theta\>|>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+<around*|(|<around|cos|<rsup|2>\<psi\>|><around|sin|\<theta\>|>-<around|cos|\<psi\>|><around|cos|\<theta\>|>|)>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|1><op|<rsub|1>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|2>>+w<rsup|1><op|<rsub|b>>\<wedge\>w<rsup|b><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|-\<mathd\><around|sin|\<theta\>|>\<wedge\>\<mathd\>\<phi\>+w<rsup|1><op|<rsub|0>>\<wedge\>w<rsup|0><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|-<around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+<around|cos|\<psi\>\<mathd\>\<theta\>|>\<wedge\><around*|(|-<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|<around|cos|\<theta\>+<around|cos|<rsup|2>\<psi\>|><around|sin|\<theta\>|>|>|)>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|2><op|<rsub|2>>>|<cell|=>|<cell|0>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|R<rsup|\<sigma\>><op|<rsub|\<rho\>>>>|<cell|=>|<cell|e<rsup|a>R<rsup|b><op|<rsub|a>>e<rsub|b>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|b>R<rsup|b><op|<rsub|a>>e<rsup|a>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<around|sin|\<psi\>|>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<around|sin|\<psi\>|><around|cos|\<theta\>|>>>>>><matrix|<tformat|<table|<row|<cell|>|<cell|R<rsup|0><op|<rsub|1>>>|<cell|R<rsup|0><op|<rsub|2>>>>|<row|<cell|-R<rsup|0><op|<rsub|1>>>|<cell|>|<cell|R<rsup|1><op|<rsub|2>>>>|<row|<cell|-R<rsup|0><op|<rsub|2>>>|<cell|-R<rsup|1><op|<rsub|2>>>|<cell|>>>>><matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|>|<cell|R<rsup|0><op|<rsub|1>>>|<cell|R<rsup|0><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|>R<rsup|0><op|<rsub|1>>>|<cell|>|<cell|<around|sin|\<psi\>|>R<rsup|1><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|><around|cos|\<theta\>|>R<rsup|0><op|<rsub|2>>>|<cell|-<around|sin|\<psi\>|><around|cos|\<theta\>|>R<rsup|1><op|<rsub|2>>>|<cell|>>>>><matrix|<tformat|<table|<row|<cell|1>|<cell|>|<cell|>>|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>R<rsup|0><op|<rsub|1>>>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>R<rsup|0><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|>R<rsup|0><op|<rsub|1>>>|<cell|>|<cell|<around|sin|\<psi\>|>\<times\><frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>R<rsup|1><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|><around|cos|\<theta\>|>R<rsup|0><op|<rsub|2>>>|<cell|-<around|sin|\<psi\>|><around|cos|\<theta\>|>\<times\><frac|1|<around|sin|\<psi\>|>>R<rsup|1><op|<rsub|2>>>|<cell|>>>>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|>|<cell|<frac|1|<around|sin|\<psi\>|>>R<rsup|0><op|<rsub|1>>>|<cell|<frac|1|<around|sin|\<psi\>|><around|sin|\<theta\>|>>R<rsup|0><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|>R<rsup|0><op|<rsub|1>>>|<cell|>|<cell|<frac|1|<around|sin|\<theta\>|>>R<rsup|1><op|<rsub|2>>>>|<row|<cell|-<around|sin|\<psi\>|><around|cos|\<theta\>|>R<rsup|0><op|<rsub|2>>>|<cell|-<around|cos|\<theta\>|>R<rsup|1><op|<rsub|2>>>|<cell|>>>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
       </eqnarray*>
 
       \;
