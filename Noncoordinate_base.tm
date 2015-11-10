@@ -293,66 +293,38 @@
   1.
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>+\<mathd\>y<rsup|2>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<frac|a<rsup|2>|y<rsup|2>>\<mathd\>x<rsup|2>+<frac|a<rsup|2>|y<rsup|2>>\<mathd\>y<rsup|2>>>>>
   </eqnarray*>
 
   <\description>
-    <item*|step 1>
+    <item*|P>
+
+    <math|<tabular|<tformat|<table|<row|<cell|e<rsup|1>>|<cell|=>|<cell|<frac|a|y>\<mathd\>x<rsup|1>>>|<row|<cell|e<rsup|2>>|<cell|=>|<cell|<frac|a|y>\<mathd\>x<rsup|2>>>>>>>
+    \ \ \ \ \ \ \ \ \ \ 
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>e<rsup|1>>|<cell|=>|<cell|\<mathd\><frac|a|y>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><frac|a|y>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|1>=-<frac|a|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|\<mathd\>e<rsup|2>>|<cell|=>|<cell|\<mathd\><frac|a|y>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><frac|a|y>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|2>=-<frac|a|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|1>>>|<row|<cell|w<rsup|1><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|-<frac|a|y<rsup|2>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|w<rsup|1><op|<rsub|2>>\<wedge\><frac|a|y>\<mathd\>x<rsup|2>>|<cell|=>|<cell|-<frac|a|y<rsup|2>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|w<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|-<frac|1|y>\<mathd\>x<rsup|1>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsup|a><op|<rsub|b>>>|<cell|=>|<cell|\<mathd\>w<rsup|a><op|<rsub|b>>+w<rsup|a><op|<rsub|c>\<wedge\>w<rsup|c>><op|<rsub|b>>>>|<row|<cell|R<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|\<mathd\><frac|1|y>\<wedge\>\<mathd\>x<rsup|1>+w<rsup|1><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|y<rsup|2>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R>|<cell|=>|<cell|e<rsub|\<mu\>><op|<rsup|a>>e<rsup|\<nu\>><op|<rsub|b>>R<rsup|b><op|<rsub|a>>>>|<row|<cell|>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|<frac|a|y>>|<cell|>>|<row|<cell|>|<cell|<frac|a|y>>>>>><matrix|<tformat|<table|<row|<cell|<frac|y|a>>|<cell|>>|<row|<cell|>|<cell|<frac|y|a>>>>>><matrix|<tformat|<table|<row|<cell|>|<cell|<frac|1|y<rsup|2>>>>|<row|<cell|-<frac|1|y<rsup|2>>>|<cell|>>>>>>>|<row|<cell|R<rsup|\<mu\>><op|<rsub|\<nu\>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|>|<cell|<frac|1|y<rsup|2>>>>|<row|<cell|-<frac|1|y<rsup|2>>>|<cell|>>>>>>>|<row|<cell|R<rsup|1><op|<rsub|212>>>|<cell|=>|<cell|-<frac|1|y<rsup|2>>=R<rsup|2><op|<rsub|121>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|11>R<rsub|11>+g<rsup|22>R<rsub|22>>>|<row|<cell|>|<cell|=>|<cell|-<frac|y<rsup|2>|a<rsup|2>>\<times\><frac|1|y<rsup|2>>-<frac|y<rsup|2>|a<rsup|2>>\<times\><frac|1|y<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|2|a<rsup|2>>>>>>
+    </eqnarray*>
   </description>
 
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|e<rsup|1>>|<cell|=>|<cell|<frac|1|y>\<mathd\>x<rsup|1>>>|<row|<cell|e<rsup|2>>|<cell|=>|<cell|\<mathd\>x<rsup|2>>>>>
-  </eqnarray*>
-
   <\description>
-    <item*|step 2>
-
-    1. set <math|e<rsup|a>=A<rsup|a><rsub|1>\<mathd\>x<rsup|1>+A<rsup|a><rsub|2>\<mathd\>x<rsup|2>>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|\<mathd\>e<rsup|a>>|<cell|=>|<cell|\<mathd\><around*|(|A<rsup|a><rsub|\<mu\>>\<mathd\>x<rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>A<rsup|a><rsub|\<mu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>=\<partial\><rsub|\<nu\>>A<rsup|a><rsub|\<mu\>>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|\<nu\>>A<rsup|a><rsub|\<mu\>>-\<partial\><rsub|\<mu\>>A<rsup|a><rsub|\<nu\>>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|\<mu\>><around*|[|\<nu\>\<less\>\<mu\>|]>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<partial\><rsub|1>A<rsup|a><rsub|2>-\<partial\><rsub|2>A<rsup|a><rsub|1>|)>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|\<mathd\>e<rsup|1>>|<cell|=>|<cell|-\<partial\><rsub|2><frac|1|y>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|1>\<wedge\>\<mathd\>x<rsup|2>>>|<row|<cell|\<mathd\>e<rsup|2>>|<cell|=>|<cell|0>>>>
-    </eqnarray*>
-
-    2
-
-    as
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|w<op|<rsup|c>><op|<rsub|a>>\<eta\><rsub|c
-      b>>|<cell|=>|<cell|-w<op|<rsup|c>><op|<op|<rsub|b>>>\<eta\><rsub|a
-      c>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|w<op|<rsup|c>><op|<rsub|1>>\<eta\><rsub|c
-      1>>|<cell|=>|<cell|-w<rsup|c><op|<rsub|1>>\<eta\><rsub|1c>>>|<row|<cell|2w<op|<rsup|c>><op|<rsub|1>>\<eta\><rsub|c
-      1>>|<cell|=>|<cell|0>>|<row|<cell|w<op|<rsup|1>><op|<rsub|1>>>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|w<rsup|c><op|<rsub|1>>\<eta\><rsub|c2>>|<cell|=>|<cell|-w<rsup|c><op|<rsub|2>>\<eta\><rsub|c1>>>|<row|<cell|w<rsup|2><op|<rsub|1>>>|<cell|=>|<cell|-w<op|<rsup|1>><op|<rsub|2>>>>>>
-    </eqnarray*>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|w<rsup|a><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|a>>>>>
-    </eqnarray*>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|1>>>|<row|<cell|w<rsup|1><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|1><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|<frac|1|y>w<rsup|1><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>+w<rsup|1><op|<rsub|2>>\<wedge\>\<mathd\>x<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|w<rsup|1><op|<rsub|2>>\<wedge\>\<mathd\>x<rsup|2>>|<cell|=>|<cell|<frac|1|y<rsup|2>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|w<rsup|1><op|<rsub|2>>=-<frac|1|y<rsup|2>>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|w<rsup|2><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|-\<mathd\>e<rsup|2>>>|<row|<cell|w<rsup|2><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|2><op|<rsub|2>>\<wedge\>e<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|1|y>w<rsup|2><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>+w<rsup|2><op|<rsub|2>>\<wedge\>\<mathd\>x<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|<frac|1|y>w<rsup|2><op|<rsub|1>>\<wedge\>\<mathd\>x<rsup|1>>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|w<rsup|1><op|<rsub|2>>=<frac|1|y<rsup|2>>\<mathd\>x<rsup|1>>>>>
-    </eqnarray*>
-
-    <item*|step 3>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|R<rsup|a><op|<rsub|b>>>>>>>>|<cell|=>|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>w<rsup|a><op|<rsub|b>>>>>>>+w<rsup|a><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|b>>>>|<row|<cell|R<rsup|1><op|<rsub|1>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|1>>+w<rsup|1><op|<rsub|2>\<wedge\>>w<rsup|2><op|<rsub|1>>=0>>|<row|<cell|R<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|2>>+w<rsup|1><op|<rsub|a>>\<wedge\>w<rsup|a><op|<rsub|2>>=\<mathd\><frac|1|y<rsup|2>>\<wedge\>\<mathd\>x<rsup|1>=\<partial\><rsub|\<nu\>><frac|1|y<rsup|2>>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|-<frac|2|y<rsup|3>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|R<rsup|2><op|<rsub|1>>>|<cell|=>|<cell|\<mathd\>w<rsup|2><op|<rsub|1>>+w<rsup|2><op|<rsub|a>>\<wedge\>w<rsup|a><op|<rsub|1>>=\<mathd\><around*|(|<frac|1|y<rsup|2>>|)>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<frac|2|y<rsup|3>>\<mathd\>x<rsup|2>\<wedge\>\<mathd\>x<rsup|1>>>|<row|<cell|R<rsup|2><op|<rsub|2>>>|<cell|=>|<cell|w<rsup|2><op|<rsub|1>>\<wedge\>w<rsup|1><op|<rsub|2>>=0>>>>
-    </eqnarray*>
-
-    <item*|step 4>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsup|1><op|<rsub|221>>>|<cell|=>|<cell|-<frac|2|y<rsup|3>>>>|<row|<cell|R<rsup|1><op|<rsub|22
-      1>>=e<rsub|\<nu\>><op|<rsup|2>>e<rsup|\<mu\>><op|<rsub|1>>R<rsup|1><op|<rsub|221>>>|<cell|=>|<cell|1\<times\>y\<times\><around*|(|-<frac|2|y<rsup|3>>|)>=-<frac|2|y<rsup|2>>>>|<row|<cell|R<rsup|2><op|<rsub|121>>=e<rsub|1><op|<rsup|1>>e<rsup|2><op|<rsub|2>>R<rsup|2><op|<rsub|121>>>|<cell|=>|<cell|y\<times\>1\<times\><frac|2|y<rsup|3>>=<frac|2|y<rsup|2>>>>>>
-    </eqnarray*>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsup|\<lambda\>><op|<rsub|1\<lambda\>1>>>|<cell|=>|<cell|R<rsup|1><op|<rsub|111>>+R<rsup|2><op|<rsub|121>>=<frac|2|y<rsup|2>>>>|<row|<cell|R<rsup|\<lambda\>><op|<rsub|2\<lambda\>2>>>|<cell|=>|<cell|R<rsup|1><op|<rsub|212>>+R<rsup|2><op|<rsub|222>>=<frac|2|y<rsup|2>>>>>>
-    </eqnarray*>
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|g<rsup|11>R<rsub|11>+g<rsup|22>R<rsub|22>>>|<row|<cell|>|<cell|=>|<cell|y<rsup|2>\<times\><frac|2|y<rsup|2>>+1\<times\><frac|2|y<rsup|2>>=2+<frac|2|y<rsup|2>>>>>>
-    </eqnarray*>
+    \;
   </description>
 
   2.
