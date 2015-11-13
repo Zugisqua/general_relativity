@@ -27,7 +27,7 @@
 
       <\itemize>
         <item><math|<around|ln(|det<around*|(|M|)>|)>=Tr<around*|(|<around|ln|M|>|)>>
-        </itemize>
+      </itemize>
 
       <\eqnarray*>
         <tformat|<table|<row|<cell|\<delta\><around|ln(|det<around*|(|M|)>|)>>|<cell|=>|<cell|<frac|\<delta\>det<around*|(|M|)>|det<around*|(|M|)>>>>|<row|<cell|\<delta\>det<around*|(|M|)>>|<cell|=>|<cell|det<around*|(|M|)>\<times\>\<delta\>Tr<around*|(|<around|ln|M|>|)>>>|<row|<cell|>|<cell|=>|<cell|det<around*|(|M|)>Tr<around*|(|\<delta\><around|ln|M|>|)>>>|<row|<cell|>|<cell|=>|<cell|det<around*|(|M|)>Tr<around*|(|M<rsup|-1>\<delta\>M|)>>>|<row|<cell|>|<cell|=>|<cell|det<around*|(|M|)><big|sum><rsub|a,b>M<rsup|-1><rsub|a
@@ -50,7 +50,14 @@
     therefore
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|-<frac|1|2>g<rsub|\<mu\>\<nu\>>R+R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|0>>>>
+      <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    and in general (from something haven't been clearly states right)
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>|<cell|=>|<cell|8\<pi\>G
+      T<rsub|\<mu\>\<nu\>>>>>>
     </eqnarray*>
 
     <\description>
@@ -100,11 +107,59 @@
         <tformat|<table|<row|<cell|>|<cell|>|<cell|g<rsup|\<mu\>\<nu\>>\<delta\>\<Gamma\><rsup|\<sigma\>><rsub|\<nu\>\<mu\>>-g<rsup|\<mu\>\<sigma\>>\<delta\>\<Gamma\><rsup|\<lambda\>><rsub|\<lambda\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>><around*|(|\<nabla\><rsub|\<nu\>><around*|(|\<delta\>g<rsub|\<mu\>\<rho\>>|)>+\<nabla\><rsub|\<mu\>><around*|(|\<delta\>g<rsub|\<nu\>\<rho\>>|)>-\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<nu\>\<mu\>>|)>|)>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|2>g<rsup|\<mu\>\<sigma\>>g<rsup|\<lambda\>\<rho\>><around*|(|\<nabla\><rsub|\<lambda\>><around*|(|\<delta\>g<rsub|\<mu\>\<rho\>>|)>+\<nabla\><rsub|\<mu\>><around*|(|\<delta\>g<rsub|\<lambda\>\<rho\>>|)>-\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<lambda\>\<mu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2>\<nabla\><rsub|\<nu\>><around*|(|\<delta\>g<rsup|\<nu\>\<sigma\>>|)>-<frac|1|2>\<nabla\><rsub|\<mu\>><around*|(|\<delta\>g<rsup|\<mu\>\<sigma\>>|)>-<frac|1|2>g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|>|<cell|+<frac|1|2>\<nabla\><rsub|\<lambda\>><around*|(|\<delta\>g<rsup|\<sigma\>\<lambda\>>|)>-<frac|1|2>g<rsup|\<mu\>\<sigma\>>g<rsup|\<lambda\>\<rho\>>\<nabla\><rsub|\<mu\>><around*|(|\<delta\>g<rsub|\<lambda\>\<rho\>>|)>-<frac|1|2>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsup|\<rho\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2><around*|(|g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<mu\>\<nu\>>|)>+g<rsup|\<mu\>\<sigma\>>g<rsup|\<lambda\>\<rho\>>\<nabla\><rsub|\<mu\>><around*|(|\<delta\>g<rsub|\<lambda\>\<rho\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|2><around*|(|g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<mu\>\<nu\>>|)>+g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<mu\>\<nu\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|\<delta\>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<nabla\><rsub|\<rho\>><around*|(|g<rsup|\<mu\>\<nu\>>g<rsup|\<sigma\>\<rho\>>\<delta\>g<rsub|\<mu\>\<nu\>>|)>>>>>
       </eqnarray*>
     </description>
-
-    \;
-
-    \;
   </description>
+
+  <paragraph|Modify of Einstein>
+
+  <\itemize>
+    <item>introduce the cosmological constant
+  </itemize>
+
+  Based on
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>|<cell|=>|<cell|8\<pi\>G
+    T<rsub|\<mu\>\<nu\>>>>>>
+  </eqnarray*>
+
+  The source <math|T<rsub|\<mu\>\<nu\>>> not only include material we have
+  usually state ,but also the vaccum energy part.therefore we have
+  <math|T<rsub|\<mu\>\<nu\>>=T<rsub|\<mu\>\<nu\>><rsup|<around*|(|M|)>>+T<rsup|<around*|(|vac|)>><rsub|\<mu\>\<nu\>>>
+  and [<with|font-series|bold|in perfect-fuild energy-mementum case>]
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|T<rsup|<around*|(|vac|)>><rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|-\<rho\><rsub|<around*|(|vac|)>>g<rsub|\<mu\>\<nu\>>>>>>
+  </eqnarray*>
+
+  the equation of Einstein
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R>|<cell|=>|<cell|8\<pi\>G<around*|(|T<rsub|\<mu\>\<nu\>><rsup|<around*|(|M|)>>+T<rsup|<around*|(|vac|)>><rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|8\<pi\>G<around*|(|T<rsub|\<mu\>\<nu\>><rsup|<around*|(|M|)>>-\<rho\><rsub|<around*|(|vac|)>>g<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R+8\<pi\>G\<rho\><rsub|<around*|(|vac|)>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G
+    T<rsup|<around*|(|M|)>><rsub|\<mu\>\<nu\>>>>|<row|<cell|R<rsub|\<mu\>\<nu\>>-<frac|1|2>g<rsub|\<mu\>\<nu\>>R+\<Lambda\>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G
+    T<rsup|<around*|(|M|)>><rsub|\<mu\>\<nu\>>>>>>
+  </eqnarray*>
+
+  <\description>
+    <item*|Definition>
+
+    Cosmological constant : <math|\<Lambda\>> here
+
+    Vacuum energy density : <math|\<rho\><rsub|<around*|(|vac|)>>> and\ 
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<rho\><rsub|<around*|(|vac|)>>>|<cell|=>|<cell|<frac|\<Lambda\>|8\<pi\>G>>>>>
+    </eqnarray*>
+  </description>
+
+  <paragraph|Constrain condition of <math|T<rsub|\<mu\>\<nu\>>>>
+
+  <\itemize>
+    <item>or Energy condition
+  </itemize>
+
+  PS. although default I haven't see something interesting orz.
+
+  \;
 
   \;
 </body>
@@ -118,8 +173,8 @@
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|3|?>>
-    <associate|auto-5|<tuple|3|?>>
-    <associate|auto-6|<tuple|2.2|?>>
+    <associate|auto-5|<tuple|4|?>>
+    <associate|auto-6|<tuple|5|?>>
   </collection>
 </references>
 
