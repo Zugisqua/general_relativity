@@ -175,6 +175,13 @@
     <rsup|2> ><around*|(|<frac|4|<around*|(|1-r<rsup|2>|)><rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|a<rsup|2>>>>>>
   </eqnarray*>
 
+  therefore when require <math|y\<gtr\>0> <math|\<Rightarrow\>>
+  <math|<tabular|<tformat|<table|<row|<cell|y>|<cell|=>|<cell|<frac|1-\<upsilon\><rsup|2>-u<rsup|2>|\<upsilon\><rsup|2>+<around*|(|u+1|)><rsup|2>>>>>>>\<gtr\>0>
+  \ then <math|><math|1-\<upsilon\><rsup|2>-u<rsup|2>\<gtr\>0>
+  <math|\<Leftrightarrow\>> <math|r<rsup|2>=u<rsup|2>+\<upsilon\><rsup|2>\<less\>1>
+
+  namely the range of <math|r> is <math|<around*|[|0,1|)>>
+
   13.
 
   killing equation upper indice version
