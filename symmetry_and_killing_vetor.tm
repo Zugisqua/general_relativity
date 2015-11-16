@@ -232,10 +232,13 @@
       <item*|>Ricci scaler
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|<frac|D
-        <around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R|)>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|D
-        <around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>><around*|(|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>|)>|)>|\<mathd\>\<tau\>>=<frac|D
-        <around*|(|K<rsup|\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>=g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>><around*|(|\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>|)>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>+g<rsup|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<tau\>>K<rsup|\<rho\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>><rsub|>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+        <tformat|<table|<row|<cell|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R>|<cell|=>|<cell|2K<rsup|\<rho\>>g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>R<rsub|\<rho\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>R<rsub|\<rho\>\<mu\>>|)>-2g<rsup|\<mu\>\<sigma\>>R<rsub|\<rho\>\<mu\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>><around*|(|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<rho\>>K<rsup|\<rho\>>|)>-2g<rsup|\<mu\>\<sigma\>>R<rsub|\<rho\>\<mu\>>\<nabla\><rsub|\<sigma\>><around*|(|g<rsup|\<rho\>\<nu\>>K<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<rho\>><around*|(|g<rsup|\<rho\>\<nu\>>K<rsub|\<nu\>>|)>-2R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<sigma\>>g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>><around*|(|g<rsup|\<nu\>\<rho\>>\<nabla\><rsub|\<nu\>>K<rsub|\<rho\>>+g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<rho\>>K<rsub|\<nu\>>|)>-R<rsub|\<rho\>\<mu\>><around*|(|g<rsup|\<mu\>\<sigma\>>g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>+g<rsup|\<mu\>\<nu\>>g<rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<nu\>>K<rsub|\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<sigma\>>g<rsup|\<nu\>\<rho\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>><around*|(|\<nabla\><rsub|\<nu\>>K<rsub|\<rho\>>+\<nabla\><rsub|\<rho\>>K<rsub|\<nu\>>|)>-<around*|(|g<rsup|\<nu\>\<rho\>>R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>+g<rsup|\<sigma\>\<rho\>>R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<nu\>>K<rsub|\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|0->>>>
+      </eqnarray*>
+
+      <paragraph|part-1.><math|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>=R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>K<rsup|\<nu\>>>>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|\<rho\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<mu\>>>|<cell|=>|<cell|<around*|[|\<nabla\><rsub|\<rho\>>,\<nabla\><rsub|\<sigma\>>|]>K<rsup|\<mu\>>+\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<rho\>>K<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|R<rsup|\<mu\>><op|<rsub|\<nu\>\<rho\>\<sigma\>>>K<rsup|\<nu\>>>>>>
       </eqnarray*>
     </description>
 
@@ -274,6 +277,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|1|?>>
   </collection>
 </references>
 
