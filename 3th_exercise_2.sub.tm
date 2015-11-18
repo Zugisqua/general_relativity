@@ -3,7 +3,7 @@
 <style|generic>
 
 <\body>
-  <section|3th-exercise-2>
+  <section|3rd-exercise-2>
 
   8.\ 
 
@@ -180,7 +180,7 @@
   \ then <math|><math|1-\<upsilon\><rsup|2>-u<rsup|2>\<gtr\>0>
   <math|\<Leftrightarrow\>> <math|r<rsup|2>=u<rsup|2>+\<upsilon\><rsup|2>\<less\>1>
 
-  namely the range of <math|r> is <math|<around*|[|0,1|)>>
+  namely the range of <math|r> is <math|<around*|(|0,1|)>>
 
   13.
 
