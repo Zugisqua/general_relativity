@@ -93,32 +93,95 @@
     <paragraph|Differomorphism as operators>
 
     <\description>
-      as the namely imply: the parameter just for describing the degree of
-      the differomophism.
-    </description>
+      <item*|Introduce>
 
-    <\description>
-      <item*|Definition>from any vector field
+      <\itemize>
+        <item>Parametrized Differomorphism
+
+        firstly,transform continuously usualy map a point into a family of
+        ponit constructing a curve in a manifold. [the curves from different
+        points never cross(here,need more detail) ] \ 
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|x<rprime|'><rsup|\<mu\>>|)><rsub|t>>>>>
+        </eqnarray*>
+
+        here the parameter of curve <math|x<rsup|\<mu\>>> is <math|t>
+        so-called <with|font-series|bold|integral curve>
+
+        <item>Generator : of Differomorphism
+
+        Of course,any transformation have its generator.But here are more
+        intuitive,as they are the tangent vector of the curve.\ 
+
+        for instant ,the generator of <math|x<rsup|\<mu\>>>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|V<rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>-x<rsup|\<mu\>>|t>>>>>
+        </eqnarray*>
+      </itemize>
     </description>
 
     <paragraph|Chage of diffeomorphism <emdash>-- Lie derivative>
 
     <\description>
-      <item*|Definition>
+      <item*|Definition>the conception introduce form generator of
+      Differomorphism
 
-      <item*|covariantiliza>
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|L<rsub|V>T<rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|a>T<rsup|\<mu\>>-T<rsup|\<mu\>>|a>>>>>
+      </eqnarray*>
 
-      {
+      Just the operation on not only the points in the manifold,but any
+      vectors or tensor.And they are a kind of derivative along integral
+      curve of <math|F<rsup|\<ast\>><rsub|a>>,its generator
+      <math|V<rsup|\<mu\>>>
 
-      representation as covariant derivative
+      the form for arbitary tensor
 
-      <item*|Deffeomorphism invariant>
+      <paragraph|Lie bracket rep.>
 
-      {
+      <\description>
+        <item*|Derive>
 
-      <paragraph|energy-momentum tensor>
+        <\eqnarray*>
+          <tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|L<rsub|V>T<rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|a>T<rsup|\<mu\>>-T<rsup|\<mu\>>|a>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0>>>|<row|<cell|<around*|{|do:|\<nobracket\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|[|V,T|]><rsup|\<mu\>>>>>>
+        </eqnarray*>
 
-      <paragraph|symmetric.>and Killing vectors
+        and more tensors
+
+        {do:
+
+        Covariant.
+      </description>
+
+      <paragraph|Deffeomorphism invariant>[more constrain]
+
+      <\description>
+        <item*|<paragraph|energy-momentum tensor>>
+
+        verify:<math|\<nabla\><rsub|\<mu\>>T<rsup|\<mu\>\<nu\>>=0>,and its
+        introduction
+
+        <item*|Killing vectors>
+
+        <\description>
+          <item*|symmetric>
+
+          define as :for a tensor <math|T>, if <math|F<rsup|\<ast\>>T=T>
+          \ [or <math|L<rsub|V>T=0>]
+        </description>
+
+        consider Deffeomorphism invariant
+        <math|F<rsup|\<ast\>><rsub|k>g<rsub|\<mu\>\<nu\>>=g<rsub|\<mu\>\<nu\>>>
+        ,then <math|L<rsub|K>g<rsub|\<mu\>\<nu\>>=0>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|L<rsub|K>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|\<nabla\><rsub|\<nu\>>K<rsup|\<mu\>>+\<nabla\><rsub|\<mu\>>K<rsup|\<nu\>>=0>>>>
+        </eqnarray*>
+
+        that's killing equation\ 
+      </description>
     </description>
   </description>
 
@@ -129,6 +192,13 @@
   <\description>
     <item*|Definition>embedded submanifold [& immersed submanifold
 
+    Embedded submanifold : manifold <math|N>'s dimension lower than manifold
+    <math|M>,and one-to-one map <math|\<phi\>: N\<rightarrow\>M> ,
+
+    <\description>
+      [In fact I don't know what they want to do.
+    </description>
+
     <item*|Another definition>
   </description>
 
@@ -137,12 +207,15 @@
   <\description>
     <item*|Integral submanifold>
 
-    {
+    a submanifold spaned by a set of vector field
+    {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>} ,if and only if
+    \ {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>} saticifies the
+    Frobenius's theorem
 
     <\itemize>
       <item>Frobenius's theorem
 
-      state:
+      simply {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>} is a lie algebra.
 
       <\itemize>
         <item>Differential forms
@@ -195,7 +268,8 @@
     <associate|auto-13|<tuple|12|?>>
     <associate|auto-14|<tuple|13|?>>
     <associate|auto-15|<tuple|14|?>>
-    <associate|auto-16|<tuple|1.9|?>>
+    <associate|auto-16|<tuple|15|?>>
+    <associate|auto-17|<tuple|16|?>>
     <associate|auto-18|<tuple|17|?>>
     <associate|auto-19|<tuple|18|?>>
     <associate|auto-2|<tuple|1|?>>
@@ -240,7 +314,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|Generators
+      <with|par-left|<quote|6fn>|Differomorphism as operators
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8><vspace|0.15fn>>
 
