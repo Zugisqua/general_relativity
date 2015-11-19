@@ -25,12 +25,40 @@
   \ <paragraph|Definitions.>
 
   <\description>
-    <item*|pullback>
+    <item*|pullback><math|F<rsup|\<ast\>>>
 
-    <item*|pushforward>
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|F<rsup|\<ast\>>T<rsub|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|n>>>|<cell|=>|<cell|<frac|\<partial\>y<rsup|\<alpha\><rsub|1>>|\<partial\>x<rsup|\<mu\><rsub|1>>>\<ldots\><frac|\<partial\>y<rsup|\<alpha\><rsub|n>>|\<partial\>x<rsup|\<mu\><rsub|n>>>T<rsub|\<alpha\><rsub|1>\<ldots\>\<alpha\><rsub|n>>>>>>
+    </eqnarray*>
+
+    <item*|pushforward><math|F<rsub|\<ast\>>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|F<rsub|\<ast\>>S<rsup|\<alpha\><rsub|1>\<ldots\>\<alpha\><rsub|k>>>|<cell|=>|<cell|<frac|\<partial\>y<rsup|\<alpha\><rsub|1>>|\<partial\>x<rsup|\<mu\><rsub|1>>>\<ldots\><frac|\<partial\>y<rsup|\<alpha\><rsub|k>>|\<partial\>x<rsup|\<mu\><rsub|k>>>S<rsup|\<mu\><rsub|1>\<ldots\>\<mu\><rsub|k>>>>>>
+    </eqnarray*>
+
+    {in abstract there are so much things to add.
   </description>
 
-  \ Example in matrix representaion
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|F<rsup|\<ast\>>w|)><around*|(|V|)>>|<cell|=>|<cell|w<around*|(|F<rsub|\<ast\>>V|)>>>>>
+  </eqnarray*>
+
+  \ Example in matrix representaion state
+
+  <\itemize>
+    <item><math|F<rsup|\<ast\>>\<mathd\>x<rsup|i>=<frac|\<partial\>x<rsup|i>|\<partial\>\<xi\><rsup|j>>\<mathd\>\<xi\><rsup|j>>
+
+    <item><math|F<rsub|\<ast\>>\<partial\><rsub|\<mu\>>=F<rsub|\<ast\>><frac|\<partial\>|\<partial\>\<xi\><rsub|\<mu\>>>=<frac|\<partial\>x<rsup|\<nu\>>|\<partial\>\<xi\><rsub|\<mu\>>><frac|\<partial\>|\<partial\>x<rsup|\<nu\>>>>
+
+    the relation of<math|<tabular|<tformat|<table|<row|<cell|<around*|(|F<rsup|\<ast\>>w|)><around*|(|V|)>>|<cell|=>|<cell|w<around*|(|F<rsub|\<ast\>>V|)>>>>>>>meaning
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|F<rsup|\<ast\>>\<mathd\>x<rsup|i>|)><frac|\<partial\>|\<partial\>x<rsup|i>>>|<cell|=>|<cell|>>>>
+    </eqnarray*>
+
+    {more:
+  </itemize>
 
   \ <paragraph|Special case.>which the two manifold are the same.
 
@@ -39,11 +67,39 @@
 
     Definition.
 
+    besides the map require before,there are need:
+
+    <\itemize>
+      <item>manifold M equel manifold N
+
+      <item>the inverse of <math|F<rsup|\<ast\>>> exist,and
+      <math|F<rsup|\<ast\>>=F<rsup|-1><rsub|\<ast\>>>
+
+      therefore now the supper and upper indice could be on one tensor.
+
+      {do:
+    </itemize>
+
     {In pullback and pushforward symbol\ 
 
     Talks about coordinate transformation <emdash> and act on itself
 
-    <paragraph|Generators>
+    <\itemize>
+      <item>diffeomorphism is like a kind of active transformation
+
+      <item>could see as operation (on tensors)
+    </itemize>
+
+    <paragraph|Differomorphism as operators>
+
+    <\description>
+      as the namely imply: the parameter just for describing the degree of
+      the differomophism.
+    </description>
+
+    <\description>
+      <item*|Definition>from any vector field
+    </description>
 
     <paragraph|Chage of diffeomorphism <emdash>-- Lie derivative>
 
@@ -139,6 +195,7 @@
     <associate|auto-13|<tuple|12|?>>
     <associate|auto-14|<tuple|13|?>>
     <associate|auto-15|<tuple|14|?>>
+    <associate|auto-16|<tuple|1.9|?>>
     <associate|auto-18|<tuple|17|?>>
     <associate|auto-19|<tuple|18|?>>
     <associate|auto-2|<tuple|1|?>>
