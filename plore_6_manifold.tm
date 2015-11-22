@@ -148,6 +148,10 @@
           <tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|L<rsub|V>T<rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|a>T<rsup|\<mu\>>-T<rsup|\<mu\>>|a>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0>>>|<row|<cell|<around*|{|do:|\<nobracket\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|[|V,T|]><rsup|\<mu\>>>>>>
         </eqnarray*>
 
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|<around*|[|V,T|]><rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<nu\>>-x<rsup|\<nu\>>|t>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>-x<rsup|\<mu\>>|t>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+        </eqnarray*>
+
         and more tensors
 
         {do:
@@ -215,17 +219,26 @@
     <\itemize>
       <item>Frobenius's theorem
 
-      simply {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>} is a lie algebra.
+      simply {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>} is a Lie algebra.
+    </itemize>
 
-      <\itemize>
-        <item>Differential forms
+    Personal understand:
 
-        <\itemize>
-          <item>annihilator:
+    <\description>
+      <item*|i>Differomophism ,which defined in manifold <math|M>, act on
+      <math|S\<subset\>><math|M>,and keep <math|F<rsup|\<ast\>>S=S>.
 
-          <item>surface-forming
-        </itemize>
-      </itemize>
+      <item*|ii>the Differomophism,saticefy (i),are part of all
+      Differomophism in<math| M>. and {<math|V<rsup|\<mu\>><rsub|<around*|(|a|)>>>}
+      could be the generator of these Differomophism.
+    </description>
+
+    Differential forms:orz
+
+    <\itemize>
+      <item>annihilator:
+
+      <item>surface-forming
     </itemize>
   </description>
 
@@ -234,8 +247,20 @@
   <\description>
     <item*|Hypersurface>
 
-    in a mess maybe as the auther said,beacause many conception are
-    constructed based on hypersurface.
+    it's simple as when function <math|f<around*|(|x|)>> of coordinate that
+    <math|f<around*|(|x|)>=constant> could form a hypersurface.
+
+    <subparagraph|normal vector:>a normal vector <math|n<rsup|\<mu\>>>
+    orthogonal to the hypersurface,
+
+    <\description>
+      <item*|>definition <math|\<xi\><rsup|\<mu\>>=g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<nu\>>f<around*|(|x|)>>
+    </description>
+
+    <subparagraph|generator:>they are the null geodesic of hypersurface.?
+    strange
+
+    \;
 
     <\description>
       <item*|normal vector>1-4
@@ -271,9 +296,9 @@
     <associate|auto-16|<tuple|15|?>>
     <associate|auto-17|<tuple|16|?>>
     <associate|auto-18|<tuple|17|?>>
-    <associate|auto-19|<tuple|18|?>>
+    <associate|auto-19|<tuple|17.1|?>>
     <associate|auto-2|<tuple|1|?>>
-    <associate|auto-20|<tuple|19|?>>
+    <associate|auto-20|<tuple|17.2|?>>
     <associate|auto-21|<tuple|20|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|3|?>>
@@ -323,29 +348,33 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|energy-momentum tensor
+      <with|par-left|<quote|6fn>|Lie bracket rep.
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|symmetric.
+      <with|par-left|<quote|6fn>|Deffeomorphism invariant
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|Submanifold.
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-12><vspace|0.15fn>>
-
-      <with|par-left|<quote|6fn>|Lower-demension submanifold
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-13><vspace|0.15fn>>
-
-      <with|par-left|<quote|6fn>| Higher-demesion submanifold
+      <with|par-left|<quote|6fn>|energy-momentum tensor
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>| Special case
+      <with|par-left|<quote|6fn>|Submanifold.
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|Lower-demension submanifold
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-16><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>| Higher-demesion submanifold
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-17><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>| Special case
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-18><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
