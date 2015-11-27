@@ -180,6 +180,57 @@
     Demand: the chracter of trace.
   </description>
 
+  <paragraph|iii. black hole>
+
+  Core: Disccus the properities <math|r\<less\>2G M>,by choosing diffrent
+  altas in the manifold.
+
+  <subparagraph|Definitions:>
+
+  <\itemize>
+    <item>event horizon :a limited surface where null particle never escape
+    out
+
+    <item>black hole :inside event horizon\ 
+  </itemize>
+
+  <subparagraph|Transformation>
+
+  <\description>
+    <item*|tortoise coordinte>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|r<rsup|\<ast\>>>|<cell|=>|<cell|r+2G
+      M<around|ln(|<frac|r|2G M>-1|)>>>>>
+    </eqnarray*>
+
+    {do:
+
+    <item*|Eddington-Finkelstein coordinate>based on last coordinate
+
+    see the process go though the event horizon.
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<upsilon\>>|<cell|=>|<cell|t+r<rsup|\<ast\>>>>>>
+    </eqnarray*>
+
+    {do:
+
+    <item*|Kruskal coordinate>
+
+    see the wormholes.
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|T>|<cell|=>|<cell|<around*|(|<frac|r|2G
+      M>-1|)><rsup|<frac|1|2>>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G
+      M>|)>>>|<row|<cell|R>|<cell|=>|<cell|<around*|(|<frac|r|2G
+      M>-1|)><rsup|<frac|1|2>>e<rsup|<frac|r|4G M>>cosh<around*|(|<frac|t|4G
+      M>|)>>>>>
+    </eqnarray*>
+
+    {do:
+  </description>
+
   \;
 </body>
 
@@ -193,6 +244,9 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-10|<tuple|7|?>>
+    <associate|auto-11|<tuple|7.1|?>>
+    <associate|auto-12|<tuple|7.2|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|1|?>>
     <associate|auto-4|<tuple|2|?>>
@@ -226,12 +280,19 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|conservation of three.
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|6fn>|i. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6><vspace|0.15fn>>
 
-      The geodesic. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7><vspace|0.15fn>
+      <with|par-left|<quote|6fn>|conservation of three.
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.15fn>>
+
+      ii. the equations <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8><vspace|0.15fn>
+
+      <with|par-left|<quote|6fn>| \ \ concrete case.
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
