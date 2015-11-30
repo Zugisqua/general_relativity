@@ -41,6 +41,43 @@
     <\description>
       <item*|symmetry>
 
+      consider directly <math|R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>
+
+      <\description>
+        <item*|i>if <math|<tabular|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|R<rsub|\<sigma\>\<rho\>\<mu\>\<nu\>>>>>>>>
+        <math|\<Rightarrow\>> <math|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>g<rsub|\<omega\>\<mu\>>=
+        R<rsup|\<omega\>><op|<rsub|\<rho\>\<mu\>\<nu\>>>g<rsub|\<omega\>\<sigma\>>>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>=R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<sigma\>\<rho\>\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<sigma\>\<mu\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<sigma\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>>>
+        </eqnarray*>
+
+        <item*|ii>from <math|<stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|<choice|<tformat|<table|<row|<cell|-R<rsub|\<nu\>\<mu\>\<sigma\>\<rho\>>>>|<row|<cell|-R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>>>>>>>>>>\ 
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<nu\>\<mu\>\<sigma\>\<rho\>>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<nu\>\<rho\>\<mu\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<sigma\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>>>
+        </eqnarray*>
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<nu\>\<rho\>\<sigma\>>>>>>>
+        </eqnarray*>
+
+        <item*|iii>form<math|<stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<sigma\>\<rho\>\<nu\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>>>>>>>
+        it's simplely\ 
+
+        <\equation*>
+          <stack|<tformat|<table|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\>\<rho\>\<nu\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>>>>>>
+        </equation*>
+
+        <item*|conclude>
+
+        it seems\ 
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|R<rsup|w><op|<rsub|<around*|[|\<sigma\>\<mu\>\<nu\>|]>>>=R<rsup|\<omega\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>|<cell|\<Longleftrightarrow\>>|<cell|<around*|(|below|)>>>>>
+        </eqnarray*>
+      </description>
+
       Consider form <math|R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>> [pick up from
       Weinberg(1972)]
 
