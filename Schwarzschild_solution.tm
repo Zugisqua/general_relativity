@@ -85,7 +85,7 @@
       1. Energy
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|K<rsub|t><frac|\<partial\>t|\<partial\>\<lambda\>>>|<cell|=>|<cell|constant>>>>
+        <tformat|<table|<row|<cell|K<rsub|t><frac|\<mathd\>t|\<mathd\>\<lambda\>>>|<cell|=>|<cell|constant>>>>
       </eqnarray*>
 
       where <math|K<rsub|\<mu\>>=g<rsub|\<mu\>\<mu\>>K<rsup|\<mu\>>=-<around*|(|1-<frac|2G
@@ -94,7 +94,7 @@
       therefore:
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|E>|<cell|=>|<cell|-U<rsub|\<mu\>><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>=-K<rsub|t><frac|\<partial\>t|\<partial\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+        <tformat|<table|<row|<cell|E>|<cell|=>|<cell|-U<rsub|\<mu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>=-K<rsub|t><frac|\<mathd\>t|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
         M|r>|)><frac|\<mathd\>t|\<mathd\>\<lambda\>>>>>>
       </eqnarray*>
 
@@ -106,7 +106,7 @@
       </eqnarray*>
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|L>|<cell|=>|<cell|<around*|(|0,0,0,r<rsup|2><around|sin|<rsup|2>\<theta\>|>|)><frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|r<rsup|2><around|sin|<rsup|2>\<theta\>|><frac|\<partial\>\<phi\>|\<partial\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|r<rsup|2><frac|\<partial\>\<phi\>|\<partial\>\<lambda\>>>>>>
+        <tformat|<table|<row|<cell|L>|<cell|=>|<cell|<around*|(|0,0,0,r<rsup|2><around|sin|<rsup|2>\<theta\>|>|)><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|r<rsup|2><around|sin|<rsup|2>\<theta\>|><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|r<rsup|2><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>>>>>
       </eqnarray*>
 
       for the symmetric rotation ,it's ok <math|\<theta\>=<frac|\<pi\>|2>>.
@@ -123,7 +123,83 @@
     M|r>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+\<epsilon\>|)>>|<cell|=>|<cell|E<rsup|2>>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
 
-  and <math|r\<geqslant\>2G M>
+  verify geodesic
+
+  First
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<lambda\>>|)>>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>+<frac|\<mathd\>|\<mathd\>r><around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>t|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>+<frac|2G
+    M|r<rsup|2>><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>r|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>+<frac|<frac|2G
+    M|r<rsup|2>>|1-<frac|2G M|r>><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>r|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\>>+<frac|2G
+    M|r<around*|(|r-2G M|)>><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>r|\<mathd\>\<lambda\>>=0>>>>
+  </eqnarray*>
+
+  Second
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|r<rsup|2><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)>>|<cell|=>|<cell|r<rsup|2><frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<lambda\>>+2r<frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<lambda\>>+<frac|2|r><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>=0>>>>
+  </eqnarray*>
+
+  Third
+
+  \;
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+\<epsilon\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>-<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<frac|g<rsub|0>|r<rsup|2>>L<rsup|2>+g<rsub|0>\<epsilon\>|)>>>|<row|<cell|>|<cell|=>|<cell|2<frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>-L<rsup|2><frac|\<mathd\>|\<mathd\>r><around*|(|<frac|g<rsub|0>|r<rsup|2>>|)><frac|\<mathd\>r|\<mathd\>\<lambda\>>-\<epsilon\><frac|\<mathd\>g<rsub|0>|\<mathd\>r><frac|\<mathd\>r|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>-<frac|1|2>L<rsup|2><around*|(|<frac|1|r<rsup|2>>\<partial\><rsub|r>g<rsub|0>-<frac|2g<rsub|0>|r<rsup|3>>|)>-<frac|1|2>\<partial\><rsub|r>g<rsub|0>\<epsilon\>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>-<frac|1|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2><around*|(|r<rsup|2>\<partial\><rsub|r>g<rsub|0>-2r
+    g<rsub|0>|)>-\<partial\><rsub|r>g<rsub|0>\<epsilon\>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>-<frac|1|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2><around*|(|r<rsup|2>\<partial\><rsub|r>g<rsub|0>-2r
+    g<rsub|0>|)>+<frac|1|2>\<partial\><rsub|r>g<rsub|0><around*|(|g<rsub|0><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|1><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|4><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>+<around*|(|-<frac|1|2>r<rsup|2>\<partial\><rsub|r>g<rsub|0>+<frac|1|2>g<rsub|4>\<partial\><rsub|r>g<rsub|0>+r
+    g<rsub|0>|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|1|2>g<rsub|0>\<partial\>g<rsub|0><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|1|2>g<rsub|1>\<partial\><rsub|r>g<rsub|0><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>+r
+    g<rsub|0><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|1|2>g<rsub|0>\<partial\><rsub|r>g<rsub|0><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|1|2>g<rsub|1>\<partial\><rsub|r>g<rsub|0><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>+<around*|(|2G
+    M-r|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|G
+    M|r<rsup|3>><around*|(|r-2G M|)><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|G
+    M|r<around*|(|r-2G M|)>><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>=0>>>>
+  </eqnarray*>
+
+  \ \ \ part.
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|r g<rsub|0>>|<cell|=>|<cell|-r<around*|(|1-<frac|2G
+    M|r>|)>>>|<row|<cell|>|<cell|=>|<cell|-r+2G
+    M>>|<row|<cell|g<rsub|0>\<partial\><rsub|r>g<rsub|0>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>|)>\<times\><around*|(|-<frac|2G M|r<rsup|2>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|2G
+    M|r<rsup|3>><around*|(|r-2G M|)>>>>>
+  </eqnarray*>
+
+  version <math|2<rsup|o>>\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|>|<cell|>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+\<epsilon\>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>-g<rsub|t
+    t><around*|(|r<rsup|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>-g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>-g<rsub|t
+    t><around*|\<nobracket\>|r<rsup|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|t
+    t>g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<lambda\>>|)>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>-g<rsub|t
+    t>r<rsup|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|t
+    t><rsup|2><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|t
+    t>g<rsub|r r><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+g<rsub|t
+    t>g<rsub|\<phi\>\<phi\>><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>|\<mathd\>\<lambda\>><around*|(|g<rsup|2><rsub|t
+    t><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>2g<rsub|t
+    t><frac|\<mathd\>g<rsub|t t>|\<mathd\>\<lambda\>>+g<rsup|2><rsub|t
+    t>\<times\>2\<times\><frac|\<mathd\>t|\<mathd\>\<lambda\>><frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>+<frac|1|g<rsub|t
+    t>><around*|(|-<frac|2G M|r<rsup|2>>|)><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>t|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\><rsup|2>>+<frac|2G
+    M|r<around*|(|r-2G M|)>><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>t|\<mathd\>\<lambda\>>=0>>|<row|<cell|>|<cell|>|<cell|it<rprime|'>s
+    very strange to get this.>>>>
+  </eqnarray*>
+
+  now our equations change into normal geodesic equation when
+  <math|\<theta\>=<frac|\<pi\>|2>>.
+
+  <\equation*>
+    <choice|<tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<frac|\<mathd\><rsup|2>t|\<mathd\>\<lambda\>>+<frac|2G
+    M|r<around*|(|r-2G M|)>><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>r|\<mathd\>\<lambda\>>=0>>|<row|<cell|<frac|\<mathd\><rsup|2>r|\<mathd\>\<lambda\><rsup|2>>+<around*|(|2G
+    M-r|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|G
+    M|r<rsup|3>><around*|(|r-2G M|)><around*|(|<frac|\<mathd\>t|\<mathd\>\<lambda\>>|)><rsup|2>+<frac|G
+    M|r<around*|(|r-2G M|)>><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>=0>>|<row|<cell|<frac|\<mathd\><rsup|2>\<phi\>|\<mathd\>\<lambda\>>+<frac|2|r><frac|\<mathd\>r|\<mathd\>\<lambda\>><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>=0>>>>>
+  </equation*>
 
   <paragraph| \ \ concrete case.>
 
@@ -135,16 +211,43 @@
     <\itemize>
       <item><math|\<epsilon\>=0>
 
-      <item><math|\<varepsilon\>=<frac|1|2>E<rsup|2>\<geqslant\>V<around*|(|r|)><rsub|max>>
+      <item><math|\<varepsilon\>=<frac|1|2>E<rsup|2>\<less\>V<around*|(|r|)><rsub|max>>
+      , which require the particle will not come into black hole
+
+      and need {more: understand
 
       need construct quality :<math|V<around*|(|r|)>=<frac|1|2><around*|(|1-<frac|2G
       M|r>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+\<epsilon\>|)>>,and define
       the limited value <math|b>
+
+      namely,
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|E<rsup|2>>|<cell|\<less\>>|<cell|<around*|(|1-<frac|2G
+        M|r>|)><frac|L<rsup|2>|r<rsup|2>>>>|<row|<cell|E<rsup|2>-<around*|(|1-<frac|2G
+        M|r>|)><frac|L<rsup|2>|r<rsup|2>>>|<cell|\<less\>>|<cell|0>>>>
+      </eqnarray*>
+
+      <item>the light outside of the blackhole ,namely <math|r\<geqslant\>2G
+      M>
     </itemize>
 
     Demand: <math|\<Delta\>\<phi\>> of a process
 
-    {do:
+    Equation :<math|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|r<rsup|2><frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|L>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><frac|L<rsup|2>|r<rsup|2>>>|<cell|=>|<cell|E<rsup|2>>>>>>\<Rightarrow\><around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>+r<around*|(|r-2G
+    M|)><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>=E<rsup|2>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|<frac|L<rsup|2>|r<rsup|4>>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<lambda\>>|)><rsup|2>>|<cell|=>|<cell|E<rsup|2>-<around*|(|1-<frac|2G
+      M|r>|)><frac|L<rsup|2>|r<rsup|2>>>>>>>>|<cell|\<Rightarrow\>>|<cell|<around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>r>|)><rsup|2>=<frac|<frac|L<rsup|2>|r<rsup|4>>|E<rsup|2>-<around*|(|1-<frac|2G
+      M|r>|)><frac|L<rsup|2>|r<rsup|2>>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|\<mathd\>\<phi\>|\<mathd\>r>>|<cell|=>|<cell|-<frac|1|r<rsup|2><sqrt|<around*|(|1-<frac|2G
+      M|r>|)><frac|1|r<rsup|2>>-<frac|E<rsup|2>|L<rsup|2>>>>>>>>
+    </eqnarray*>
 
     <item*|2>gravitational redshift .
 
@@ -158,7 +261,21 @@
       <item>obeservor space static in the coordinate center. not
       <math|U<rsup|\<mu\>>=<around*|(|1,0,0,0 |)>> but
       <math|<around*|(|<around*|(|1-<frac|2G
-      M|r>|)><rsup|-<frac|1|2>>,0,0,0|)>>I can't understand.\ 
+      M|r>|)><rsup|-<frac|1|2>>,0,0,0|)>>, that's a solution of geodesic
+      <math|x<rsup|\<mu\>><around*|(|\<lambda\>|)>>,where
+      <math|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>=U<rsup|\<mu\>>>,
+
+      Equation :<math|<tabular|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+      M|r>|)><frac|\<mathd\>t|\<mathd\>\<lambda\>>>|<cell|=>|<cell|E>>>>>>
+
+      and could easily verify by (for <math|g<rsub|\<mu\>\<nu\>>U<rsup|\<mu\>>U<rsup|\<nu\>>=-1>)
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|<frac|\<mathd\>U<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>>U<rsup|\<sigma\>>U<rsup|\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|\<mu\>><rsub|t
+        t><around*|(|U<rsup|t>|)><rsup|2>=0?>>>>
+      </eqnarray*>
+
+      {should more:
 
       And should notice here <math|\<hbar\>=c=1>
     </itemize>
@@ -166,7 +283,13 @@
     Demand: relativity <math|\<Delta\>w> of photon
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|E<rsub|photon>>|<cell|=>|<cell|-p<rsup|\<mu\>>U<rsub|\<mu\>>>>|<row|<cell|w>|<cell|=>|<cell|-<frac|\<partial\>x<rsup|\<mu\>>|\<partial\>\<lambda\>>g<rsub|\<mu\>\<nu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|->>>>
+      <tformat|<table|<row|<cell|E<rsub|photon>>|<cell|=>|<cell|-p<rsup|\<mu\>>U<rsub|\<mu\>>>>|<row|<cell|w>|<cell|=>|<cell|-<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>g<rsub|\<mu\>\<nu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|\<mathd\>t|\<mathd\>\<lambda\>><around*|(|-<around*|(|1-<frac|2G
+      M|r>|)><rsup|>|)>\<times\><around*|(|1-<frac|2G
+      M|r>|)><rsup|-<frac|1|2>>>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-<frac|2G
+      M|r>><frac|\<mathd\>t|\<mathd\>\<lambda\>>>>|<row|<cell|>|<cell|=>|<cell|-<sqrt|1-<frac|2G
+      M|r>> \<times\>E\<times\><around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+      M|r>|)><rsup|-<frac|1|2>>E>>>>
     </eqnarray*>
 
     <item*|3>precession of perihelia
@@ -196,6 +319,12 @@
 
   <subparagraph|Transformation>
 
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>|)>\<mathd\>t<rsup|2> +<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>\<mathd\>r<rsup|2>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>>>
+  </eqnarray*>
+
   <\description>
     <item*|tortoise coordinte>
 
@@ -204,17 +333,46 @@
       M<around|ln(|<frac|r|2G M>-1|)>>>>>
     </eqnarray*>
 
-    {do:
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>r<rsup|\<ast\>>>|<cell|=>|<cell|\<mathd\>r+<frac|2G
+      M |<frac|r|2G M>-1>\<times\><frac|1|2G
+      M>\<mathd\>r>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+<frac|2G M|r-2G
+      M>|)>\<mathd\>r>>|<row|<cell|>|<cell|=>|<cell|<frac|r|r-2G
+      M>\<mathd\>r>>|<row|<cell|\<mathd\>r>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)>\<mathd\>r<rsup|\<ast\>>>>>>
+    </eqnarray*>
+
+    therefore
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+      M|r>|)>\<mathd\>t<rsup|2> +<around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>\<mathd\>r<rsup|2>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+      M|r>|)>\<mathd\>t<rsup|2> +<around*|(|1-<frac|2G
+      M|r>|)>\<mathd\>r<rsup|\<ast\>><rsup|2>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)><around*|(|-\<mathd\>t<rsup|2>+\<mathd\>r<rsup|\<ast\>2>|)>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>>>
+    </eqnarray*>
 
     <item*|Eddington-Finkelstein coordinate>based on last coordinate
 
     see the process go though the event horizon.
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|\<upsilon\>>|<cell|=>|<cell|t+r<rsup|\<ast\>>>>>>
+      <tformat|<table|<row|<cell|\<upsilon\>>|<cell|=>|<cell|t+r<rsup|\<ast\>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|r<rsup|\<ast\>>=\<upsilon\>-t>>>>
     </eqnarray*>
 
-    {do:
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>r<rsup|\<ast\>2>>|<cell|=>|<cell|<around*|(|\<mathd\>\<upsilon\>-\<mathd\>t|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|\<mathd\>t<rsup|2>+\<mathd\>\<upsilon\><rsup|2>-2\<mathd\>\<upsilon\>\<mathd\>t>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)><around*|(|-\<mathd\>t<rsup|2>+\<mathd\>r<rsup|\<ast\>2>|)>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)><around*|(|-\<mathd\>t<rsup|2>+\<mathd\>t<rsup|2>+\<mathd\>\<upsilon\><rsup|2>-2\<mathd\>\<upsilon\>\<mathd\>t|)>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)><around*|(|\<mathd\>\<upsilon\><rsup|2>-2\<mathd\>\<upsilon\>\<mathd\>t|)>+r<rsup|2><around*|(|\<mathd\>\<theta\><rsup|2>+<around|sin|<rsup|2>\<theta\>|>\<mathd\>\<phi\>|)>>>>>
+    </eqnarray*>
+
+    \;
 
     <item*|Kruskal coordinate>
 
@@ -228,7 +386,36 @@
       M>|)>>>>>
     </eqnarray*>
 
-    {do:
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>T>|<cell|=>|<cell|<around*|(|<frac|<frac|1|2G
+      M>|2<sqrt|<frac|r|2G M>-1>>+<frac|1|4G M><sqrt|<frac|r|2G
+      M>-1>|)>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>r>>|<row|<cell|>|<cell|>|<cell|+<around*|(|<frac|r|2G
+      M>-1|)><rsup|<frac|1|2>>e<rsup|<frac|r|4G
+      M>><frac|cosh<around*|(|<frac|t|4G M>|)>|4G
+      M>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4G
+      M><around*|(|<frac|1+<frac|r|2G M>-1|<sqrt|<frac|r|2G
+      M>-1>>|)>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>r+<frac|1|4G M><sqrt|<frac|r|2G M>-1>e<rsup|<frac|r|4G
+      M>>cosh<around*|(|<frac|t|4G M>|)>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8G<rsup|2>
+      M<rsup|2>><around*|(|<frac|r|<sqrt|<frac|r|2G
+      M>-1>>|)>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>r>>|<row|<cell|>|<cell|>|<cell|+<frac|1|4G
+      M><sqrt|<frac|r|2G M>-1>e<rsup|<frac|r|4G M>>cosh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>t>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>R>|<cell|=>|<cell|<around*|(|<frac|<frac|r|2
+      G M>|2<sqrt|<frac|r|2G M>-1>>+<frac|1|4 G M><sqrt|<frac|r|2G
+      M>-1>|)>e<rsup|<frac|r|4G M>>cosh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>r>>|<row|<cell|>|<cell|>|<cell|+<sqrt|<frac|r|2G
+      M>-1>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>t>>|<row|<cell|>|<cell|=>|<cell|<frac|1|8<rsup|2>G<rsup|2>M<rsup|2>><around*|(|<frac|r|<sqrt|<frac|r|2G
+      M>-1>>|)>e<rsup|<frac|r|4G M>>cosh<around*|(|<frac|t|4G
+      M>|)>\<mathd\>r>>|<row|<cell|>|<cell|>|<cell|+<sqrt|<frac|r|2G
+      M>-1>e<rsup|<frac|r|4G M>>sinh<around*|(|<frac|t|4G M>|)>\<mathd\>t>>>>
+    </eqnarray*>
   </description>
 
   \;
@@ -247,6 +434,7 @@
     <associate|auto-10|<tuple|7|?>>
     <associate|auto-11|<tuple|7.1|?>>
     <associate|auto-12|<tuple|7.2|?>>
+    <associate|auto-13|<tuple|8.2|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|1|?>>
     <associate|auto-4|<tuple|2|?>>
@@ -293,6 +481,16 @@
       <with|par-left|<quote|6fn>| \ \ concrete case.
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|iii. black hole
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-10><vspace|0.15fn>>
+
+      Definitions: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11><vspace|0.15fn>
+
+      Transformation <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-12><vspace|0.15fn>
     </associate>
   </collection>
 </auxiliary>
