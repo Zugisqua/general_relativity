@@ -33,21 +33,30 @@
     </eqnarray*>
 
     verify it's comes from <math|R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
-    g<rsub|\<mu\>\<nu\>>=0>
+    g<rsub|\<mu\>\<nu\>>=8\<pi\>G T<rsub|\<mu\>\<nu\>>> where
+    <math|T<rsub|\<mu\>\<nu\>>=0>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsub|\<sigma\>\<rho\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>R<rsub|\<sigma\>\<rho\>>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsub|\<sigma\>\<rho\>><around*|(|\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>|<cell|=>|<cell|0>>>>
+      <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
+      g<rsup|\<mu\>\<nu\>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G g
+      <rsup|\<mu\>\<nu\>>T<rsub|\<mu\>\<nu\>>>>|<row|<cell|R-2R>|<cell|=>|<cell|8\<pi\>G
+      T>>|<row|<cell|-R>|<cell|=>|<cell|8\<pi\> G T>>>>
     </eqnarray*>
 
-    if <math|\<sigma\>=\<mu\>> then <math|R<rsub|\<sigma\>\<rho\>><around*|(|\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>|)>=R<rsub|\<mu\>\<rho\>><around*|(|\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>\<delta\><rsup|\<rho\>><rsub|\<nu\>>|)>=<frac|1|2>R<rsub|\<mu\>\<nu\>>=0
-    for any \<mu\>,\<nu\>>
+    and should alert that <math|g<rsup|\<mu\>\<nu\>>g<rsub|\<mu\>\<nu\>>=4>
+    not 1 !
 
-    if <math|\<sigma\>\<neq\>\<mu\>> then
-    <math|-<frac|1|2>R<rsub|\<sigma\>\<rho\>>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>=-<frac|1|2>R
-    g<rsub|\<mu\>\<nu\>>=0>
+    therefore
 
-    therefore the result : is <math|R<rsub|\<mu\>\<nu\>>=0> and <math|R=0>
-    ,namely <math|R<rsub|\<mu\>\<nu\>>=0>
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>+<frac|1|2>\<times\>8G T
+      g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G
+      T<rsub|\<mu\>\<nu\>>>>|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G<around*|(|T<rsub|\<mu\>\<nu\>>-<frac|1|2>T
+      g<rsub|\<mu\>\<nu\>>|)>>>>>
+    </eqnarray*>
+
+    and here <math|T<rsub|\<mu\>\<nu\>>=0> <math|\<Rightarrow\>>
+    <math|R<rsub|\<mu\>\<nu\>>=0>\ 
 
     <paragraph|caculation>
 
