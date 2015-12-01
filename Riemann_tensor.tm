@@ -49,24 +49,28 @@
         R<rsup|\<omega\>><op|<rsub|\<rho\>\<mu\>\<nu\>>>g<rsub|\<omega\>\<sigma\>>>
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>=R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<sigma\>\<rho\>\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<sigma\>\<mu\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<sigma\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>>>
+          <tformat|<cwith|6|6|1|1|cell-halign|r>|<table|<row|<cell|g<rsup|\<omega\>\<mu\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|g<rsup|\<omega\>\<mu\>>R<rsub|\<sigma\>\<rho\>\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<omega\>\<mu\>><around*|(|-R<rsub|\<sigma\>\<mu\>\<nu\>\<rho\>>-R<rsub|\<sigma\>\<nu\>\<rho\>\<mu\>>|)>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>|<cell|=>|<cell|-g<rsup|\<omega\>\<mu\>>R<rsub|\<sigma\>\<nu\>\<rho\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<omega\>\<mu\>>R<rsub|\<sigma\>\<nu\>\<mu\>\<rho\>>=g<rsup|\<omega\>\<mu\>>R<rsub|\<mu\>\<rho\>\<sigma\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<rho\>\<sigma\>\<nu\>>>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>+R<rsup|\<omega\>><op|<rsub|\<sigma\>\<rho\>\<nu\>>>>+R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>>|<cell|=>|<cell|0>>>>
         </eqnarray*>
 
         <item*|ii>from <math|<stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|<choice|<tformat|<table|<row|<cell|-R<rsub|\<nu\>\<mu\>\<sigma\>\<rho\>>>>|<row|<cell|-R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>>>>>>>>>>\ 
 
-        <\eqnarray*>
-          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<nu\>\<mu\>\<sigma\>\<rho\>>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<nu\>\<rho\>\<mu\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<sigma\>\<nu\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>>>
-        </eqnarray*>
+        1.
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<mu\>\<omega\>>R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<nu\>\<rho\>\<sigma\>>>>>>>
+          <tformat|<table|<row|<cell|g<rsup|\<omega\>\<mu\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<omega\>\<mu\>>R<rsub|\<mu\>\<nu\>\<rho\>\<sigma\>>>>|<row|<cell|R<rsup|w><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<nu\>\<rho\>\<sigma\>>>>>>>
         </eqnarray*>
 
-        <item*|iii>form<math|<stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<sigma\>\<rho\>\<nu\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>>>>>>>
+        2.
+
+        <\eqnarray*>
+          <tformat|<table|<row|<cell|g<rsup|\<omega\>\<mu\>>R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|-g<rsup|\<omega\>\<mu\>>R<rsub|\<nu\>\<mu\>\<sigma\>\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<omega\>\<mu\>><around*|(|-R<rsub|\<nu\>\<sigma\>\<rho\>\<mu\>>-R<rsub|\<nu\>\<rho\>\<mu\>\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-g<rsup|\<omega\>\<mu\>><around*|(|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>-R<rsub|\<mu\>\<sigma\>\<nu\>\<rho\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>+R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>+R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>|<row|<cell|-R<rsup|\<omega\>><op|<rsub|\<sigma\>\<rho\>\<nu\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\>\<nu\>\<rho\>>>>>>>
+        </eqnarray*>
+
+        <item*|iii>form <math|<stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|+>|<cell|R<rsub|\<mu\>\<sigma\>\<rho\>\<nu\>>>|<cell|+>|<cell|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>>|<cell|=>|<cell|0>>>>>>
         it's simplely\ 
 
         <\equation*>
-          <stack|<tformat|<table|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\>\<rho\>\<nu\>>>>|<cell|=>|<cell|R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>>>>>>
+          <stack|<tformat|<table|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<nu\>\<sigma\>\<rho\>>>>|<cell|+>|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\>\<rho\>\<nu\>>>>|<cell|+>|<cell|R<rsup|\<omega\>><op|<rsub|\<rho\>\<nu\>\<sigma\>>>>|<cell|=>|<cell|0>>>>>
         </equation*>
 
         <item*|conclude>
@@ -74,7 +78,7 @@
         it seems\ 
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|R<rsup|w><op|<rsub|<around*|[|\<sigma\>\<mu\>\<nu\>|]>>>=R<rsup|\<omega\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>|<cell|\<Longleftrightarrow\>>|<cell|<around*|(|below|)>>>>>
+          <tformat|<table|<row|<cell|R<rsup|w><op|<rsub|<around*|[|\<sigma\>\<mu\>\<nu\>|]>>>=0>|<cell|\<Longleftrightarrow\>>|<cell|<around*|(|below|)>>>|<row|<cell|R<rsup|\<omega\>><op|<rsub|\<sigma\><around*|[|\<mu\>\<nu\>|]>>>=R<rsup|\<omega\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>>>|<cell|>|<cell|>>>>
         </eqnarray*>
       </description>
 
@@ -97,7 +101,7 @@
         <item>Cyclicity
 
         <\equation*>
-          <stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<sigma\>\<rho\>\<nu\>>>|<cell|=>|<cell|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>>>>>>
+          <stack|<tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>\<sigma\>\<rho\>>>|<cell|+>|<cell|R<rsub|\<mu\>\<sigma\>\<rho\>\<nu\>>>|<cell|+>|<cell|R<rsub|\<mu\>\<rho\>\<nu\>\<sigma\>>>|<cell|=>|<cell|0>>>>>
         </equation*>
       </itemize>
 
