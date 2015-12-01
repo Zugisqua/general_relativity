@@ -32,6 +32,23 @@
       <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|0>>>>
     </eqnarray*>
 
+    verify it's comes from <math|R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
+    g<rsub|\<mu\>\<nu\>>=0>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|R<rsub|\<sigma\>\<rho\>>\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>R<rsub|\<sigma\>\<rho\>>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsub|\<sigma\>\<rho\>><around*|(|\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>|)>>|<cell|=>|<cell|0>>>>
+    </eqnarray*>
+
+    if <math|\<sigma\>=\<mu\>> then <math|R<rsub|\<sigma\>\<rho\>><around*|(|\<delta\><rsup|\<sigma\>><rsub|\<mu\>>\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>|)>=R<rsub|\<mu\>\<rho\>><around*|(|\<delta\><rsup|\<rho\>><rsub|\<nu\>>-<frac|1|2>\<delta\><rsup|\<rho\>><rsub|\<nu\>>|)>=<frac|1|2>R<rsub|\<mu\>\<nu\>>=0
+    for any \<mu\>,\<nu\>>
+
+    if <math|\<sigma\>\<neq\>\<mu\>> then
+    <math|-<frac|1|2>R<rsub|\<sigma\>\<rho\>>g<rsup|\<sigma\>\<rho\>>g<rsub|\<mu\>\<nu\>>=-<frac|1|2>R
+    g<rsub|\<mu\>\<nu\>>=0>
+
+    therefore the result : is <math|R<rsub|\<mu\>\<nu\>>=0> and <math|R=0>
+    ,namely <math|R<rsub|\<mu\>\<nu\>>=0>
+
     <paragraph|caculation>
 
     <\eqnarray*>
