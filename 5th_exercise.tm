@@ -141,46 +141,49 @@
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|e<rsup|2\<alpha\>><around*|(|r<around*|(|-\<partial\><rsub|r>\<alpha\>-\<partial\><rsub|r>\<alpha\>|)>-1|)>+1+\<Lambda\>r<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|e<rsup|2\<alpha\>><around*|(|-2r\<partial\><rsub|r>\<alpha\>-1|)>+1+\<Lambda\>r<rsup|2>>|<cell|=>|<cell|0>>|<row|<cell|-2r\<partial\><rsub|r>\<alpha\>-1+<around*|(|1+\<Lambda\>r<rsup|2>|)>e<rsup|-2a>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|r>\<alpha\>+<frac|1|2
-    r>+<frac|1|2r><around*|(|1+\<Lambda\>r<rsup|2>|)>e<rsup|-2\<alpha\>>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|r>\<alpha\>+<frac|1|2r>+<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>>|<cell|=>|<cell|0>>>>
+    <tformat|<table|<row|<cell|<around*|(|2r\<partial\><rsub|r>\<alpha\>+1|)>e<rsup|2\<alpha\>>>|<cell|=>|<cell|1+\<Lambda\>r<rsup|2>>>|<row|<cell|\<partial\><rsub|r><around*|(|r
+    e<rsup|2\<alpha\>>|)>>|<cell|=>|<cell|1+\<Lambda\>r<rsup|2>>>|<row|<cell|<frac|\<mathd\><around*|(|r
+    e<rsup|2\<alpha\>>|)>|\<mathd\>r>>|<cell|=>|<cell|1+\<Lambda\>r<rsup|2>>>|<row|<cell|r
+    e<rsup|2\<alpha\>>>|<cell|=>|<cell|<big|int>\<mathd\>r<around*|{|1+\<Lambda\>r<rsup|2>|}>>>|<row|<cell|>|<cell|=>|<cell|r+<frac|\<Lambda\>|3>r<rsup|3>+C>>|<row|<cell|e<rsup|2\<alpha\>>>|<cell|=>|<cell|1+<frac|\<Lambda\>|3>r<rsup|2>+<frac|C|r>>>>>
   </eqnarray*>
 
-  as <math|\<partial\><rsub|r>\<alpha\>=-<frac|1|2r>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>>
-  then the equation <math|<tabular|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|\<partial\><rsub|r><rsup|2>\<alpha\>+2<around*|(|\<partial\><rsub|r>\<alpha\>|)><rsup|2>+<frac|2|r>\<partial\><rsub|r>\<alpha\>|)>-\<Lambda\>e<rsup|-2\<alpha\>>>|<cell|=>|<cell|0>>>>>>
-  changed
+  since <math|\<Lambda\>\<rightarrow\>0> the result will be the same as
+  Schwarzschild solution. therefore <math|C=-2G M>
 
-  <\description>
-    <item*|>part <math|\<partial\><rsub|r><rsup|2>\<alpha\>>
+  the metric :
 
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|\<partial\><rsub|r><rsup|2>\<alpha\>>|<cell|=>|<cell|\<partial\><rsub|r><around*|(|-<frac|1|2r>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-<frac|1|2><around*|(|-<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>+<around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>
-      \<partial\><rsub|r>\<alpha\>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-<frac|1|2><around*|(|-<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>+<around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>><around*|(|-<frac|1|2r>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-<frac|1|2><around*|(|-<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>-<frac|1|2r><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-<frac|1|2><around*|(|-<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>-<frac|1|2><around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-\<Lambda\>e<rsup|-2\<alpha\>>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>>>
-    </eqnarray*>
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)>\<mathd\>t<rsup|2>+<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><rsup|-1>\<mathd\>r+r<rsup|2>\<mathd\>\<Omega\><rsup|2>>>>>
+  </eqnarray*>
 
-    <item*|>part <math|<around*|(|\<partial\><rsub|r>\<alpha\>|)><rsup|2>>
+  <paragraph|b.>
 
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|<around*|(|\<partial\><rsub|r>\<alpha\>|)><rsup|2>>|<cell|=>|<cell|<around*|(|-<frac|1|2r>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4r<rsup|2>>+<frac|1|4><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>+<frac|1|2r><around*|(|<frac|1|r>+\<Lambda\>r|)>e<rsup|-2\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4r<rsup|2>>+<frac|1|4><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>+<frac|1|2><around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4r<rsup|2>>+<frac|1|2><around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>+<frac|1|4><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>>>
-    </eqnarray*>
+  here choose <math|\<theta\>=<frac|\<pi\>|2>> ,too
 
-    <item*|>part <math|<frac|2|r>\<partial\><rsub|r>\<alpha\>>
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<epsilon\>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>><frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<tau\>><frac|\<mathd\>x<rsup|\<nu\>>|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><rsup|-1><around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>-r<rsup|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>>>|<row|<cell|\<Rightarrow\>>|<cell|>|<cell|>>>>
+  </eqnarray*>
 
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|<frac|2|r>\<partial\><rsub|r>\<alpha\>>|<cell|=>|<cell|<around*|(|-<frac|1|2r>-<frac|1|2r><around*|(|1+\<Lambda\>r<rsup|2>|)>e<rsup|-2\<alpha\>>|)><frac|2|r>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|r<rsup|2>>-<around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>>>>>
-    </eqnarray*>
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><around*|(|r<rsup|2><around*|(|<frac|\<mathd\>\<phi\>|\<mathd\>\<tau\>>|)><rsup|2>+\<epsilon\>|)>>|<cell|=>|<cell|<around*|(|<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>r>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+\<epsilon\>|)>>|<cell|=>|<cell|E<rsup|2>>>>>
+  </eqnarray*>
 
-    <item*|>therefore.
+  for massive particle <math|\<epsilon\>=1> ,
+  <math|V<around*|(|r|)>=><math|<around*|(|1-<frac|2G
+  M|r>+<frac|\<Lambda\>|3>r<rsup|2>|)><around*|(|<frac|L<rsup|2>|r<rsup|2>>+1|)>>
 
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|\<partial\><rsub|r><rsup|2>\<alpha\>+2<around*|(|\<partial\><rsub|r>\<alpha\>|)><rsup|2>+<frac|2|r>\<partial\><rsub|r>\<alpha\>-\<Lambda\>e<rsup|-2\<alpha\>>>|<cell|=>|<cell|<frac|1|2r<rsup|2>>-\<Lambda\>e<rsup|-2\<alpha\>>-<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>|<row|<cell|>|<cell|>|<cell|<frac|1|2r<rsup|2>>+<around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>+<frac|1|2><around*|(|<frac|1|r>+\<Lambda\>r|)><rsup|2>e<rsup|-4\<alpha\>>>>|<row|<cell|>|<cell|>|<cell|-<frac|1|r<rsup|2>>-<around*|(|<frac|1|r<rsup|2>>+\<Lambda\>|)>e<rsup|-2\<alpha\>>-\<Lambda\>e<rsup|-2\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|-\<Lambda\>e<rsup|-2\<alpha\>>-\<Lambda\>e<rsup|-2\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|2\<Lambda\>e<rsup|-2\<alpha\>>=0>>>>
-    </eqnarray*>
+  therefore the radical geodesic equation of motion:
 
-    therefore
-
-    \;
-  </description>
-
-  \;
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>r>|)><rsup|2>+2V<around*|(|r|)>>|<cell|=>|<cell|E<rsup|2>>>>>
+  </eqnarray*>
 
   \;
 </body>
@@ -191,6 +194,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|1|?>>
   </collection>
 </references>
 
