@@ -229,16 +229,30 @@
       geodesic],the <math|p<rsup|\<mu\>>> along <math|K<rsub|\<mu\>>> must
       be.
 
-      <item*|>Ricci scaler
+      <item*|>Ricci scalar
 
       <\eqnarray*>
-        <tformat|<table|<row|<cell|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R>|<cell|=>|<cell|2K<rsup|\<rho\>>g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>R<rsub|\<rho\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>><around*|(|K<rsup|\<rho\>>R<rsub|\<rho\>\<mu\>>|)>-2g<rsup|\<mu\>\<sigma\>>R<rsub|\<rho\>\<mu\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>><around*|(|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<rho\>>K<rsup|\<rho\>>|)>-2g<rsup|\<mu\>\<sigma\>>R<rsub|\<rho\>\<mu\>>\<nabla\><rsub|\<sigma\>><around*|(|g<rsup|\<rho\>\<nu\>>K<rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|2g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<rho\>><around*|(|g<rsup|\<rho\>\<nu\>>K<rsub|\<nu\>>|)>-2R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<sigma\>>g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>><around*|(|g<rsup|\<nu\>\<rho\>>\<nabla\><rsub|\<nu\>>K<rsub|\<rho\>>+g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<rho\>>K<rsub|\<nu\>>|)>-R<rsub|\<rho\>\<mu\>><around*|(|g<rsup|\<mu\>\<sigma\>>g<rsup|\<rho\>\<nu\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>+g<rsup|\<mu\>\<nu\>>g<rsup|\<rho\>\<sigma\>>\<nabla\><rsub|\<nu\>>K<rsub|\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<sigma\>>g<rsup|\<nu\>\<rho\>>\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>><around*|(|\<nabla\><rsub|\<nu\>>K<rsub|\<rho\>>+\<nabla\><rsub|\<rho\>>K<rsub|\<nu\>>|)>-<around*|(|g<rsup|\<nu\>\<rho\>>R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<sigma\>>\<nabla\><rsub|\<sigma\>>K<rsub|\<nu\>>+g<rsup|\<sigma\>\<rho\>>R<rsub|\<rho\>\<mu\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<nu\>>K<rsub|\<sigma\>>|)>>>|<row|<cell|>|<cell|=>|<cell|0->>>>
+        <tformat|<table|<row|<cell|K<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R>|<cell|=>|<cell|K<rsub|\<sigma\>>g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>>g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<sigma\>\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>><around*|(|K<rsub|\<sigma\>>R<rsub|\<mu\>\<nu\>>|)>-g<rsup|\<sigma\>\<rho\>>R\<nabla\><rsub|\<rho\>>K<rsub|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<sigma\>\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>><around*|(|K<rsub|\<sigma\>>R<rsup|\<kappa\>><op|<rsub|\<mu\>\<kappa\>\<nu\>>>|)>-R
+        g<rsup|\<sigma\>\<rho\>>\<nabla\><rsub|\<rho\>>K<rsub|\<sigma\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<sigma\>\<rho\>>g<rsup|\<mu\>\<nu\>>g<rsup|\<kappa\>\<lambda\>>\<nabla\><rsub|\<rho\>><around*|(|K<rsub|\<sigma\>>R<rsub|\<lambda\>\<mu\>\<kappa\>\<nu\>>|)>-R
+        g<rsup|\<sigma\>\<rho\>>\<times\><frac|1|2><around*|(|\<nabla\><rsub|\<rho\>>K<rsub|\<sigma\>>+\<nabla\><rsub|\<sigma\>>K<rsub|\<rho\>>|)>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<sigma\>\<rho\>>g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<rho\>><around*|(|K<rsub|\<sigma\>>R<rsup|\<kappa\>><op|<rsub|\<mu\>\<kappa\>\<nu\>>>|)>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|V<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R>|<cell|=>|<cell|V<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R<rsub|\<mu\>\<nu\>>g<rsup|\<mu\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<mu\>\<nu\>>g<rsup|\<kappa\>\<lambda\>>V<rsup|\<rho\>>\<nabla\><rsub|\<rho\>>R<rsub|\<lambda\>\<mu\>\<kappa\>\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|g<rsup|\<nu\>\<rho\>>g<rsup|\<kappa\>\<mu\>>V<rsup|\<lambda\>>\<nabla\><rsub|\<lambda\>>R<rsub|\<mu\>\<rho\>\<kappa\>\<nu\>>>>>>
       </eqnarray*>
 
       <paragraph|part-1.><math|\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<rho\>>=R<rsup|\<rho\>><op|<rsub|\<sigma\>\<mu\>\<nu\>>K<rsup|\<nu\>>>>
 
       <\eqnarray*>
+        <tformat|<table|<row|<cell|\<nabla\><rsub|<around*|[|\<mu\>|\<nobracket\>>>R<rsub|<around*|\<nobracket\>|\<nu\>\<sigma\>|]>\<rho\>\<kappa\>>>|<cell|=>|<cell|<frac|1|3!><around*|(|\<nabla\><rsub|\<mu\>>R<rsub|\<nu\>\<sigma\>\<rho\>\<kappa\>>-\<nabla\><rsub|\<mu\>>R<rsub|\<sigma\>\<nu\>\<rho\>\<kappa\>>+\<nabla\><rsub|\<nu\>>R<rsub|\<sigma\>\<mu\>\<rho\>\<kappa\>>-\<nabla\><rsub|\<nu\>>R<rsub|\<mu\>\<sigma\>\<rho\>\<kappa\>>+\<nabla\><rsub|\<sigma\>>R<rsub|\<mu\>\<nu\>\<rho\>\<kappa\>>-\<nabla\><rsub|\<sigma\>>R<rsub|\<nu\>\<mu\>\<rho\>\<kappa\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3><around*|(|\<nabla\><rsub|\<mu\>>R<rsub|\<nu\>\<sigma\>\<rho\>\<kappa\>>+\<nabla\><rsub|\<nu\>>R<rsub|\<sigma\>\<mu\>\<rho\>\<kappa\>>+\<nabla\><rsub|\<sigma\>>R<rsub|\<mu\>\<nu\>\<rho\>\<kappa\>>|)>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
         <tformat|<table|<row|<cell|\<nabla\><rsub|\<rho\>>\<nabla\><rsub|\<sigma\>>K<rsup|\<mu\>>>|<cell|=>|<cell|<around*|[|\<nabla\><rsub|\<rho\>>,\<nabla\><rsub|\<sigma\>>|]>K<rsup|\<mu\>>+\<nabla\><rsub|\<sigma\>>\<nabla\><rsub|\<rho\>>K<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|R<rsup|\<mu\>><op|<rsub|\<nu\>\<rho\>\<sigma\>>>K<rsup|\<nu\>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|0=<around*|[|\<nabla\><rsub|\<sigma\>>,\<nabla\><rsub|\<nu\>>|]>g<rsup|\<sigma\>\<nu\>>>|<cell|=>|<cell|R<rsup|\<sigma\>><op|<rsub|\<mu\>\<sigma\>\<nu\>>>g<rsup|\<mu\>\<nu\>>+R<rsup|\<nu\>><op|<rsub|\<mu\>\<sigma\>\<nu\>>>g<rsup|\<sigma\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|R-R<rsup|\<nu\>><op|<rsub|\<mu\>\<nu\>\<sigma\>>g<rsup|\<sigma\>\<mu\>>>>>|<row|<cell|>|<cell|=>|<cell|R-R<rsub|\<mu\>\<sigma\>>g<rsup|\<sigma\>\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
       </eqnarray*>
     </description>
 
@@ -287,6 +301,9 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Killing
       vector> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|6fn>|part-1. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
