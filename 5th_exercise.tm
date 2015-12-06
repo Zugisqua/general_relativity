@@ -185,7 +185,86 @@
     <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>r>|)><rsup|2>+2V<around*|(|r|)>>|<cell|=>|<cell|E<rsup|2>>>>>
   </eqnarray*>
 
+  {picture
+
   \;
+
+  5.
+
+  as <math|g<rsub|\<mu\>\<nu\>>U<rsup|\<mu\>>U<rsup|\<nu\>>=-1>
+  ,<math|U<rsub|\<mu\>>=<around*|(|U<rsub|0>,r<rsub|\<ast\>>,\<theta\><rsub|\<ast\>>,\<phi\><rsub|\<ast\>>|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>U<rsub|\<mu\>>U<rsub|\<nu\>>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>U<rsub|0><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>=-1>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsup|2><rsub|0>>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>|)>>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsub|0>>|<cell|=>|<cell|<sqrt|<around*|(|1-<frac|2G
+    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>|)>>>>>>>>>>>
+  </eqnarray*>
+
+  <paragraph|a.>consider manifold
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>|)>\<mathd\>t<rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>\<mathd\>r<rsup|2>>>>>
+  </eqnarray*>
+
+  bacon emit radiation therefore lost mass (or energy)per second.However the
+  geodesic tracject have no relation with mass,namely
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>r|\<mathd\>\<tau\>>>|<cell|=>|<cell|E<rsub|0>->>|<row|<cell|<around*|(|<frac|\<mathd\>r|>|)><rsup|2>>|<cell|>|<cell|>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  about emit the ridiation
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|E>|<cell|=>|<cell|\<hbar\>w=\<hbar\>2\<pi\>\<nu\>=2\<pi\>\<hbar\><frac|c|\<lambda\>>\<sim\><frac|2\<pi\>|\<lambda\>>>>>>
+  </eqnarray*>
+
+  ...
+
+  <paragraph|I try thinking of the radiation have little effects on the
+  motion!>
+
+  <paragraph|a.>bacon move along the geodesic, and angular momentum
+  <math|L=0>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>r|\<mathd\>\<tau\>>>|<cell|=>|<cell|E<rsub|>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)>>|<cell|=>|<cell|E<rsup|2>>>>>>>|<cell|\<Rightarrow\>>|<cell|<frac|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>|<around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>>=<frac|E<rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>|<frac|E<rsup|2>|<around*|(|1-<frac|2G
+    M|r>|)><rsup|2>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>t>|)><rsup|2>=<around*|(|1-<frac|1|E<rsup|2>><around*|(|1-<frac|2G
+    M|r>|)>|)><around*|(|1-<frac|2G M|r>|)><rsup|2>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>t>|\|>=<sqrt|<around*|(|1-<frac|1|E<rsup|2>><around*|(|1-<frac|2G
+    M|r>|)>|)><around*|(|1-<frac|2G M|r>|)><rsup|2>>>>>>
+  </eqnarray*>
+
+  <paragraph|b.>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|E<rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>>|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>>|<cell|=>|<cell|<sqrt|E<rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>>>>>
+  </eqnarray*>
+
+  comoving observor <math|U<rsub|\<mu\>>=<around*|(|<sqrt|<around*|(|1-<frac|2G
+  M|r>|)><around*|(|1+<around*|(|1-<frac|2G
+  M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>,r<rsub|\<ast\>>,0,0|)>> then
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|E>>>>
+  </eqnarray*>
+
+  <paragraph|c.>
+
+  \;
+
+  \ 
 </body>
 
 <initial|<\collection>
@@ -195,6 +274,11 @@
   <\collection>
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|1|?>>
+    <associate|auto-3|<tuple|2|?>>
+    <associate|auto-4|<tuple|3|?>>
+    <associate|auto-5|<tuple|4|?>>
+    <associate|auto-6|<tuple|5|?>>
+    <associate|auto-7|<tuple|6|?>>
   </collection>
 </references>
 
@@ -204,6 +288,9 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5th
       exercise> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|6fn>|b. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
