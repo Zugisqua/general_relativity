@@ -9,6 +9,8 @@
     <item>Weinberg(1972) P338-
 
     <item>Ta-pei Cheng(2015) P168
+
+    <item>physics-stackexchange questions:59413
   </enumerate>
 
   <chapter|Comoving Coordinate System>
@@ -48,6 +50,10 @@
       <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|Comoving
       Coordinate System> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|1fn>
+
+      <with|par-left|<quote|6fn>|Constrains
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
