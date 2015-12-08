@@ -145,11 +145,16 @@
         <item*|Derive>
 
         <\eqnarray*>
-          <tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|L<rsub|V>T<rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|a>T<rsup|\<mu\>>-T<rsup|\<mu\>>|a>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0>>>|<row|<cell|<around*|{|do:|\<nobracket\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|<around*|[|V,T|]><rsup|\<mu\>>>>>>
+          <tformat|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|L<rsub|V>T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|a>T<rsup|\<mu\>>-T<rsup|\<mu\>>|a>\<partial\><rsub|\<mu\>>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|1|a><around*|(|T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>-T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|1|a><around*|(|T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-T<rsup|\<nu\>>x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|a\<rightarrow\>0><frac|1|a><around*|(|T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-T<rsup|\<nu\>>x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>|\<nobracket\>>>>|<row|<cell|>|<cell|>|<cell|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>>x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\><around*|\<nobracket\>||)>>>|<row|<cell|>|<cell|=>|<cell|-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|lim<rsub|a\<rightarrow\>0><frac|x<rprime|'><rsup|\<mu\>>-x<rsup|\<mu\>>|a>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>><around*|(|lim<rsub|a\<rightarrow\>0><frac|x<rprime|'><rsup|\<mu\>>-x<rsup|\<mu\>>|a>|)>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|V<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>>V<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>V<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>-T<rsup|\<nu\>>V<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\>+T<rsup|\<nu\>>V<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>>>|<row|<cell|>|<cell|=>|<cell|-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>V<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>>>|<row|<cell|>|<cell|\<neq\>>|<cell|<around*|[|V,T|]><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\><around*|(|?:|)>>>>>
         </eqnarray*>
 
         <\eqnarray*>
-          <tformat|<table|<row|<cell|<around*|[|V,T|]><rsup|\<mu\>>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<nu\>>-x<rsup|\<nu\>>|t>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>-x<rsup|\<mu\>>|t>>>|<row|<cell|>|<cell|=>|<cell|>>>>
+          <tformat|<table|<row|<cell|<around*|[|V,T|]><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<nu\>>-x<rsup|\<nu\>>|t>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|lim<rsub|t\<rightarrow\>0><frac|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>-x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>|t>\<psi\>|)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|1|t><around*|(|F<rsup|\<ast\>><rsub|t>x<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-x<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>|\<nobracket\>>>>|<row|<cell|>|<cell|>|<cell|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|F<rsup|\<ast\>><rsub|t>x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)><around*|\<nobracket\>||)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|1|t><around*|(|x<rprime|'><rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-x<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>|\<nobracket\>>>>|<row|<cell|>|<cell|>|<cell|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)><around*|\<nobracket\>||)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|1|t><around*|(|x<rprime|'><rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>-x<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>|\<nobracket\>>>>|<row|<cell|>|<cell|>|<cell|
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>+T<rsup|\<nu\>>\<partial\><rsub|\<nu\>><around*|(|x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)><around*|\<nobracket\>||)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|1|t><around*|(|x<rprime|'><rsup|\<nu\>>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>+x<rprime|'><rsup|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>-x<rprime|'><rsup|\<mu\>>T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\>|\<nobracket\>>>>|<row|<cell|>|<cell|>|<cell|
+          \ \ -x<rsup|\<nu\>>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<psi\>-x<rsup|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\>+T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>x<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>+T<rsup|\<nu\>>x<rsup|\<mu\>>\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>\<psi\><around*|\<nobracket\>||)>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|t\<rightarrow\>0><frac|1|t><around*|(|x<rprime|'><rsup|\<nu\>>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>-T<rsup|\<nu\>>\<partial\><rsub|\<nu\>>x<rprime|'><rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>-x<rsup|\<nu\>>\<partial\><rsub|\<nu\>>T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>+T<rsup|\<mu\>>\<partial\><rsub|\<mu\>>\<psi\>|)>>>|<row|<cell|>|<cell|=>|<cell|\<ldots\>>>>>
         </eqnarray*>
 
         and more tensors
@@ -245,22 +250,43 @@
   <paragraph| Special case>
 
   <\description>
-    <item*|Hypersurface>
+    <item*|Null Hypersurface>
+
+    <paragraph|0<math|\<nosymbol\>\<nosymbol\>. generally>>
 
     it's simple as when function <math|f<around*|(|x|)>> of coordinate that
     <math|f<around*|(|x|)>=constant> could form a hypersurface.
 
-    <subparagraph|normal vector:>a normal vector <math|n<rsup|\<mu\>>>
-    orthogonal to the hypersurface,
-
     <\description>
-      <item*|>definition <math|\<xi\><rsup|\<mu\>>=g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<nu\>>f<around*|(|x|)>>
+      <subparagraph|normal vector:>a normal vector <math|n<rsup|\<mu\>>>
+      orthogonal to the hypersurface,
     </description>
 
-    <subparagraph|generator:>they are the null geodesic of hypersurface.?
-    strange
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<zeta\><rsup|\<mu\>>=g<rsup|\<mu\>\<nu\>>\<nabla\><rsub|\<nu\>>f<around*|(|x|)>>|<cell|>|<cell|>>>>
+    </eqnarray*>
 
-    \;
+    <paragraph|characters:>for a Null Hypersurface
+    <math|f<around*|(|x|)>=constant>, its mormal vector
+    <math|\<zeta\><rsup|\<mu\>>>
+
+    <\itemize>
+      <item><math|\<zeta\><rsup|\<mu\>>\<zeta\><rsub|\<mu\>>=0>
+    </itemize>
+
+    <subparagraph|i. generator>
+
+    Core: Null Hypersurface could be constructed by a gounp of nul geodesic
+
+    for a null curve <math|x<rsup|\<mu\>><around*|(|\<alpha\>|)>> on the
+    hyperface <math|f<around*|(|x|)>=constant>, could know
+    <math|\<nabla\><rsup|\<mu\>>f<around*|(|x|)>=<frac|\<mathd\>x<rsup|\<mu\>><around*|(|\<alpha\>|)>|\<mathd\>\<alpha\>>>
+
+    the parallel transport :
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|D|\<mathd\>\<alpha\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>>>|<cell|=>|<cell|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<alpha\>>\<nabla\><rsub|\<mu\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<alpha\>>>>|<row|<cell|>|<cell|=>|<cell|\<zeta\><rsup|\<mu\>>\<nabla\><rsub|\<mu\>>\<nabla\><rsup|\<sigma\>>f=\<zeta\><rsup|\<mu\>>g<rsup|\<sigma\>\<nu\>>\<nabla\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>f<rsup|>>>|<row|<cell|>|<cell|=>|<cell|\<zeta\><rsup|\<mu\>>g<rsup|\<sigma\>\<nu\>><around*|(|\<partial\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>f-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>\<nabla\><rsub|\<lambda\>>f|)>=\<zeta\><rsup|\<mu\>><around*|(|\<partial\><rsub|\<mu\>>\<partial\><rsub|\<nu\>>f-\<Gamma\><rsup|\<lambda\>><rsub|\<mu\>\<nu\>>\<partial\><rsub|\<lambda\>>f|)>>>|<row|<cell|>|<cell|=>|<cell|\<zeta\><rsup|\<mu\>>g<rsup|\<sigma\>\<nu\>><around*|(|\<partial\><rsub|\<nu\>>\<partial\><rsub|\<mu\>>f-\<Gamma\><rsup|\<lambda\>><rsub|\<nu\>\<mu\>>\<partial\><rsub|\<lambda\>>f|)>>>|<row|<cell|>|<cell|=>|<cell|\<zeta\><rsup|\<mu\>>g<rsup|\<sigma\>\<nu\>>\<nabla\><rsub|\<nu\>>\<nabla\><rsub|\<mu\>>f>>|<row|<cell|>|<cell|=>|<cell|\<zeta\><rsup|\<mu\>>g<rsup|\<sigma\>\<nu\>>\<nabla\><rsub|\<nu\>>\<zeta\><rsub|\<mu\>>=<frac|1|2>g<rsup|\<sigma\>\<nu\>><around*|(|\<zeta\><rsup|\<mu\>>\<nabla\><rsub|\<nu\>>\<zeta\><rsub|\<mu\>>+\<zeta\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>\<zeta\><rsup|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>g<rsup|\<sigma\>\<nu\>>\<nabla\><rsub|\<nu\>><around*|(|\<zeta\><rsup|\<mu\>>\<zeta\><rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2>\<nabla\><rsup|\<sigma\>><around*|(|\<zeta\><rsup|\<mu\>>\<zeta\><rsub|\<mu\>>|)>>>>>
+    </eqnarray*>
 
     <\description>
       <item*|normal vector>1-4
@@ -296,10 +322,11 @@
     <associate|auto-16|<tuple|15|?>>
     <associate|auto-17|<tuple|16|?>>
     <associate|auto-18|<tuple|17|?>>
-    <associate|auto-19|<tuple|17.1|?>>
+    <associate|auto-19|<tuple|18|?>>
     <associate|auto-2|<tuple|1|?>>
-    <associate|auto-20|<tuple|17.2|?>>
-    <associate|auto-21|<tuple|20|?>>
+    <associate|auto-20|<tuple|18.1|?>>
+    <associate|auto-21|<tuple|19|?>>
+    <associate|auto-22|<tuple|19.1|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|3|?>>
     <associate|auto-5|<tuple|4|?>>
@@ -375,6 +402,12 @@
       <with|par-left|<quote|6fn>| Special case
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18><vspace|0.15fn>>
+
+      normal vector: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-19><vspace|0.15fn>
+
+      generator: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-20><vspace|0.15fn>
     </associate>
   </collection>
 </auxiliary>
