@@ -192,16 +192,13 @@
   5.
 
   as <math|g<rsub|\<mu\>\<nu\>>U<rsup|\<mu\>>U<rsup|\<nu\>>=-1>
-  ,<math|U<rsub|\<mu\>>=<around*|(|U<rsub|0>,r<rsub|\<ast\>>,\<theta\><rsub|\<ast\>>,\<phi\><rsub|\<ast\>>|)>>
+  ,<math|U<rsub|\<mu\>>=<around*|(|U<rsub|0>,0,0,0|)>>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>U<rsub|\<mu\>>U<rsub|\<nu\>>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>U<rsub|0><rsup|2>+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>=-1>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsup|2><rsub|0>>|<cell|=>|<cell|<around*|(|1-<frac|2G
-    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>|)>>>>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsub|0>>|<cell|=>|<cell|<sqrt|<around*|(|1-<frac|2G
-    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2>>\<theta\><rsub|\<ast\>><rsup|2>+<frac|1|r<rsup|2><around|sin|<rsup|2>\<theta\>|>>\<phi\><rsup|2><rsub|\<ast\>>|)>>>>>>>>>>>
+    M|r<rsub|\<ast\>>>|)><rsup|-1>U<rsub|0><rsup|2>=-1>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsup|2><rsub|0>>|<cell|=>|<cell|>>>>><around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|U<rsub|0>>|<cell|=>|<cell|-<sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>>>>>>>>>>
   </eqnarray*>
 
   <paragraph|a.>consider manifold
@@ -254,9 +251,8 @@
 
   when <math|r=2G M> ,the <math|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>=E>\ 
 
-  comoving observor <math|U<rsub|\<mu\>>=<around*|(|<sqrt|<around*|(|1-<frac|2G
-  M|r>|)><around*|(|1+<around*|(|1-<frac|2G
-  M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>,r<rsub|\<ast\>>,0,0|)>> then
+  comoving observor <math|U<rsub|\<mu\>>=<around*|(|-<sqrt|1-<frac|2G
+  M|r>>,0,0,0|)>> then
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|-E>>>>
@@ -269,44 +265,57 @@
   observers
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>U<rsub|\<mu\>>U<rsub|\<nu\>>>|<cell|=>|<cell|-1>>|<row|<cell|g<rsup|00>U<rsub|0><rsup|2>+g<rsup|11>r<rsub|\<ast\>><rsup|2>>|<cell|=>|<cell|-1>>|<row|<cell|-<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>U<rsub|0><rsup|2>+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>>|<cell|=>|<cell|-1>>|<row|<cell|<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>U<rsub|0><rsup|2>>|<cell|=>|<cell|1+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>>>|<row|<cell|U<rsub|0>>|<cell|=>|<cell|<sqrt|<around*|(|1-<frac|2G
-    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>>>>>
+    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|-E<rsub|photo><around*|(|?|)>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>U<rsub|t>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|<frac|2\<pi\>|\<lambda\><rsub|em>>|<around*|(|1-<frac|2G
+    M|r<rsub|em>>|)>>\<times\><around*|(|-<sqrt|<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>>|)>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\><rsub|ob>>>>|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|\<lambda\><rsub|em><around*|(|<frac|1-<frac|2G
+    M|r<rsub|em>>|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>>|)>>>>>
   </eqnarray*>
 
+  <paragraph|d.>for null curve
+
   <\eqnarray*>
-    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|E<rsub|photo><around*|(|?|)>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>U<rsub|t>+<frac|\<mathd\>r|\<mathd\>\<tau\>>U<rsub|r>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|<frac|2\<pi\>|\<lambda\><rsub|em>>|<around*|(|1-<frac|2G
-    M|r>|)>>\<times\><sqrt|<around*|(|1-<frac|2G
-    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
-    M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|2\<pi\>|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>>>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>|)>\<mathd\>t<rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>\<mathd\>r<rsup|2>=0>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>t>|)><rsup|2>>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
+    M|r>>|)><rsup|2>>>>>>>>>>
+  </eqnarray*>
+
+  another angle
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|E<rsub|>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|E<rsup|2>>>>>>>|<cell|\<Rightarrow\>>|<cell|<frac|<around*|(|1-<frac|2G
+    M|r>|)><rsup|2><around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>>=1>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<stack|<tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>t>|)><rsup|2>>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
+    M|r>>|)><rsup|2>>>>>>>>>>
+  </eqnarray*>
+
+  as <math|r\<rightarrow\>r<rsub|\<ast\>>> and <math|r<rsub|\<ast\>>\<gtr\>r>
+  therefore:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<mathd\>r|\<mathd\>t>>|<cell|=>|<cell|<frac|1|1-<frac|2G
+    M|r>>>>|<row|<cell|\<mathd\>t>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)>\<mathd\>r>>|<row|<cell|<around*|\<nobracket\>|t|\|><rsup|t<rsub|ob>><rsub|0>>|<cell|=>|<cell|<big|int><rsup|r<rsub|\<ast\>>><rsub|r<rsub|em>><around*|(|1-<frac|2G
+    M|r>|)>\<mathd\>r>>|<row|<cell|>|<cell|=>|<cell|<around*|\<nobracket\>|r-2G
+    M<around|ln|r|>|\|><rsup|r<rsub|\<ast\>>><rsub|r<rsub|em>>>>|<row|<cell|t<rsub|ob>>|<cell|=>|<cell|r<rsub|\<ast\>>-r<rsub|em>-2G
+    M<around|ln(|<frac|r<rsub|\<ast\>>|r<rsub|em>>|)>>>>>
   </eqnarray*>
 
   therefore
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|2\<pi\><around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
-    M|r<rsub|em>>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
-    M|r<rsub|em>>|)>>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+<frac|r<rsub|\<ast\>>|2\<pi\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>+<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>-<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>-\<alpha\>+<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>=<frac|\<lambda\><rsub|em><rsup|2>g<around*|(|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>-<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|)>|1+<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g<rsup|2>\<lambda\><rsup|2><rsub|e
-    m>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<lambda\><rsup|2><rsub|em><around*|(|<sqrt|<frac|g|\<lambda\><rsup|2><rsub|em>>+\<alpha\>g<rsup|2>>-<sqrt|\<alpha\>g<rsup|2>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g<rsup|3>>|)>|1+<frac|1|<around*|(|2\<pi\>|)><rsup|2>>\<alpha\>g<rsup|2>>>>>>
+    <tformat|<table|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|\<lambda\><rsub|em>>>>>
   </eqnarray*>
 
-  <paragraph|d.>
-
-  <paragraph|e.>at last late time <math|r=2G M>
+  <paragraph|e.>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|<around*|\<nobracket\>|<around*|(|<frac|1|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
-    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+<frac|r<rsub|\<ast\>>|2\<pi\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>|)><rsup|-1>|\|><rsub|r= 2G M>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|=>|<cell|<frac|1-<frac|2G
+    M|r>|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>>>>|<row|<cell|>|<cell|=>|<cell|exp<around*|(|<around|ln|<around*|(|<frac|1-<frac|2G
+    M|r>|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>>|)>|>|)>>>|<row|<cell|>|<cell|=>|<cell|exp<around*|(|<around|ln|<around*|(|1-<frac|2G
+    M|r>|)>-<frac|1|2><around|ln|<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>|>|>|)>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\>e<rsup|<around|ln|<around*|(|1-<frac|2G
+    M|r>|)>|>>>>>>
   </eqnarray*>
 
   \;
@@ -356,6 +365,12 @@
 
       <with|par-left|<quote|6fn>|c. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|d. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|e. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
