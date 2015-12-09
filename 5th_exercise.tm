@@ -236,7 +236,7 @@
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
-    M|r>|)><frac|\<mathd\>r|\<mathd\>\<tau\>>>|<cell|=>|<cell|E<rsub|>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|E<rsub|>>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>+<around*|(|1-<frac|2G
     M|r>|)>>|<cell|=>|<cell|E<rsup|2>>>>>>>|<cell|\<Rightarrow\>>|<cell|<frac|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>|<around*|(|<frac|\<mathd\>t|\<mathd\>\<tau\>>|)><rsup|2>>=<frac|E<rsup|2>-<around*|(|1-<frac|2G
     M|r>|)>|<frac|E<rsup|2>|<around*|(|1-<frac|2G
     M|r>|)><rsup|2>>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>t>|)><rsup|2>=<around*|(|1-<frac|1|E<rsup|2>><around*|(|1-<frac|2G
@@ -252,15 +252,62 @@
     M|r>|)>>>>>>
   </eqnarray*>
 
+  when <math|r=2G M> ,the <math|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>=E>\ 
+
   comoving observor <math|U<rsub|\<mu\>>=<around*|(|<sqrt|<around*|(|1-<frac|2G
   M|r>|)><around*|(|1+<around*|(|1-<frac|2G
   M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>,r<rsub|\<ast\>>,0,0|)>> then
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|E>>>>
+    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|-E>>>>
   </eqnarray*>
 
   <paragraph|c.>
+
+  bacon emit a photo ,moving along the geodesic.
+
+  observers
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>U<rsub|\<mu\>>U<rsub|\<nu\>>>|<cell|=>|<cell|-1>>|<row|<cell|g<rsup|00>U<rsub|0><rsup|2>+g<rsup|11>r<rsub|\<ast\>><rsup|2>>|<cell|=>|<cell|-1>>|<row|<cell|-<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>U<rsub|0><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>>|<cell|=>|<cell|-1>>|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>U<rsub|0><rsup|2>>|<cell|=>|<cell|1+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>>>|<row|<cell|U<rsub|0>>|<cell|=>|<cell|<sqrt|<around*|(|1-<frac|2G
+    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|E<rsub|photo><around*|(|?|)>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>U<rsub|t>+<frac|\<mathd\>r|\<mathd\>\<tau\>>U<rsub|r>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|<frac|2\<pi\>|\<lambda\><rsub|em>>|<around*|(|1-<frac|2G
+    M|r>|)>>\<times\><sqrt|<around*|(|1-<frac|2G
+    M|r>|)><around*|(|1+<around*|(|1-<frac|2G
+    M|r>|)>r<rsub|\<ast\>><rsup|2>|)>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|2\<pi\>|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>>|<cell|=>|<cell|<frac|2\<pi\>|\<lambda\>>>>>>
+  </eqnarray*>
+
+  therefore
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|2\<pi\><around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
+    M|r<rsub|em>>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+r<rsub|\<ast\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r<rsub|em>>|)>>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+<frac|r<rsub|\<ast\>>|2\<pi\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>+<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|)><rsup|-1>>>|<row|<cell|>|<cell|=>|<cell|<frac|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>-<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>-\<alpha\>+<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>=<frac|\<lambda\><rsub|em><rsup|2>g<around*|(|<sqrt|<frac|1|\<lambda\><rsub|em><rsup|2>g>+\<alpha\>>-<sqrt|\<alpha\>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g>|)>|1+<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g<rsup|2>\<lambda\><rsup|2><rsub|e
+    m>>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<lambda\><rsup|2><rsub|em><around*|(|<sqrt|<frac|g|\<lambda\><rsup|2><rsub|em>>+\<alpha\>g<rsup|2>>-<sqrt|\<alpha\>g<rsup|2>-<around*|(|<frac|r<rsub|\<ast\>>|2\<pi\>>|)><rsup|2>g<rsup|3>>|)>|1+<frac|1|<around*|(|2\<pi\>|)><rsup|2>>\<alpha\>g<rsup|2>>>>>>
+  </eqnarray*>
+
+  <paragraph|d.>
+
+  <paragraph|e.>at last late time <math|r=2G M>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|<around*|\<nobracket\>|<around*|(|<frac|1|\<lambda\><rsub|em>><sqrt|<around*|(|1-<frac|2G
+    M|r>|)><rsup|-1>+r<rsub|\<ast\>><rsup|2>>+<frac|r<rsub|\<ast\>>|2\<pi\>><sqrt|<around*|(|<frac|2\<pi\>|\<lambda\><rsub|em>>|)><rsup|2>-<around*|(|1-<frac|2G
+    M|r>|)>>|)><rsup|-1>|\|><rsub|r= 2G M>>>|<row|<cell|>|<cell|=>|<cell|0>>>>
+  </eqnarray*>
 
   \;
 
@@ -279,6 +326,8 @@
     <associate|auto-5|<tuple|4|?>>
     <associate|auto-6|<tuple|5|?>>
     <associate|auto-7|<tuple|6|?>>
+    <associate|auto-8|<tuple|7|?>>
+    <associate|auto-9|<tuple|8|?>>
   </collection>
 </references>
 
@@ -291,6 +340,22 @@
 
       <with|par-left|<quote|6fn>|b. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|a. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|I try thinking of the radiation have little
+      effects on the motion! <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|a. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|b. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|c. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
