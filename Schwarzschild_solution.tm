@@ -284,24 +284,9 @@
     <\itemize>
       <item>could be a radical problem.
 
-      <item>obeservor space static in the coordinate center. not
-      <math|U<rsup|\<mu\>>=<around*|(|1,0,0,0 |)>> but
-      <math|<around*|(|<around*|(|1-<frac|2G
-      M|r>|)><rsup|-<frac|1|2>>,0,0,0|)>>, that's a solution of geodesic
-      <math|x<rsup|\<mu\>><around*|(|\<lambda\>|)>>,where
-      <math|<frac|\<mathd\>x<rsup|\<mu\>>|\<mathd\>\<lambda\>>=U<rsup|\<mu\>>>,
-
-      Equation :<math|<tabular|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
-      M|r>|)><frac|\<mathd\>t|\<mathd\>\<lambda\>>>|<cell|=>|<cell|E>>>>>>
-
-      and could easily verify by (for <math|g<rsub|\<mu\>\<nu\>>U<rsup|\<mu\>>U<rsup|\<nu\>>=-1>)
-
-      <\eqnarray*>
-        <tformat|<table|<row|<cell|<frac|\<mathd\><rsup|2>x<rsup|\<mu\>>|\<mathd\>\<lambda\><rsup|2>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>><frac|\<mathd\>x<rsup|\<sigma\>>|\<mathd\>\<lambda\>><frac|\<mathd\>x<rsup|\<rho\>>|\<mathd\>\<lambda\>>>|<cell|=>|<cell|<frac|\<mathd\>U<rsup|\<mu\>>|\<mathd\>\<lambda\>>+\<Gamma\><rsup|\<mu\>><rsub|\<sigma\>\<rho\>>U<rsup|\<sigma\>>U<rsup|\<rho\>>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|\<mu\>><rsub|t
-        t><around*|(|U<rsup|t>|)><rsup|2>=0?>>>>
-      </eqnarray*>
-
-      {should more:
+      <item>obeserver belongs to comoving
+      observer.<math|U<rsub|\<mu\>>=<around*|(|-<sqrt|1-<frac|2G
+      M|r>>,0,0,0|)>,where r >is the position of photo.\ 
 
       And should notice here <math|\<hbar\>=c=1>
     </itemize>
