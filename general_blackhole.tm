@@ -59,7 +59,8 @@
 
   <subsection|Surface gravity>
 
-  <paragraph|introduce.>the quality <math|\<kappa\>>
+  <paragraph|introduce.>the quality <math|\<kappa\>> ,and
+  <math|\<chi\><rsup|\<mu\>>> is killing vector.
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|\<chi\><rsup|\<mu\>>\<nabla\><rsub|\<mu\>>\<chi\><rsup|\<nu\>>>|<cell|=>|<cell|-\<kappa\>\<chi\><rsup|\<nu\>>>>>>
@@ -71,13 +72,35 @@
     <tformat|<table|<row|<cell|\<kappa\><rsup|2>>|<cell|=>|<cell|-<frac|1|2><around*|(|\<nabla\><rsub|\<mu\>>\<chi\><rsub|\<nu\>>|)><around*|(|\<nabla\><rsup|\<mu\>>\<chi\><rsup|\<nu\>>|)>>>>>
   </eqnarray*>
 
-  {do: hint:\ 
-
   <\itemize>
     <item>Killing equation : <math|\<nabla\><rsub|\<mu\>>K<rsub|\<nu\>>+\<nabla\><rsub|\<nu\>>K<rsub|\<mu\>>=0>
 
     <item>properity of hypersurface: <math|\<chi\><rsub|<around*|\<nobracket\>||[>\<mu\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<sigma\><around*|\<nobracket\>||]>>=0>
   </itemize>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|(|\<chi\><rsup|\<mu\>>\<nabla\><rsub|\<mu\>>\<chi\><rsup|\<nu\>>|)><around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<nu\>>|)>>|<cell|=>|<cell|\<kappa\><rsup|2>\<chi\><rsup|\<nu\>>\<chi\><rsub|\<nu\>>>>|<row|<cell|\<chi\><rsup|\<mu\>>\<chi\><rsup|\<sigma\>>\<nabla\><rsub|\<mu\>>\<chi\><rsup|\<nu\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<nu\>>>|<cell|=>|<cell|\<kappa\><rsup|2>\<chi\><rsup|\<nu\>>\<chi\><rsub|\<nu\>>>>|<row|<cell|-\<chi\><rsup|\<mu\>>\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<nu\>>>|<cell|=>|<cell|\<kappa\><rsup|2>\<chi\><rsup|\<nu\>>\<chi\><rsub|\<nu\>>>>|<row|<cell|<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsup|\<mu\>>|)><around*|(|\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<sigma\>>|)>>|<cell|=>|<cell|\<kappa\><rsup|2>\<chi\><rsup|\<nu\>>\<chi\><rsub|\<nu\>>>>|<row|<cell|0>|<cell|=>|<cell|\<ldots\>orz>>>>
+  </eqnarray*>
+
+  <\description>
+    <item*|part>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<chi\><rsup|\<mu\>>\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>><around*|(|\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<nu\>>|)>>|<cell|=>|<cell|\<chi\><rsup|\<sigma\>>\<chi\><rsup|\<nu\>>\<nabla\><rsup|\<mu\>><around*|(|\<chi\><rsub|\<sigma\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<mu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<chi\><rsup|\<nu\>>\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<mu\>><around*|(|\<chi\><rsub|\<sigma\>>\<nabla\><rsub|\<mu\>>\<chi\><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|-\<chi\><rsup|\<mu\>>\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>><around*|(|\<chi\><rsub|\<sigma\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<mu\>>|)>>>>>
+    </eqnarray*>
+
+    <item*|part 1>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsup|\<mu\>>|)><around*|(|\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<sigma\>>|)>>|<cell|=>|<cell|<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<mu\>>\<chi\><rsup|\<nu\>>|)><around*|(|\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<nu\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsup|\<mu\>>|)><around*|(|\<chi\><rsub|\<nu\>>\<nabla\><rsub|\<sigma\>>\<chi\><rsub|\<mu\>>|)>>>>>
+    </eqnarray*>
+
+    therefore
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsup|\<mu\>>|)><around*|(|\<chi\><rsub|\<mu\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<sigma\>>|)>>|<cell|=>|<cell|3!<around*|(|\<chi\><rsup|\<sigma\>>\<nabla\><rsup|\<nu\>>\<chi\><rsup|\<mu\>>|)><around*|(|\<chi\><rsub|<around*|\<nobracket\>||[>\<mu\>>\<nabla\><rsub|\<nu\>>\<chi\><rsub|\<sigma\><around*|\<nobracket\>||]>>|)>=0>>>>
+    </eqnarray*>
+  </description>
 
   <paragraph|physical meaning>
 
@@ -195,6 +218,30 @@
       <with|par-left|<quote|6fn>|Killing Horizon.
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.15fn>>
+
+      <with|par-left|<quote|1.5fn>|Surface gravity
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8>>
+
+      <with|par-left|<quote|6fn>|introduce.
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|physical meaning
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-10><vspace|0.15fn>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Quality
+      of balckhole.> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11><vspace|0.5fn>
+
+      <with|par-left|<quote|1.5fn>|1. Mass
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-12>>
+
+      <with|par-left|<quote|6fn>|Komar integral
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-13><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
