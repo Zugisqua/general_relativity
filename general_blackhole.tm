@@ -160,9 +160,43 @@
   * angular momentum could construct with the same secenarios. only turn to
   choose killing vector of rotation symmetry.
 
-  \;
+  <subsection|2. Charge>
 
-  \;
+  Core: resolve the metric ,which should satisfy non-source Maxwell equation
+  additionally.
+
+  <paragraph|Reissner-Nordstrom metric>:the final
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-<around*|(|1-<frac|2G
+    M|r>+<frac|G<around*|(|Q<rsup|2>+P<rsup|2>|)>|r<rsup|2>>|)>\<mathd\>t<rsup|2>+<around*|(|1-<frac|2G
+    M|r>+<frac|G<around*|(|Q<rsup|2>+P<rsup|2>|)>|r<rsup|2>>|)><rsup|-1>\<mathd\>r<rsup|2>+r<rsup|2>\<mathd\>\<Omega\><rsup|2>>>>>
+  </eqnarray*>
+
+  where <math|Q> is electri-charge <math|P> is magnetic-charge
+
+  {more:
+
+  <paragraph|Instruction.>about the event horizon
+
+  Core: to find the event horizon by <math|g<rsup|r r>=0>, (according to
+  coordinate singular,like schwarzschild)
+
+  {do:
+
+  <\description>
+    <item*|none event horizon>
+
+    {more:
+
+    <item*|two event horizon>
+
+    {more:
+
+    <item*|one event horizon>
+
+    {more:
+  </description>
 
   \;
 </body>
@@ -177,6 +211,9 @@
     <associate|auto-11|<tuple|1|?>>
     <associate|auto-12|<tuple|1.1|?>>
     <associate|auto-13|<tuple|6|?>>
+    <associate|auto-14|<tuple|1.2|?>>
+    <associate|auto-15|<tuple|7|?>>
+    <associate|auto-16|<tuple|8|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|1|?>>
