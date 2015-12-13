@@ -325,7 +325,11 @@
     M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|r-2G
     M|r<rsub|\<ast\>>-2G M>\<times\><frac|r<rsub|\<ast\>>|r><sqrt|1-<frac|G
     M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-<frac|t<rsub|ob>|2G
-    M>><frac|r<rsub|\<ast\>>|2G M><sqrt|1-<frac|G M|r<rsub|\<ast\>>>>>>>>
+    M>>\<times\><frac|e<rsup|<frac|r-r<rsub|\<ast\>>|2G
+    M>>|r>\<times\>r<rsub|\<ast\>><sqrt|1-<frac|G
+    M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|>|<cell|<long-arrow|\<rubber-equal\>|r\<rightarrow\>2G
+    M|>e<rsup|-<frac|t<rsub|ob>|2G M>><frac|e<rsup|-<frac|r<rsub|\<ast\>>|2G
+    M>+1>|2G M>r<rsub|\<ast\>><sqrt|1-<frac|G M|r<rsub|\<ast\>>>>>>>>
   </eqnarray*>
 
   when <math|r\<rightarrow\>2G M\<Rightarrow\>><math|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>\<rightarrow\>0>,
