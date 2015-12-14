@@ -31,7 +31,36 @@
 
     <item>every points in the coordinate evolutes according to geodesic
     equation.
+
+    namely,reseting clock is permit for diferent ponits.\ 
+
+    <\equation*>
+      <choice|<tformat|<table|<row|<cell|t<rprime|'>>|<cell|=>|<cell|t+f<around*|(|x|)>>>|<row|<cell|<wide|x|\<vect\>><rprime|'>>|<cell|=>|<cell|<wide|x|\<vect\>>>>>>>
+    </equation*>
+
+    where <math|f<around*|(|x|)>> is a parameter to make the new coordinate
+    <math|g<rsub|t i>=0>
   </itemize>
+
+  From the constrain.1\ 
+
+  <\description>
+    <item*|1><math|g<rsub|00>=-1>
+
+    {do:
+
+    <item*|2><math|<frac|\<partial\>g<rsub|t i>|\<partial\>t>=0>
+
+    {do:
+  </description>
+
+  From the constrain.2
+
+  <\description>
+    <item*|1>using transformation ,let <math|g<rsub|t i>=0> \ 
+
+    {more:
+  </description>
 </body>
 
 <initial|<\collection>
@@ -41,6 +70,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-2|<tuple|1|?>>
+    <associate|auto-3|<tuple|1|?>>
   </collection>
 </references>
 
