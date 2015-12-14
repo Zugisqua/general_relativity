@@ -33,30 +33,15 @@
     </eqnarray*>
 
     verify it's comes from <math|R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
-    g<rsub|\<mu\>\<nu\>>=8\<pi\>G T<rsub|\<mu\>\<nu\>>> where
-    <math|T<rsub|\<mu\>\<nu\>>=0>
+    g<rsub|\<mu\>\<nu\>>=0>\ 
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|g<rsup|\<mu\>\<nu\>>R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
-      g<rsup|\<mu\>\<nu\>>g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G g
-      <rsup|\<mu\>\<nu\>>T<rsub|\<mu\>\<nu\>>>>|<row|<cell|R-2R>|<cell|=>|<cell|8\<pi\>G
-      T>>|<row|<cell|-R>|<cell|=>|<cell|8\<pi\> G T>>>>
+      <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>g<rsup|\<mu\>\<nu\>>-<frac|1|2>R
+      g<rsub|\<mu\>\<nu\>>g<rsup|\<mu\>\<nu\>>>|<cell|=>|<cell|0>>|<row|<cell|R-<frac|1|2>R\<times\>4>|<cell|=>|<cell|0>>|<row|<cell|R>|<cell|=>|<cell|0>>>>
     </eqnarray*>
 
-    and should alert that <math|g<rsup|\<mu\>\<nu\>>g<rsub|\<mu\>\<nu\>>=4>
-    not 1 !
-
-    therefore
-
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsub|\<mu\>\<nu\>>+<frac|1|2>\<times\>8G T
-      g<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G
-      T<rsub|\<mu\>\<nu\>>>>|<row|<cell|R<rsub|\<mu\>\<nu\>>>|<cell|=>|<cell|8\<pi\>G<around*|(|T<rsub|\<mu\>\<nu\>>-<frac|1|2>T
-      g<rsub|\<mu\>\<nu\>>|)>>>>>
-    </eqnarray*>
-
-    and here <math|T<rsub|\<mu\>\<nu\>>=0> <math|\<Rightarrow\>>
-    <math|R<rsub|\<mu\>\<nu\>>=0>\ 
+    and here <math|R<rsub|\<mu\>\<nu\>>-<frac|1|2>R
+    g<rsub|\<mu\>\<nu\>>=0\<Rightarrow\>> <math|R<rsub|\<mu\>\<nu\>>=0>\ 
 
     <paragraph|caculation>
 
@@ -73,9 +58,67 @@
     Maybe for this case I can't avoid figure out novanish curvature
     easily.Need plore here
 
-    <\eqnarray*>
-      <tformat|<table|<row|<cell|R<rsub|00>>|<cell|=>|<cell|>>>>
-    </eqnarray*>
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|1|1|cell-halign|c>|<cwith|5|5|3|3|cell-halign|l>|<cwith|6|6|3|3|cell-halign|l>|<cwith|7|7|3|3|cell-halign|l>|<cwith|8|8|3|3|cell-halign|l>|<cwith|9|9|3|3|cell-halign|l>|<cwith|10|10|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|2><op|<rsub|021>>>|<cell|=>|<cell|R<rsup|2><op|<rsub|021>><around*|(|1|)>=<frac|1|4>g<rsup|22>g<rsup|11>\<partial\><rsub|1>g<rsub|22>\<partial\><rsub|0>g<rsub|11>=<frac|1|4>\<times\><frac|1|r<rsup|2>>\<times\><around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>\<partial\><rsub|1>r<rsup|2>\<partial\><rsub|0><around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>=0>>|<row|<cell|R<rsup|3><op|<rsub|031>>>|<cell|=>|<cell|R<rsup|3><op|<rsub|031><around*|(|1|)>>=<frac|1|4>g<rsup|33>g<rsup|11>\<partial\><rsub|1>g<rsub|33>\<partial\><rsub|0>g<rsub|11>=<frac|1|4r<rsup|2><around|sin|<rsup|2>\<theta\>|>><around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>\<partial\><rsub|1><around*|(|r<rsup|2><around|sin|<rsup|2>\<theta\>|>|)>\<partial\><rsub|0><around*|(|1-<frac|2G
+      M|r>|)><rsup|-1>=0>>|<row|<cell|R<rsup|1><op|<rsub|012>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsup|3><op|<rsub|012>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsup|1><op|<rsub|013>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsup|2><op|<rsub|023>>>|<cell|=>|<cell|0>>|<row|<cell|R<rsup|0><op|<rsub|102>>>|<cell|=>|<cell|<frac|1|4>g<rsup|00>g<rsup|11>\<partial\><rsub|1>g<rsub|00>\<partial\><rsub|2>g<rsub|11>=0>>|<row|<cell|R<rsup|3><op|<rsub|132>>>|<cell|=>|<cell|<frac|1|4>g<rsup|33>g<rsup|11>\<partial\><rsub|1>g<rsub|33>\<partial\><rsub|2>g<rsub|11>=0>>|<row|<cell|R<rsup|0><op|<rsub|103>>>|<cell|=>|<cell|<frac|1|4>g<rsup|11>g<rsup|00>\<partial\><rsub|1>g<rsub|00>\<partial\><rsub|3>g<rsub|11>=0>>|<row|<cell|R<rsup|0><op|<rsub|203>>>|<cell|=>|<cell|0>>>>>
+    </math>
+
+    <math|><math|<tabular|<tformat|<table|<row|<cell|\<Gamma\><rsup|0><rsub|00>>|<cell|=>|<cell|\<partial\><rsub|t>\<alpha\>>>|<row|<cell|\<Gamma\><rsup|0><rsub|01>>|<cell|=>|<cell|\<partial\><rsub|r>\<alpha\>>>|<row|<cell|\<Gamma\><rsup|1><rsub|00>>|<cell|=>|<cell|e<rsup|2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|r>\<alpha\>>>|<row|<cell|\<Gamma\><rsup|1><rsub|10>>|<cell|=>|<cell|\<partial\><rsub|t>\<beta\>>>|<row|<cell|\<Gamma\><rsup|0><rsub|11>>|<cell|=>|<cell|e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|t>\<beta\>>>|<row|<cell|\<Gamma\><rsup|1><rsub|11>>|<cell|=>|<cell|\<partial\><rsub|r>\<beta\>>>>>><tabular|<tformat|<table|<row|<cell|\<Gamma\><rsup|2><rsub|21>>|<cell|=>|<cell|<frac|1|r>>>|<row|<cell|\<Gamma\><rsup|1><rsub|22>>|<cell|=>|<cell|-r
+    e<rsup|-2\<beta\>>>>|<row|<cell|\<Gamma\><rsup|3><rsub|31>>|<cell|=>|<cell|<frac|1|r>>>|<row|<cell|\<Gamma\><rsup|1><rsub|33>>|<cell|=>|<cell|-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>>>|<row|<cell|\<Gamma\><rsup|3><rsub|32>>|<cell|=>|<cell|<frac|1|<around|tan|\<theta\>|>>>>|<row|<cell|\<Gamma\><rsup|2><rsub|33>>|<cell|=>|<cell|-<around|sin|\<theta\>|><around|cos|\<theta\>|>>>>>>>
+
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<cwith|6|6|3|3|cell-halign|l>|<cwith|7|7|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|0><op|<rsub|101>>>|<cell|=
+      >|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|11>-\<partial\><rsub|1>\<Gamma\><rsup|0><rsub|01>+\<Gamma\><rsup|0><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|11>-\<Gamma\><rsup|0><rsub|1\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|01>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|0><around*|(|e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|0>\<beta\>|)>-\<partial\><rsub|1>\<partial\><rsub|1>\<alpha\>+\<Gamma\><rsup|0><rsub|00>\<Gamma\><rsup|0><rsub|11>+\<Gamma\><rsup|0><rsub|01>\<Gamma\><rsup|1><rsub|11>-\<Gamma\><rsup|0><rsub|01>\<Gamma\><rsup|0><rsub|01>-\<Gamma\><rsup|0><rsub|11>\<Gamma\><rsup|1><rsub|10>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|0>\<partial\><rsub|0>\<beta\>+2e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>><around*|(|\<partial\><rsub|0>\<alpha\>-\<partial\><rsub|0>\<beta\>|)>\<partial\><rsub|0>\<beta\>-\<partial\><rsub|1>\<partial\><rsub|1>\<alpha\>>>|<row|<cell|>|<cell|>|<cell|+\<partial\><rsub|1>\<alpha\>e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|0>\<beta\>+\<partial\><rsub|1>\<alpha\>\<partial\><rsub|1>\<beta\>-<around*|(|\<partial\><rsub|1>\<alpha\>|)><rsup|2>-e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|0>\<beta\>\<partial\><rsub|0>\<beta\>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-2<around*|(|\<alpha\>-\<beta\>|)>><around*|(|\<partial\><rsub|0><rsup|2>\<beta\>+2\<partial\><rsub|0>\<alpha\>\<partial\><rsub|0>\<beta\>-2\<partial\><rsub|0>\<beta\>\<partial\><rsub|0>\<beta\>+\<partial\><rsub|1>\<alpha\>\<partial\><rsub|0>\<beta\>-\<partial\><rsub|0>\<beta\>\<partial\><rsub|0>\<beta\>|)>>>|<row|<cell|>|<cell|>|<cell|-\<partial\><rsub|1><rsup|2>\<alpha\>+\<partial\><rsub|1>\<alpha\>\<partial\><rsub|1>\<beta\>-<around*|(|\<partial\><rsub|1>\<alpha\>|)><rsup|2>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-2<around*|(|\<alpha\>\<um\>\<beta\>|)>><around*|(|\<partial\><rsub|0><rsup|2>\<beta\>|)>>>>>>
+    </math>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|2><op|<rsub|323>>>|<cell|=>|<cell|\<partial\><rsub|2>\<Gamma\><rsup|2><rsub|33>-\<partial\><rsub|3>\<Gamma\><rsup|2><rsub|23>+\<Gamma\><rsup|2><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|33>-\<Gamma\><rsup|2><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|23>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|2><around*|(|-<around|sin|\<theta\>|><around|cos|\<theta\>|>|)>+\<Gamma\><rsup|2><rsub|21>\<Gamma\><rsup|1><rsub|33>-\<Gamma\><rsup|2><rsub|33>\<Gamma\><rsup|3><rsub|32>>>|<row|<cell|>|<cell|=>|<cell|-<around|cos|<rsup|2>\<theta\>|>+<around|sin|<rsup|2>\<theta\>|>+<frac|1|r>\<times\><around*|(|-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>|)>+<around|sin|\<theta\>|><around|cos|\<theta\>|>\<times\><frac|1|<around|tan|\<theta\>|>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|<rsup|2>\<theta\>|>-<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|<rsup|2>\<theta\>|><around*|(|1-e<rsup|2\<beta\>>|)>>>>>>>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|1><op|<rsub|313>>>|<cell|=>|<cell|\<partial\><rsub|1>\<Gamma\><rsup|1><rsub|33>-\<partial\><rsub|3>\<Gamma\><rsup|1><rsub|13>+\<Gamma\><rsup|1><rsub|1\<kappa\>>\<Gamma\><rsup|k><rsub|33>-\<Gamma\><rsup|1><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|13>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>|)>+\<Gamma\><rsup|1><rsub|11>\<Gamma\><rsup|1><rsub|33>-\<Gamma\><rsup|1><rsub|33>\<Gamma\><rsup|3><rsub|31>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>+2r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>+\<partial\><rsub|1>\<beta\><around*|(|-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>|)>+r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<times\><frac|1|r>>>|<row|<cell|>|<cell|=>|<cell|2r
+    <around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>>>|<row|<cell|>|<cell|=>|<cell|r
+    <around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>>>>>>>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|0><op|<rsub|303>>>|<cell|=>|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|33>-\<partial\><rsub|3>\<Gamma\><rsup|0><rsub|03>+\<Gamma\><rsup|0><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|33>-\<Gamma\><rsup|0><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|03>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|0><rsub|01>\<Gamma\><rsup|1><rsub|33>>>|<row|<cell|>|<cell|=>|<cell|-r<around|sin|<rsup|2>\<theta\>|>e<rsup|-2\<beta\>>\<partial\><rsub|1>\<alpha\>>>>>>>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|3><op|<rsub|232>>>|<cell|=>|<cell|\<partial\><rsub|3>\<Gamma\><rsup|3><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|3><rsub|32>+\<Gamma\><rsup|3><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|22>-\<Gamma\><rsup|3><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|32>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|2><frac|1|<around|tan|\<theta\>|>>+\<Gamma\><rsup|3><rsub|31>\<Gamma\><rsup|1><rsub|22>-\<Gamma\><rsup|3><rsub|32>\<Gamma\><rsup|3><rsub|32>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|<around|tan|<rsup|2>\<theta\>|>>\<times\><frac|1|<around|cos|<rsup|2>\<theta\>|>>+<frac|1|r>\<times\><around*|(|-r
+    e<rsup|-2\<beta\>>|)>-<frac|1|<around|tan|<rsup|2>\<theta\>|>>>>|<row|<cell|>|<cell|\<neq\>>|<cell|0>>>>>>
+
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|0><op|<rsub|202>>>|<cell|=>|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|0><rsub|02>+\<Gamma\><rsup|0><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|22>-\<Gamma\><rsup|0><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|02>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|0><rsub|01>\<Gamma\><rsup|1><rsub|22>>>|<row|<cell|>|<cell|=>|<cell|-r
+      e<rsup|-2\<beta\>>\<partial\><rsub|1>\<alpha\>>>>>>
+
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|1><op|<rsub|212>>>|<cell|=>|<cell|\<partial\><rsub|1>\<Gamma\><rsup|1><rsub|22>-\<partial\><rsub|2>\<Gamma\><rsup|1><rsub|12>+\<Gamma\><rsup|1><rsub|1\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|22>-\<Gamma\><rsup|1><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|12>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|-r
+      e<rsup|-2\<beta\>>|)>+\<Gamma\><rsup|1><rsub|11>\<Gamma\><rsup|1><rsub|22>-\<Gamma\><rsup|1><rsub|22>\<Gamma\><rsup|2><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|-e<rsup|-2\<beta\>>-r\<partial\><rsub|1>e<rsup|-2\<beta\>>+\<partial\><rsub|1>\<beta\><around*|(|-r
+      e<rsup|-2\<beta\>>|)>+r e<rsup|-2\<beta\>><frac|1|r>>>|<row|<cell|>|<cell|=>|<cell|2r
+      e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>-r
+      e<rsup|2\<beta\>>\<partial\><rsub|1>\<beta\>>>|<row|<cell|>|<cell|=>|<cell|r
+      e<rsup|-2\<beta\>>\<partial\><rsub|1>\<beta\>>>>>>
+    </math>
+
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|0><op|<rsub|101>>>|<cell|=
+      >|<cell|\<partial\><rsub|0>\<Gamma\><rsup|0><rsub|11>-\<partial\><rsub|1>\<Gamma\><rsup|0><rsub|01>+\<Gamma\><rsup|0><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|11>-\<Gamma\><rsup|0><rsub|1\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|01>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|0>>>>>>
+    </math>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|2><op|<rsub|121>>>|<cell|=>|<cell|\<partial\><rsub|2>\<Gamma\><rsup|2><rsub|11>-\<partial\><rsub|1>\<Gamma\><rsup|2><rsub|21>+\<Gamma\><rsup|2><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|11>-\<Gamma\><rsup|2><rsub|1\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|1>\<Gamma\><rsup|2><rsub|21>+\<Gamma\><rsup|2><rsub|21>\<Gamma\><rsup|1><rsub|11>-\<Gamma\><rsup|2><rsub|21>\<Gamma\><rsup|2><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|1><frac|1|r>+<frac|1|r>\<partial\><rsub|r>\<beta\>-<frac|1|r<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r>\<partial\><rsub|r>\<beta\>>>>>>>
+
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|3><op|<rsub|131>>>|<cell|=>|<cell|\<partial\><rsub|3>\<Gamma\><rsup|3><rsub|11>-\<partial\><rsub|1>\<Gamma\><rsup|3><rsub|31>+\<Gamma\><rsup|3><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|11>-\<Gamma\><rsup|3><rsub|1\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|21>>>|<row|<cell|>|<cell|=>|<cell|-\<partial\><rsub|1><frac|1|r>+\<Gamma\><rsup|3><rsub|31>\<Gamma\><rsup|1><rsub|11>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r<rsup|2>>+<frac|1|r>\<partial\><rsub|1>\<beta\>>>>>>
+    </math>
+
+    when
+
+    \;
+
+    <math|<stack|<tformat|<table|<row|<cell|R<rsup|1><op|<rsub|010>>>|<cell|=>|<cell|>>>>>>
+
+    <\math>
+      <stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|2><op|<rsub|020>>>|<cell|=>|<cell|\<partial\><rsub|2>\<Gamma\><rsup|2><rsub|00>-\<partial\><rsub|0>\<Gamma\><rsup|2><rsub|20>+\<Gamma\><rsup|2><rsub|2\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|00>-\<Gamma\><rsup|2><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|20>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|2><rsub|21>\<Gamma\><rsup|1><rsub|00>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r>\<times\>e<rsup|2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|1>\<alpha\>>>>>>
+    </math>
+
+    <math|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|3><op|<rsub|030>>>|<cell|=>|<cell|\<partial\><rsub|3>\<Gamma\><rsup|3><rsub|00>-\<partial\><rsub|0>\<Gamma\><rsup|3><rsub|30>+\<Gamma\><rsup|3><rsub|3\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|00>-\<Gamma\><rsup|3><rsub|0\<kappa\>>\<Gamma\><rsup|\<kappa\>><rsub|30>>>|<row|<cell|>|<cell|=>|<cell|\<Gamma\><rsup|3><rsub|31>\<Gamma\><rsup|1><rsub|00><rsub|>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|r>\<times\>e<rsup|2<around*|(|\<alpha\>-\<beta\>|)>>\<partial\><rsub|1>\<alpha\>>>>>>>
   </description>
 
   <paragraph|2. geodesic of Schwarzschild solution>
@@ -286,7 +329,7 @@
 
       <item>obeserver belongs to comoving
       observer.<math|U<rsub|\<mu\>>=<around*|(|-<sqrt|1-<frac|2G
-      M|r>>,0,0,0|)>,where r >is the position of photo.\ 
+      M|r>>,0,0,0|)>>\ 
 
       And should notice here <math|\<hbar\>=c=1>
     </itemize>
