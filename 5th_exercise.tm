@@ -249,15 +249,36 @@
     M|r>|)>|)><around*|(|1-<frac|2G M|r>|)><rsup|2>>>>>>
   </eqnarray*>
 
+  when
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>t>|\|><rsub|r=r<rsub|\<ast\>>>>|<cell|=>|<cell|0>>|<row|<cell|<sqrt|<around*|(|1-<frac|1|E<rsup|2>><around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>|)><around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)><rsup|2>>>|<cell|=>|<cell|0>>|<row|<cell|1-<frac|1|E<rsup|2>><around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>>|<cell|=>|<cell|0>>|<row|<cell|E>|<cell|=>|<cell|<sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>>>>>
+  </eqnarray*>
+
+  therefore:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>t>|\|>>|<cell|=>|<cell|<sqrt|<around*|(|1-<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)><rsup|-1><around*|(|1-<frac|2G
+    M|r>|)>|)><around*|(|1-<frac|2G M|r>|)><rsup|2>>>>>>
+  </eqnarray*>
+
   <paragraph|b.>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|E<rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>>|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>>|<cell|=>|<cell|<sqrt|E<rsup|2>-<around*|(|1-<frac|2G
-    M|r>|)>>>>>>
+    M|r>|)>>>|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>>|<cell|=>|<cell|<sqrt|<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>-<around*|(|1-<frac|2G
+    M|r>|)>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2G
+    M<around*|(|<frac|1|r>-<frac|1|r<rsup|\<ast\>>>|)>>>>>>
   </eqnarray*>
 
-  when <math|r=2G M> ,the <math|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>=E>\ 
+  when <math|r=2G M> ,the <math|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>=<sqrt|1-<frac|2G
+  M|r<rsub|\<ast\>>>>>\ 
 
   comoving observor <math|U<rsub|\<mu\>>=<around*|(|-<sqrt|1-<frac|2G
   M|r>>,0,0,0|)>> then
