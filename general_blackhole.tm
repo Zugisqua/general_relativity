@@ -199,10 +199,48 @@
   </description>
 
   \;
-</body>
 
-<initial|<\collection>
-</collection>>
+  <subsection|3. Rotation>
+
+  Core: 1. no spherical symmetry. need {more:
+
+  <paragraph|Kerr metric>
+
+  <math|<stack|<tformat|<table|<row|<cell|\<mathd\>s<rsup|2>=-<around*|(|1-<frac|2G
+  M r|\<rho\><rsup|2>>|)>\<mathd\>t<rsup|2>-<frac|2G M a
+  r<around|sin|<rsup|2>\<theta\>|\<nobracket\>>|\<rho\><rsup|2>><around*|(|\<mathd\>t\<mathd\>\<phi\>+\<mathd\>\<phi\>\<mathd\>t|)>+<frac|\<rho\><rsup|2>|\<Delta\>>\<mathd\>r<rsup|2>+\<rho\><rsup|2>\<mathd\>\<theta\><rsup|2>+<frac|<around|sin|<rsup|2>\<theta\>|>|\<rho\><rsup|2>><around*|[|<around*|(|r<rsup|2>+a<rsup|2>|)><rsup|2>-a<rsup|2>\<Delta\><around|sin|<rsup|2>\<theta\>|>|]>\<mathd\>\<phi\><rsup|2>>>>>>>
+
+  where
+
+  <\description>
+    <\math>
+      <stack|<tformat|<table|<row|<cell|\<Delta\>>|<cell|=>|<cell|r<rsup|2>-2G
+      M r+a<rsup|2>>>>>>
+
+      <stack|<tformat|<table|<row|<cell|\<rho\><rsup|2>>|<cell|=>|<cell|r<rsup|2>+a<rsup|2><around|cos|<rsup|2>\<theta\>|>>>>>>
+    </math>
+  </description>
+
+  and <math|a=<frac|J|M>>, <math|M> describe the mass of the black hole,
+  <math|J> describe the augular momentum
+
+  <paragraph|event horizon>
+
+  Core: find it though <math|g<rsup|r r>=0> ,and here refuse the nake
+  singular
+
+  {more:
+
+  <paragraph|killing horizon>
+
+  Core: construction a hypersurface which
+  <math|K<rsup|\<mu\>>K<rsub|\<mu\>>=0> here <math|K<rsup|\<mu\>>> is the
+  conbination of <math|\<partial\><rsub|t>> ,<math|\<partial\><rsub|\<phi\>>>
+
+  {more:
+
+  <paragraph|Ergosphere>
+</body>
 
 <\references>
   <\collection>
@@ -214,7 +252,12 @@
     <associate|auto-14|<tuple|1.2|?>>
     <associate|auto-15|<tuple|7|?>>
     <associate|auto-16|<tuple|8|?>>
+    <associate|auto-17|<tuple|1.3|?>>
+    <associate|auto-18|<tuple|9|?>>
+    <associate|auto-19|<tuple|10|?>>
     <associate|auto-2|<tuple|1|?>>
+    <associate|auto-20|<tuple|11|?>>
+    <associate|auto-21|<tuple|12|?>>
     <associate|auto-3|<tuple|2|?>>
     <associate|auto-4|<tuple|1|?>>
     <associate|auto-5|<tuple|1|?>>
@@ -279,6 +322,18 @@
       <with|par-left|<quote|6fn>|Komar integral
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13><vspace|0.15fn>>
+
+      <with|par-left|<quote|1.5fn>|2. Charge
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-14>>
+
+      <with|par-left|<quote|6fn>|Reissner-Nordstrom metric
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-15><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|Instruction.
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-16><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
