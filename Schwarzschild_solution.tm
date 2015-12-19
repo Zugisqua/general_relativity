@@ -331,6 +331,13 @@
       observer.<math|U<rsub|\<mu\>>=<around*|(|-<sqrt|1-<frac|2G
       M|r>>,0,0,0|)>>\ 
 
+      <\itemize>
+        <item>reference: plore_8
+
+        the observer could be called Schwarzschil observer.it's special ,and
+        it measure the coordinate giving quality.
+      </itemize>
+
       And should notice here <math|\<hbar\>=c=1>
     </itemize>
 
