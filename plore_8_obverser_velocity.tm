@@ -270,6 +270,34 @@
     M|x<rsup|1>>>|1-<frac|2G M|x<rsup|1>>>>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
 
+  <paragraph|iii.>the two abservers does not make me very satisfy with,
+  therefore I will find the observer more directly.[the methods are the same
+  as II-c-i
+
+  Require\ 
+
+  <\equation*>
+    E<rsub|ob>=E
+  </equation*>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|00>p<rsup|0>U<rsup|0>-g<rsup|11>p<rsup|1>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)>E U<rsup|0>-<frac|p U<rsup|1>|1-<frac|2G
+    M|r>>=E>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|G
+    M|r>|)>U<rsup|0>>|<cell|=>|<cell|1>>|<row|<cell|<frac|U<rsup|1>|1-<frac|2G
+    M|r>>>|<cell|=>|<cell|0>>>>>\<Rightarrow\><choice|<tformat|<cwith|2|2|3|3|cell-halign|c>|<table|<row|<cell|U<rsup|0>>|<cell|=>|<cell|<frac|1|1-<frac|G
+    M|r>>>>|<row|<cell|U<rsup|1>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  Instruction
+
+  <\itemize>
+    <item>the observer require comoving with the observerd momentum,and it
+    ,indeed,is static observer.
+
+    <item>the observer motion evolution is not along geodesic.
+  </itemize>
+
   <paragraph|II.>Gullstrand-Painleve space-time
 
   2-dimension only
@@ -313,7 +341,7 @@
 
     <\equation*>
       <choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
-      M|x<rsup|1><rsub|\<ast\>>>|)><frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>-<sqrt|<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>|)><frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>+<sqrt|<frac|2G
       M|x<rsup|1><rsub|\<ast\>>><around*|(|C<rsup|2>-1+<frac|2G
       M|x<rsup|1><rsub|\<ast\>>>|)>>>|<cell|=>|<cell|C>>|<row|<cell|<around*|(|<frac|\<mathd\>x<rsup|1><rsub|\<ast\>>|\<mathd\>\<tau\>>|)><rsup|2>+1-<frac|2G
       M|x<rsup|1><rsub|\<ast\>>>>|<cell|=>|<cell|C<rsup|2>>>>>>
@@ -321,7 +349,7 @@
 
     <\eqnarray*>
       <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|c>|<table|<row|<cell|<frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|1|1-<frac|2G
-      M|x<rsup|1><rsub|\<ast\>>>><around*|(|C+<sqrt|<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>><around*|(|C-<sqrt|<frac|2G
       M|x<rsup|1><rsub|\<ast\>>><around*|(|C<rsup|2>-1+<frac|2G
       M|x<rsup|1><rsub|\<ast\>>>|)>>|)>>>|<row|<cell|C<rsup|2>>|<cell|=>|<cell|1-<frac|2G
       M|x<rsup|1><rsub|\<ast\>>>>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<Rightarrow\>>|<cell|<frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|\<pm\><sqrt|1-<frac|2G
@@ -354,7 +382,9 @@
   </eqnarray*>
 
   if <math|r<rsub|g>=r=x<rsup|1><rsub|\<ast\>>> the result <math|E<rsub|ob>=
-  E<sqrt|1-<frac|2G M|x<rsup|1><rsub|\<ast\>>>>> ,not what I want to get.
+  E<sqrt|1-<frac|2G M|x<rsup|1><rsub|\<ast\>>>>> ,not what I want to get.but
+  the result is the same as the <math|E<rsub|ob>> refer to static
+  Schwarzchild coordinate.
 
   \;
 
@@ -409,8 +439,201 @@
       M|x<rsup|1>>>|)>>>>>
     </eqnarray*>
 
-    \;
+    <item>what geodesic it is
+
+    I guess it's free-falling geodesic ,set
+    <math|x<rsup|\<mu\>>=<around*|(|x<rsup|0>,x<rsup|1>|)>>
+
+    <\equation*>
+      <choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+      M|x<rsup|1>>|)><frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>+<sqrt|<frac|2G
+      M|x<rsup|1>><around*|(|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>|)>>>|<cell|=>|<cell|C>>|<row|<cell|<around*|(|<frac|\<mathd\>x<rsup|1>|\<mathd\>\<tau\>>|)><rsup|2>+1-<frac|2G
+      M|x<rsup|1>>>|<cell|=>|<cell|C<rsup|2>>>>>>
+    </equation*>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<choice|<tformat|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|<frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>>|<cell|=>|<cell|<frac|1|1-<frac|2G
+      M|x<rsup|1>>><around*|(|C-<sqrt|<frac|2G
+      M|x<rsup|1>><around*|(|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>|)>>|)>>>|<row|<cell|<frac|\<mathd\>x<rsup|1>|\<mathd\>\<tau\>>>|<cell|=>|<cell|-<sqrt|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>>>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><stack|<tformat|<table|<row|<cell|<frac|\<mathd\>x<rsup|1>|\<mathd\>x<rsup|0>>>|<cell|=>|<cell|<frac|-<around*|(|1-<frac|2G
+      M|x<rsup|1>>|)><sqrt|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>>|C-<sqrt|<frac|2G M|x<rsup|1>><around*|(|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>|)>>>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    consider the boundry condition. <math|<around*|\<nobracket\>|<frac|\<mathd\>x<rsup|1>|\<mathd\>x<rsup|0>>|\|><rsub|x<rsup|1>\<rightarrow\>\<infty\>>=0>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|<around*|\<nobracket\>|<frac|\<mathd\>x<rsup|1>|\<mathd\>x<rsup|0>>|\|><rsub|x<rsup|1>\<rightarrow\>\<infty\>>>|<cell|=>|<cell|lim<rsub|x<rsup|1>\<rightarrow\>\<infty\>><frac|-<around*|(|1-<frac|2G
+      M|x<rsup|1>>|)><sqrt|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>>|C-<sqrt|<frac|2G M|x<rsup|1>><around*|(|C<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>|)>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|-1\<times\><sqrt|C<rsup|2>-1+0>|C-0>=-<frac|1|C><sqrt|C<rsup|2>-1>=0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<Rightarrow\>>|<cell|C>|<cell|=>|<cell|\<pm\>1>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    choose <math|C=1> then our observer
+
+    <\eqnarray*>
+      <tformat|<cwith|3|3|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|\<mathd\>x<rsup|0>|\<mathd\>\<tau\>>,<dfrac|\<mathd\>x<rsup|1>|\<mathd\>\<tau\>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
+      M|x<rsup|1>>><around*|(|1-<sqrt|<frac|2G
+      M|x<rsup|1>><around*|(|1<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>|)>>|)>,-<sqrt|1<rsup|2>-1+<frac|2G
+      M|x<rsup|1>>>|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1,-<sqrt|<frac|2G
+      M|x<rsup|1>>>|)>>>>>
+    </eqnarray*>
+
+    that's it!
   </enumerate-roman>
+
+  d. define a momentum refer to the PG coordinate, how read <math|E>
+  means,and what does in Schwarzchild space time measure.
+
+  choose <math|p<rsub|r><rsup|\<mu\>>=<around*|(|E<rsub|r>,p<rsub|r>|)>>
+
+  <\enumerate-roman>
+    <item>static observer measure\ 
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>>,0|)>>>>>
+    </eqnarray*>
+
+    Energy measure
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>><rsub|r>U<rsup|\<nu\>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|00>p<rsup|0><rsub|r>U<rsup|0>-g<rsub|10>p<rsup|1><rsub|r>U<rsup|0>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)>E<rsub|r>\<times\><frac|1|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>>-<sqrt|<frac|2G
+      M|r>>p<rsub|r><frac|1|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>>>>|<row|<cell|<around*|(|1.?|)>>|<cell|=>|<cell|E<rsub|r><sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>-<frac|p<rsub|r><sqrt|<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>><around*|(|E-<frac|p<rsub|r><sqrt|<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>|)>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    <item>free-falling observer
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|1,-<sqrt|<frac|2G
+      M|x<rsup|1>>>|)>>>>>
+    </eqnarray*>
+
+    Energy measure
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>><rsub|r>U<rsup|\<nu\>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|00>p<rsup|0><rsub|r>U<rsup|0>-g<rsub|10>p<rsup|1><rsub|r>U<rsup|0>-g<rsub|01>p<rsup|0><rsub|r>U<rsup|1>-g<rsub|11>p<rsup|1><rsub|r>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+      M|r>|)>E<rsub|r>-<sqrt|<frac|2G M|r>>p<rsub|r>-<sqrt|<frac|2G
+      M|r>>E<rsub|r>\<times\><around*|(|-<sqrt|<frac|2G
+      M|x<rsup|1>>>|)>-p<rsub|r><around*|(|-<sqrt|<frac|2G
+      M|x<rsup|1>>>|)>>>|<row|<cell|>|<cell|=>|<cell|E<rsub|r>-<frac|2G
+      M|r>E<rsub|r>+<frac|2G M|<sqrt|r x<rsup|1>>>E<rsub|r>-<sqrt|<frac|2G
+      M|r>>p<rsub|r>+<sqrt|<frac|2G M|x<rsup|1>>>p<rsub|r>>>|<row|<cell|<around*|(|1.?|)>>|<cell|=>|<cell|E<rsub|r>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    <item>in Schwarzchild space-time
+
+    <\enumerate-alpha>
+      <item>transform the momentum
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<matrix|<tformat|<table|<row|<cell|E>>|<row|<cell|p>>>>>>|<cell|=>|<cell|<matrix|<tformat|<table|<row|<cell|1>|<cell|f<rprime|'><around*|(|r|)>>>|<row|<cell|>|<cell|1>>>>><matrix|<tformat|<table|<row|<cell|E<rsub|r>>>|<row|<cell|p<rsub|r>>>>>>>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<table|<row|<cell|E>|<cell|=>|<cell|E<rsub|r>+p<rsub|r><around*|(|-<frac|<sqrt|<frac|2G
+        M|r>>|1-<frac|2G M|r>>|)>=E<rsub|r>-<frac|p<rsub|r><sqrt|<frac|2G
+        M|r>>|1-<frac|2G M|r>>>>|<row|<cell|p>|<cell|=>|<cell|p<rsub|r>>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      <item>choose static observer
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|<sqrt|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>>,0|)>>>>>
+      </eqnarray*>
+
+      Energy measure
+
+      <\eqnarray*>
+        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|00>p<rsup|0>U<rsup|0>=<around*|(|1-<frac|2G
+        M|r>|)><around*|(|E<rsub|r>-<frac|p<rsub|r><sqrt|<frac|2G
+        M|r>>|1-<frac|2G M|r>>|)><frac|1|<sqrt|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>>>>|<row|<cell|<around*|(|1.?|)>>|<cell|=>|<cell|E<rsub|r><sqrt|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>-<frac|p<rsub|r><sqrt|<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>|<sqrt|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>><around*|(|E<rsub|r>-<frac|p<rsub|r><sqrt|<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>|1-<frac|2G
+        M|x<rsup|1><rsub|\<ast\>>>>|)>>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      <item>choose free-falling observer
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
+        M|x<rsup|1>>>,-<sqrt|<frac|2G M|x<rsup|1>>>|)>>>>>
+      </eqnarray*>
+
+      Energy measure
+
+      <\eqnarray*>
+        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|00>p<rsup|0>U<rsup|0>-g<rsub|11>p<rsup|1>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+        M|r>|)><around*|(|E<rsub|r>-<frac|p<rsub|r><sqrt|<frac|2G
+        M|r>>|1-<frac|2G M|r>>|)><frac|1|1-<frac|2G
+        M|x<rsup|1>>>+<frac|p<rsub|r><sqrt|<frac|2G M|x<rsup|1>>>|1-<frac|2G
+        M|r>>>>|<row|<cell|<around*|(|1.?|)>>|<cell|=>|<cell|E<rsub|r>>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+      </eqnarray*>
+    </enumerate-alpha>
+  </enumerate-roman>
+
+  <subsection|Conclusion>
+
+  <\itemize>
+    <item>about (1.?) ,the assume maybe not right.alternatively we explained\ 
+
+    <\itemize>
+      <item>Convention: every measure process should require observer and
+      observed quality at the same position.
+    </itemize>
+
+    therefore there are no problem with which position the metirc should math
+    with,momentum or observers.
+
+    <item>when we talk about the coordinate observers, we consider a observer
+    whose measure quality is equel to the coordinate directly giving.
+
+    could see:
+
+    <\enumerate>
+      <item>in Minkowiski space-time
+
+      the observer is free-static observer
+
+      <item>in Schwarzschild space-time
+
+      the observer is static observer but not free-static observer
+
+      <item>in Gullstrand-Painleve space-time
+
+      the observer is free-falling from infinity observer
+    </enumerate>
+  </itemize>
 
   \ 
 
@@ -431,6 +654,8 @@
     <associate|auto-1|<tuple|1|?>>
     <associate|auto-10|<tuple|7|?>>
     <associate|auto-11|<tuple|8|?>>
+    <associate|auto-12|<tuple|9|?>>
+    <associate|auto-13|<tuple|3|?>>
     <associate|auto-2|<tuple|1|?>>
     <associate|auto-3|<tuple|1|?>>
     <associate|auto-4|<tuple|2|?>>
@@ -449,9 +674,38 @@
       of observsers> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|1fn>
 
-      <with|par-left|<quote|6fn>|In speacial relativity.
+      <with|par-left|<quote|1.5fn>|In flat space.
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.15fn>>
+      <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|6fn>|i. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|ii. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|iii. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|Pause for a while
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.15fn>>
+
+      <with|par-left|<quote|1.5fn>|In curve space
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7>>
+
+      <with|par-left|<quote|6fn>|I. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-8><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|i. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-9><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|ii. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-10><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|II. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-11><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
