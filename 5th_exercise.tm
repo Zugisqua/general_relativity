@@ -289,6 +289,45 @@
 
   <paragraph|c.>
 
+  the Schwarzschild observer
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
+    M|r>>,0,0,0|)>>>>>
+  </eqnarray*>
+
+  orz
+
+  choose the free-falling observer
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|<sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>|1-<frac|2G M|r>>,-<sqrt|2G
+    M<around*|(|<frac|1|r>-<frac|1|r<rsup|\<ast\>>>|)>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
+  Energy
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|2\<pi\>|\<lambda\><rsub|em>>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|00>p<rsup|0>U<rsup|0>-g<rsub|11>p<rsup|1>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>\<times\><frac|<sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>|1-<frac|2G M|r>>-<frac|1|1-<frac|2G
+    M|r>><frac|\<mathd\>r|\<mathd\>\<tau\>>\<times\><around*|(|-<sqrt|2G
+    M<around*|(|<frac|1|r>-<frac|1|r<rsup|\<ast\>>>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>><sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>+<frac|<sqrt|2G M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>|1-<frac|2G
+    M|r>><frac|\<mathd\>r|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
+    M|r>><sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<frac|E|1-<frac|2G
+    M|r>><sqrt|2G M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
+    M|r>><around*|(|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<sqrt|2G
+    M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
+    M|r<rsub|em>>><around*|(|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<sqrt|2G
+    M<around*|(|<frac|1|r<rsub|em>>-<frac|1|r<rsub|\<ast\>>>|)>>|)>>>>>
+  </eqnarray*>
+
+  \;
+
   bacon emit a photo ,moving along the geodesic.
 
   observers
