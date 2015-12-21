@@ -147,6 +147,8 @@
 
   For momentum <math|p<rsup|\<mu\>>=<around*|(|E,p|)>>
 
+  alternative momentum: <math|p<rsub|\<mu\>>=<around*|(|E,p|)>>
+
   similarly we consider the static observer at first.
 
   <paragraph|i.>choose observer static at a spatial position
@@ -212,6 +214,15 @@
     observer is static at infinity
   </itemize>
 
+  A-observed energy PS: here <math|p<rsub|\<mu\>>=<around*|(|E,p|)>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|<sqrt|1-<frac|2G
+    M|x<rsub|\<ast\>><rsup|1>>>>>>>>
+  </eqnarray*>
+
+  en...that'sti
+
   <paragraph|ii.>choose free-falling observer from infinity
   <math|x<rsup|\<mu\>>=<around*|(|x<rsup|0>,x<rsup|1>|)>>
 
@@ -268,6 +279,13 @@
     M|x<rsup|1>>>-<frac|1|1-<frac|2G M|x<rsup|1>>>\<times\>p\<times\><around*|(|-<sqrt|<frac|2G
     M|x<rsup|1>>>|)>>>|<row|<cell|>|<cell|=>|<cell|E+<frac|p<sqrt|<frac|2G
     M|x<rsup|1>>>|1-<frac|2G M|x<rsup|1>>>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  A-observed energy:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|E|1-<frac|2G
+    M|x<rsup|1>>>-p<sqrt|<frac|2G M|x<rsup|1>>>>>>>
   </eqnarray*>
 
   <paragraph|iii.>the two abservers does not make me very satisfy with,
@@ -491,6 +509,8 @@
 
   choose <math|p<rsub|r><rsup|\<mu\>>=<around*|(|E<rsub|r>,p<rsub|r>|)>>
 
+  A-momentum <math|p<rsub|\<mu\>><rsup|r>=<around*|(|E<rsup|r>,p<rsup|r>|)>>
+
   <\enumerate-roman>
     <item>static observer measure\ 
 
@@ -519,6 +539,13 @@
       M|x<rsup|1><rsub|\<ast\>>>>|)>>>>>>>|<cell|>|<cell|>>>>
     </eqnarray*>
 
+    A-observed energy
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>><rsup|r>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|E<rsup|r>|<sqrt|1-<frac|2G
+      M|x<rsup|1><rsub|\<ast\>>>>>>>>>
+    </eqnarray*>
+
     <item>free-falling observer
 
     <\eqnarray*>
@@ -540,6 +567,18 @@
       M|x<rsup|1>>>|)>>>|<row|<cell|>|<cell|=>|<cell|E<rsub|r>-<frac|2G
       M|r>E<rsub|r>+<frac|2G M|<sqrt|r x<rsup|1>>>E<rsub|r>-<sqrt|<frac|2G
       M|r>>p<rsub|r>+<sqrt|<frac|2G M|x<rsup|1>>>p<rsub|r>>>|<row|<cell|<around*|(|1.?|)>>|<cell|=>|<cell|E<rsub|r>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    A-observed energy
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>><rsup|r>U<rsup|\<mu\>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-E
+      <rsup|r>U<rsup|0>-p<rsup|r>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|-E-p<rsup|r><sqrt|<frac|2G
+      M|x<rsup|1>>>>>>>>>|<cell|>|<cell|>>>>
     </eqnarray*>
 
     <item>in Schwarzchild space-time
@@ -704,8 +743,15 @@
       <with|par-left|<quote|6fn>|ii. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10><vspace|0.15fn>>
 
-      <with|par-left|<quote|6fn>|II. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|6fn>|iii. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11><vspace|0.15fn>>
+
+      <with|par-left|<quote|6fn>|II. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-12><vspace|0.15fn>>
+
+      <with|par-left|<quote|1.5fn>|Conclusion
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-13>>
     </associate>
   </collection>
 </auxiliary>
