@@ -20,6 +20,8 @@
 
   For <math|p<rsup|\<mu\>>=<around*|(|E,p|)>=E\<partial\><rsub|0>+p\<partial\><rsub|1>>
 
+  alternative <math|p<rsub|\<mu\>>=-E\<mathd\>x<rsup|0>+p\<mathd\>x<rsup|1>>
+
   <paragraph|i.>choose observer static at a spatial position
   <math|x<rsup|\<mu\>>=<around*|(|x<rsup|0>,x<rsup|1><rsub|\<ast\>>|)>>
 
@@ -54,6 +56,18 @@
   <\eqnarray*>
     <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-\<eta\><rsub|00>p<rsup|0>U<rsup|0>=E>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
+
+  the AT observered energy by <math|U<rsup|\<mu\>>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|E>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  \ 
 
   <paragraph|ii.>choose observer as constant motion
   <math|\<upsilon\>=<frac|\<mathd\>x<rsup|1>|\<mathd\>x<rsup|0>>>,position
@@ -95,6 +109,16 @@
   <\eqnarray*>
     <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-\<eta\><rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|-\<eta\><rsub|00>p<rsup|0>U<rsup|0>-\<eta\><rsub|11>p
     U<rsup|1>>|<cell|>|<cell|>>|<row|<cell|>|<cell|=>|<cell|E\<times\><frac|1|<sqrt|1-\<upsilon\><rsup|2>>>-p\<times\><frac|\<upsilon\>|<sqrt|1-\<upsilon\><rsup|2>>>>|<cell|=>|<cell|<frac|E-p\<upsilon\>|<sqrt|1-\<upsilon\><rsup|2>>>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  the AT observered energy by <math|U<rsup|\<mu\>>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|0>U<rsup|0>-p<rsub|1>U<rsup|1>>|<cell|=>|<cell|<frac|E-p\<upsilon\>|<sqrt|1-\<upsilon\><rsup|2>>>>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
 
   <paragraph|iii.>transformation the coordinate in constant motion at first
@@ -214,7 +238,8 @@
     observer is static at infinity
   </itemize>
 
-  A-observed energy PS: here <math|p<rsub|\<mu\>>=<around*|(|E,p|)>>
+  the AT observered energy by <math|U<rsup|\<mu\>>>: here
+  <math|p<rsub|\<mu\>>=<around*|(|-E,p|)>>
 
   <\eqnarray*>
     <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|<sqrt|1-<frac|2G
@@ -284,8 +309,14 @@
   A-observed energy:
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>|<row|<cell|>|<cell|=>|<cell|-<frac|E|1-<frac|2G
-    M|x<rsup|1>>>-p<sqrt|<frac|2G M|x<rsup|1>>>>>>>
+    <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|E\<times\><frac|1|1-<frac|2G
+    M|x<rsup|1>>>+p<sqrt|<frac|2G M|x<rsup|1>>|>>|<cell|=>|<cell|<frac|E+p<sqrt|<frac|2G
+    M|x<rsup|1>>><around*|(|1-<frac|2G M|x<rsup|1>>|)>|1-<frac|2G
+    M|x<rsup|1>>>>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
 
   <paragraph|iii.>the two abservers does not make me very satisfy with,
@@ -305,6 +336,13 @@
     M|r>|)>U<rsup|0>>|<cell|=>|<cell|1>>|<row|<cell|<frac|U<rsup|1>|1-<frac|2G
     M|r>>>|<cell|=>|<cell|0>>>>>\<Rightarrow\><choice|<tformat|<cwith|2|2|3|3|cell-halign|c>|<table|<row|<cell|U<rsup|0>>|<cell|=>|<cell|<frac|1|1-<frac|G
     M|r>>>>|<row|<cell|U<rsup|1>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  for AT observered energy by <math|U<rsup|\<mu\>>>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>|<cell|=E
+    U<rsup|0>-p U<rsup|1>>|<cell|=>|<cell|E>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><space|2spc><stack|<tformat|<table|<row|<cell|U<rsup|\<mu\>>=<around*|(|1,0|)>>>>>>>|<cell|>|<cell|>>>>
   </eqnarray*>
 
   Instruction
@@ -349,6 +387,22 @@
   <\eqnarray*>
     <tformat|<table|<row|<cell|p<rprime|'><rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|E+<frac|p<sqrt|<frac|2G
     M|r>>|1-<frac|2G M|r>>,p|)>>>>>
+  </eqnarray*>
+
+  for the AT \ <math|p<rsub|\<mu\>>>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|p<rprime|'><rsup|\<mu\>>>|<cell|=>|<cell|G<rsup|\<nu\>><op|<rsub|\<mu\>>>p<rsub|\<nu\>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|p<rprime|'><rsup|0>>|<cell|=>|<cell|G<rsup|0><op|<rsub|0>>p<rsub|0>+G<rsup|1><op|<rsub|0>>p<rsub|1>>|<cell|=>|<cell|<frac|\<partial\>t<rsub|r>|\<partial\>t><around*|(|-E|)>+<frac|\<partial\>r|\<partial\>t>p>|<cell|=>|<cell|-E>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|p<rprime|'><rsup|1>>|<cell|=>|<cell|G<rsup|0><op|<rsub|1>>p<rsub|0>+G<rsup|1><op|<rsub|1>>p<rsub|1>>|<cell|=>|<cell|<frac|\<partial\>t<rsub|r>|\<partial\>r><around*|(|-E|)>+<frac|\<partial\>r|\<partial\>r>p>|<cell|=>|<cell|<frac|E<sqrt|<frac|2G
+    M|r>>|1-<frac|2G M|r>>+p>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|p<rprime|'><rsub|\<mu\>>>|<cell|=>|<cell|<around*|(|-E,<frac|E<sqrt|<frac|2G
+    M|r>>|1-<frac|2G M|r>>+p|)>>>>>
   </eqnarray*>
 
   b. the static observer of the cooridinate
@@ -403,6 +457,10 @@
   E<sqrt|1-<frac|2G M|x<rsup|1><rsub|\<ast\>>>>> ,not what I want to get.but
   the result is the same as the <math|E<rsub|ob>> refer to static
   Schwarzchild coordinate.
+
+  \;
+
+  the AT observered energy by <math|U<rsup|\<mu\>>> ,being the same
 
   \;
 
@@ -502,6 +560,21 @@
     </eqnarray*>
 
     that's it!
+
+    <item>the AT observered energy by <math|U<rsup|\<mu\>>>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-p<rsub|\<mu\>>U<rsup|\<mu\>>>>>>
+    </eqnarray*>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<table|<row|<cell|E<rsub|ob>>|<cell|=>|<cell|-<around*|(|-E|)>\<times\>1-<around*|(|<frac|E<sqrt|<frac|2G
+      M|x>>|1-<frac|2G M|x>>+p|)>\<times\><around*|(|-<sqrt|<frac|2G
+      M|x>>|)>>>|<row|<cell|>|<cell|=>|<cell|E+<frac|E\<times\><frac|2G
+      M|r>|1-<frac|2G M|r>>+p<sqrt|<frac|2G
+      M|x>>>>|<row|<cell|>|<cell|=>|<cell|E+p<sqrt|<frac|2G
+      M|x>>>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
   </enumerate-roman>
 
   d. define a momentum refer to the PG coordinate, how read <math|E>
@@ -674,7 +747,11 @@
     </enumerate>
   </itemize>
 
-  \ 
+  \ <emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>-
+
+  change the setting momentum into contravariant vector.
+
+  \;
 
   \;
 
