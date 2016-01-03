@@ -424,6 +424,39 @@
       <tformat|<table|<row|<cell|\<partial\><rsub|y><around*|(|a<rsup|2>\<partial\><rsub|y>K<rsup|x>|)>>|<cell|=>|<cell|\<partial\><rsub|y><around*|(|a<rsup|2>C<rsub|1><rprime|'><big|int><rsup|u><rsub|0><frac|\<mathd\>t|a<rsup|2><around*|(|t|)>>+C<rsub|2><rprime|'><around*|(|y|)>|)>>>|<row|<cell|>|<cell|=>|<cell|a<rsup|2><big|int><rsup|u><rsub|0><frac|\<mathd\>t|a<rsup|2><around*|(|t|)>>C<rsub|1><rprime|''>+C<rsub|2><rprime|''>=0>>|<row|<cell|K<rsup|x>>|<cell|=>|<cell|a<rsup|2><big|int><rsub|0><rsup|u><frac|\<mathd\>t|a<rsup|2><around*|(|t|)>><around*|(|C<rsub|5>y+C<rsub|6>|)>+<around*|(|C<rsub|7>y+C<rsub|8>|)>>>>>
     </eqnarray*>
 
+    <math|2<rsup|o>><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>--
+
+    let's obtain the answer from seeing.
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-\<mathd\>u\<mathd\>\<upsilon\>-\<mathd\>\<upsilon\>\<mathd\>u+a<rsup|2><around*|(|u|)>\<mathd\>x<rsup|2>+b<rsup|2><around*|(|u|)>\<mathd\>y<rsup|2>>>>>
+    </eqnarray*>
+
+    technical:
+
+    <\itemize>
+      <item>seeing from the shift
+
+      <item>when shift doesn't work ,try transforming the coordinate
+    </itemize>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|\<upsilon\>>|<cell|=>|<cell|T-R>>|<row|<cell|u>|<cell|=>|<cell|T+R>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    <paragraph|1.>shifts of 3
+
+    <math|<choice|<tformat|<table|<row|<cell|K<rsub|1>>|<cell|=>|<cell|\<partial\><rsub|\<upsilon\>>>>|<row|<cell|K<rsub|2>>|<cell|=>|<cell|\<partial\><rsub|x>>>|<row|<cell|K<rsub|3>>|<cell|=>|<cell|\<partial\><rsub|y>>>>>>>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<table|<row|<cell|\<mathd\>u\<mathd\>\<upsilon\>+\<mathd\>\<upsilon\>\<mathd\>u>|<cell|=>|<cell|2\<mathd\>\<upsilon\>\<mathd\>u>>|<row|<cell|>|<cell|=>|<cell|2<around*|(|\<mathd\><around*|(|T-R|)>\<mathd\><around*|(|T+R|)>|)>>>|<row|<cell|>|<cell|=>|<cell|2<around*|(|\<mathd\>T-\<mathd\>R|)><around*|(|\<mathd\>T+\<mathd\>R|)>>>|<row|<cell|>|<cell|=>|<cell|2<around*|(|\<mathd\>T<rsup|2>-\<mathd\>R<rsup|2>|)>>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><stack|<tformat|<table|<row|<cell|\<mathd\>s<rsup|2>>|<cell|=>|<cell|-2\<mathd\>T<rsup|2>+2\<mathd\>R<rsup|2>+a<rsup|2><around*|(|T+R|)>\<mathd\>x<rsup|2>+b<rsup|2><around*|(|T+R|)>\<mathd\>y>>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    and it seems showing less information
+
+    (?.) the core story is how to think about the rotation. that's to say how
+    could we know there exist rotation differetial transformation.
+
     <item*|16>
 
     <\description>
@@ -524,6 +557,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|1|?>>
   </collection>
 </references>
 
