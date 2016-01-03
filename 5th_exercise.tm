@@ -88,9 +88,35 @@
       M<big|int><rsup|\<infty\>><rsub|0><frac|\<mathd\>u|<around*|(|u<rsup|2>+1|)><rsup|2>>
       =4G M\<times\><frac|\<pi\>|4>=\<pi\>G M>>>>
     </eqnarray*>
-
-    \ 
   </description>
+
+  3.(2)
+
+  the geodesic equation:
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<choice|<tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|E>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>+<around*|(|1-<frac|2G
+    M|r>|)>\<epsilon\>>|<cell|=>|<cell|E<rsup|2>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  a.<math|for initial time \ determind \ E>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|<frac|\<mathd\>r|\<mathd\>\<tau\>>>|<cell|=>|<cell|-<sqrt|E<rsup|2>-1+<frac|2G
+    M|r>>>>|<row|<cell|<around*|\||<frac|\<mathd\>r|\<mathd\>\<tau\>>|\|>>|<cell|=>|<cell|<sqrt|E<rsup|2>-1+<frac|2G
+    M|r>>\<geqslant\><sqrt|<frac|2G M|r>-1>>>>>>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  b.
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<table|<row|<cell|\<Delta\>\<tau\>>|<cell|=>|<cell|-<big|int><rsub|2G
+    M><rsup|0><frac|\<mathd\>r|<sqrt|E<rsup|2>-1+<frac|2G
+    M|r>>>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|-<big|int><rsub|2G
+    M><rsup|0><frac|\<mathd\>r|<sqrt|<frac|2G
+    M|r>-1>>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
 
   4.
 
