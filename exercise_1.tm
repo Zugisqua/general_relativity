@@ -6,10 +6,8 @@
   <section|exercise_1_9/11>
 
   <\enumerate>
-    <item>
-
-    here descrbe the process in coor-<math|S<rprime|'>> they are ordinary
-    process
+    <item>here descrbe the process in coor-<math|S<rprime|'>> they are
+    ordinary process
 
     set the incident angel as <math|\<theta\><rsub|0 >>,reflected angel
     <math|\<theta\><rsub|1>> and <math|\<theta\><rsub|0>=\<theta\><rsub|1>>
@@ -166,15 +164,15 @@
     <math|v\<rightarrow\>1 \ , \ \<theta\><rsub|i>\<rightarrow\><frac|3\<pi\>|4>
     , \<theta\><rsub|r>\<rightarrow\><frac|\<pi\>|4>>
 
-    \;
+    1.\<#FF08\>2)<emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>
+
+    <math|>orz
 
     \;
 
-    \;
+    <item>-3 dragram
 
-    <item>dragram
-
-    <item>on the earth,
+    <item>-4 on the earth,
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|t<rprime|'>=t+<frac|v
@@ -196,6 +194,27 @@
 
     if <math|v ,\<theta\>> meet the relation. the superluminal effect will
     happen on the earth.
+
+    <math|2<rsup|o>><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>
+
+    <\eqnarray*>
+      <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|t<rprime|'>>|<cell|=>|<cell|t+<frac|<sqrt|\<upsilon\><rsup|2>t<rsup|2>+D<rsup|2>-2\<upsilon\>t
+      D<around|cos|\<theta\>|>>|1>>>|<row|<cell|h>|<cell|=>|<cell|\<upsilon\>t<around|sin|\<theta\>|>>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<table|<row|<cell|\<mathd\>t<rprime|'>>|<cell|=>|<cell|\<mathd\>t+<frac|<around*|(|2\<upsilon\><rsup|2>t-2\<upsilon\>D<around|cos|\<theta\>|>|)>\<mathd\>t|2<sqrt|\<upsilon\><rsup|2>t<rsup|2>+D<rsup|2>-2\<upsilon\>t
+      D<around|cos|\<theta\>|>>>>>|<row|<cell|\<mathd\>h>|<cell|=>|<cell|\<upsilon\><around|sin|\<theta\>|>\<mathd\>t>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\>\<upsilon\><rsub|app>=<frac|\<mathd\>h|\<mathd\>t<rprime|'>>=<frac|\<upsilon\><around|sin|\<theta\>|>|1+<frac|\<upsilon\><rsup|2>t-\<upsilon\>D<around|cos|\<theta\>|>|<sqrt|\<upsilon\><rsup|2>t<rsup|2>+D<rsup|2>-2\<upsilon\>t
+      D<around|cos|\<theta\>|>>>>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    when <math|t=0> <math|\<upsilon\><rsub|app>=<frac|\<upsilon\><around|sin|\<theta\>|>|1-<frac|\<upsilon\>D<around|cos|\<theta\>|>|D>>=<frac|\<upsilon\><around|sin|\<theta\>|>|1-\<upsilon\><around|cos|\<theta\>|>>=<frac|<around|sin|\<theta\>|>|<frac|1|\<upsilon\>>-<around|cos|\<theta\>|>>\<gtr\>1>
+
+    <math|\<Rightarrow\><stack|<tformat|<table|<row|<cell|<around|sin|\<theta\>|>>|<cell|\<gtr\>>|<cell|<frac|1|\<upsilon\>>-<around|cos|\<theta\>|>>>>>>>
+    \ <math|\<Rightarrow\><stack|<tformat|<table|<row|<cell|\<upsilon\>>|<cell|\<gtr\>>|<cell|<frac|1|<around|sin|\<theta\>|>+<around|cos|\<theta\>|>>>>>>>>
+
+    when <math|\<upsilon\>t=D> <math|\<upsilon\><rsub|app>=<frac|\<upsilon\><around|sin|\<theta\>|>|1+<frac|\<upsilon\>D-\<upsilon\>D<around|cos|\<theta\>|>|<sqrt|2D<rsup|2>-2D<rsup|2><around|cos|\<theta\>|>>>>=<frac|\<upsilon\><around|sin|\<theta\>|>|1+<frac|\<upsilon\>|<sqrt|2>><sqrt|1-<around|cos|\<theta\>|>>>=<frac|<around|sin|\<theta\>|>|<frac|1|\<upsilon\>>+<sqrt|<frac|1-<around|cos|\<theta\>|>|2>>>\<gtr\>1>
+
+    <math|\<Rightarrow\><around|sin|\<theta\>\<gtr\><frac|1|\<upsilon\>>+<sqrt|<frac|1-<around|cos|\<theta\>|>|2>>|>
+    > <math|\<Rightarrow\>> <math|\<upsilon\>\<gtr\><frac|1|<around|sin|\<theta\>|>-<sqrt|<frac|1-<around|cos|\<theta\>|>|2>>>>\ 
+
+    \;
 
     <item>the muon moving in the circular accelerator is not in inertial
     reference frame.
@@ -318,7 +337,7 @@
       \;
     </enumerate>
 
-    <item>
+    <item> 11
 
     <\enumerate>
       <item>
@@ -398,9 +417,35 @@
 
       \;
 
+      <math|2<rsup|o>><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>
+
       <\eqnarray*>
-        <tformat|<table|<row|<cell|>|<cell|>|<cell|>>>>
+        <tformat|<table|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>E<rsub|k>+\<partial\><rsub|0>B<rsup|i>>|<cell|=>|<cell|0>>|<row|<cell|\<partial\><rsub|i>B<rsup|i>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>>>
       </eqnarray*>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<choice|<tformat|<table|<row|<cell|F<rsup|0i>=E<rsup|i>>>|<row|<cell|F<rsup|i
+        j>=\<varepsilon\><rsup|i j k>B<rsub|k>=\<varepsilon\><rsup|i j><rsub|
+        \ \ \ \ \ \ \ \ k>B<rsup|k>>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      then <math|\<varepsilon\><rsub|i j l>F<rsup|i j>=\<varepsilon\><rsub|i
+      j l>\<varepsilon\><rsup|i j k>B<rsub|k>=2!\<delta\><rsup|k><rsub|l>B<rsub|k>=2B<rsub|l>>
+      <math|\<Rightarrow\>B<rsup|k>=\<varepsilon\><rsub|i
+      j><op|<rsup|k>>F<rsup|i j>>
+
+      Vertify : <math|\<partial\><rsub|\<mu\>>F<rsub|\<nu\>\<sigma\>>+\<partial\><rsub|\<nu\>>F<rsub|\<sigma\>\<mu\>>+\<partial\><rsub|\<sigma\>>F<rsub|\<mu\>\<nu\>>=0>
+
+      <\eqnarray*>
+        <tformat|<cwith|1|1|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|\<varepsilon\><rsup|i
+        j k>\<partial\><rsub|j>F<rsup|0><op|<rsub|k>>+\<partial\><rsub|0>\<varepsilon\><rsub|j
+        k><op|<rsup|i>>F<rsup|j k>>|<cell|=>|<cell|\<varepsilon\><rsub|j
+        k><op|<rsup|i>><around*|(|\<partial\><rsup|j>F<rsup|0
+        k>+\<partial\><rsub|0>|)>>>>>>>|<cell|>|<cell|>>>>
+      </eqnarray*>
+
+      orz!
     </enumerate>
 
     \;
