@@ -543,12 +543,39 @@
       <\eqnarray*>
         <tformat|<table|<row|<cell|R<rsub|0101>>|<cell|=>|<cell|g<rsub|00>g<rsub|11>-g<rsub|01>g<rsub|10>=<around|sin|<rsup|2>\<psi\>|>>>|<row|<cell|R<rsub|0102>>|<cell|=>|<cell|g<rsub|00>g<rsub|12>-g<rsub|02>g<rsub|10>=0>>|<row|<cell|R<rsub|0112>>|<cell|=>|<cell|g<rsub|01>g<rsub|12>-g<rsub|02>g<rsub|11>=0>>|<row|<cell|R<rsub|0202>>|<cell|=>|<cell|g<rsub|00>g<rsub|22>-g<rsub|02>g<rsub|20>=<around|sin|<rsup|2>\<psi\>|><around|sin|<rsup|2>\<theta\>|>>>|<row|<cell|R<rsub|0212>>|<cell|=>|<cell|g<rsub|01>g<rsub|22>-g<rsub|02>g<rsub|21>=0>>|<row|<cell|R<rsub|1212>>|<cell|=>|<cell|g<rsub|11>g<rsub|22>-g<rsub|12>g<rsub|21>=<around|sin|<rsup|4>\<psi\>|><around|sin|<rsup|2>\<theta\>|>>>>>
       </eqnarray*>
-
-      \;
     </description>
-
-    \;
   </description>
+
+  <math|2<rsup|o>><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash><emdash>--
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|e<rsup|1>>|<cell|=>|<cell|\<mathd\>\<psi\>>>|<row|<cell|e<rsup|2>>|<cell|=>|<cell|<around|sin|\<psi\>|>\<mathd\>\<theta\>>>|<row|<cell|e<rsup|3>>|<cell|=>|<cell|<around|sin|\<psi\>|><around|sin|\<theta\>|\<nobracket\>>\<mathd\>\<phi\>>>>>
+  </eqnarray*>
+
+  know
+
+  <\itemize>
+    <item><math|<tabular|<tformat|<table|<row|<cell|\<mathd\>e<rsup|a>+w<rsup|a><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|0>>>>>>
+
+    <item><math|<tabular|<tformat|<table|<row|<cell|R<rsup|a><op|<rsub|b>>>|<cell|=>|<cell|\<mathd\>w<rsup|a><op|<rsub|b>>+w<rsup|a><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|b>>>>>>>>
+  </itemize>
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>e<rsup|1>>|<cell|=>|<cell|\<mathd\><around*|(|\<mathd\>\<psi\>|)>=0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<cwith|2|2|3|3|cell-halign|l>|<cwith|1|1|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<cwith|6|6|3|3|cell-halign|l>|<cwith|7|7|3|3|cell-halign|l>|<table|<row|<cell|\<mathd\>e<rsup|2>>|<cell|=>|<cell|\<mathd\><around*|(|<around|sin|\<psi\>\<mathd\>\<theta\>|>|)>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><around|sin|\<psi\>|>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<theta\>=\<partial\><rsub|1><around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>|<row|<cell|>|<cell|=>|<cell|<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>|<row|<cell|\<mathd\>e<rsup|3>>|<cell|=>|<cell|\<mathd\><around*|(|<around|sin|\<psi\><around|sin|\<theta\>|>|>|)>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|\<nu\>><around*|(|<around|sin|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|<around|sin|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+\<partial\><rsub|2><around*|(|<around|sin|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+<around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  1.
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<cwith|4|4|1|1|cell-halign|l>|<cwith|5|5|1|1|cell-halign|l>|<cwith|7|7|1|1|cell-halign|l>|<cwith|8|8|1|1|cell-halign|l>|<cwith|3|3|1|1|cell-halign|l>|<cwith|6|6|1|1|cell-halign|l>|<cwith|9|9|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>e<rsup|1>+w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<cwith|2|2|4|4|cell-halign|l>|<cwith|1|1|4|4|cell-halign|l>|<cwith|3|3|4|4|cell-halign|r>|<table|<row|<cell|\<Rightarrow\>>|<cell|0+w<rsup|1><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|w<rsup|1><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|1><op|<rsub|2>>\<wedge\>e<rsup|2>+w<rsup|1><op|<rsub|3>>\<wedge\>e<rsup|3>>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|\<Rightarrow\>>|<cell|w<rsup|1><op|<rsub|1>>\<wedge\>\<mathd\>\<psi\>+w<rsup|1><op|<rsub|2>><around|sin|\<psi\>|>\<wedge\>\<mathd\>\<theta\>+w<rsup|1><op|<rsub|3>><around|sin|\<psi\>|><around|sin|\<theta\>|>\<wedge\>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|>|<cell|\<Rightarrow\>>|<cell|w<rsup|1><op|<rsub|2>><around|sin|\<psi\>|>\<wedge\>\<mathd\>\<theta\>+w<rsup|1><op|<rsub|3>><around|sin|\<psi\>|><around|sin|\<theta\>|>\<wedge\>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<Rightarrow\>>|<cell|\<ast\>>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>e<rsup|2>+w<rsup|2><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<Rightarrow\>>|<cell|<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>+w<rsup|2><op|<rsub|1>>\<wedge\>e<rsup|1>+w<rsup|2><op|<rsub|3>>\<wedge\>e<rsup|3>>|<cell|=>|<cell|<around|cos|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>+w<rsup|1><op|<rsub|2>>\<wedge\>\<mathd\>\<psi\>+w<rsup|2><op|<rsub|3>><around|sin|\<psi\>|><around|sin|\<theta\>|>\<wedge\>\<mathd\>\<phi\>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<table|<row|<cell|w<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|<around|cos|\<psi\>|>\<mathd\>\<theta\>>>|<row|<cell|w<rsup|2><op|<rsub|3>>>|<cell|=>|<cell|\<alpha\>\<mathd\>\<phi\>>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<mathd\>e<rsup|3>+w<rsup|3><op|<rsub|b>>\<wedge\>e<rsup|b>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|<stack|<tformat|<table|<row|<cell|\<Rightarrow\>>|<cell|<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+<around|sin|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+w<rsup|3><op|<rsub|1>>\<wedge\>\<mathd\>\<psi\>+w<rsup|3><op|<rsub|2>>\<wedge\><around|sin|\<psi\>|>\<mathd\>\<theta\>>|<cell|=>|<cell|0>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><choice|<tformat|<table|<row|<cell|w<rsup|1><op|<rsub|3>>>|<cell|=>|<cell|<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<phi\>>>|<row|<cell|w<rsup|2><op|<rsub|3>>>|<cell|=>|<cell|<around|cos|\<theta\>|>\<mathd\>\<phi\>>>>>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  2.
+
+  <\eqnarray*>
+    <tformat|<cwith|1|1|1|1|cell-halign|l>|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<stack|<tformat|<cwith|1|1|3|3|cell-halign|l>|<cwith|2|2|3|3|cell-halign|l>|<cwith|3|3|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|5|5|3|3|cell-halign|l>|<cwith|6|6|3|3|cell-halign|l>|<cwith|7|7|3|3|cell-halign|l>|<cwith|8|8|3|3|cell-halign|l>|<cwith|9|9|3|3|cell-halign|l>|<cwith|10|10|3|3|cell-halign|l>|<cwith|11|11|3|3|cell-halign|l>|<cwith|12|12|3|3|cell-halign|l>|<table|<row|<cell|R<rsup|1><op|<rsub|1>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|1>>+w<rsup|1><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|1>>=w<rsup|1><op|<rsub|2>>\<wedge\>w<rsup|2><op|<rsub|1>>+w<rsup|1><op|<rsub|3>>\<wedge\>w<rsup|3><op|<rsub|1>>=0>>|<row|<cell|R<rsup|1><op|<rsub|2>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|2>>+w<rsup|1><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|2>>=\<partial\><rsub|\<nu\>><around|cos|\<psi\>|>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<theta\>+w<rsup|1><op|<rsub|3>>\<wedge\>w<rsup|3><op|<rsub|2>>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>+<around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<phi\>\<wedge\><around|cos|\<theta\>|>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<theta\>>>|<row|<cell|R<rsup|1><op|<rsub|3>>>|<cell|=>|<cell|\<mathd\>w<rsup|1><op|<rsub|3>>+w<rsup|1><op|<rsub|c>>\<wedge\>w<rsup|c><op|<rsub|3>>=\<partial\><rsub|\<nu\>><around*|(|<around|cos|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<phi\>+w<rsup|1><op|<rsub|2>>\<wedge\>w<rsup|2><op|<rsub|3>>>>|<row|<cell|>|<cell|=>|<cell|\<partial\><rsub|1><around*|(|<around|cos|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+\<partial\><rsub|2><around*|(|<around|cos|\<psi\>|><around|sin|\<theta\>|>|)>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+<around|cos|\<psi\>|>\<mathd\>\<theta\>\<wedge\><around|cos|\<theta\>|>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<theta\>|><around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+<around|cos|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+<around|cos|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<theta\>|><around|sin|\<psi\>|>\<mathd\>\<psi\>\<wedge\>\<mathd\>\<phi\>+2<around|cos|\<psi\>|><around|cos|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|R<rsup|2><op|<rsub|3>>>|<cell|=>|<cell|\<mathd\>w<rsup|2><op|<rsub|3>>+w<rsup|2><op|<rsub|1>>\<wedge\>w<rsup|1><op|<rsub|3>>=\<partial\><rsub|\<nu\>><around*|(|<around|cos|\<theta\>|>|)>\<mathd\>x<rsup|\<nu\>>\<wedge\>\<mathd\>\<phi\>+<around|cos|\<psi\>|>\<mathd\>\<theta\>\<wedge\><around|cos|\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>+<around|cos|<rsup|2>\<psi\>|><around|sin|\<theta\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|<around|sin|\<theta\><around*|(|<around|cos|<rsup|2>\<psi\>|\<nobracket\>>-1|)>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>|<row|<cell|>|<cell|=>|<cell|-<around|sin|\<theta\>|><around|sin|\<psi\>|>\<mathd\>\<theta\>\<wedge\>\<mathd\>\<phi\>>>>>>>|<cell|>|<cell|>>|<row|<cell|orz
+    w<rsup|i><op|<rsub|j>>=-w<rsup|j><op|<rsub|i>>>|<cell|>|<cell|>>>>
+  </eqnarray*>
 </body>
 
 <initial|<\collection>
@@ -567,6 +594,9 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3th-exercise-2>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|6fn>|1. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
