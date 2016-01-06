@@ -315,54 +315,41 @@
 
   <paragraph|c.>
 
+  the geodesic for photon
+
+  <\eqnarray*>
+    <tformat|<cwith|2|2|1|1|cell-halign|l>|<table|<row|<cell|<choice|<tformat|<cwith|2|2|1|1|cell-halign|r>|<table|<row|<cell|<around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>>|<cell|=>|<cell|C>>|<row|<cell|<around*|(|<frac|\<mathd\>r|\<mathd\>\<tau\>>|)><rsup|2>>|<cell|=>|<cell|C<rsup|2>>>>>>>|<cell|>|<cell|>>|<row|<cell|\<Rightarrow\><around*|(|1-<frac|2G
+    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>+<frac|\<mathd\>r|\<mathd\>\<tau\>>=0>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
   the Schwarzschild observer
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|1-<frac|2G
-    M|r>>,0,0,0|)>>>>>
+    <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|1|<sqrt|1-<frac|2G
+    M|r>>>,0,0,0|)>>>>>
   </eqnarray*>
 
-  orz
-
-  choose the free-falling observer
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|U<rsup|\<mu\>>>|<cell|=>|<cell|<around*|(|<frac|<sqrt|1-<frac|2G
-    M|r<rsub|\<ast\>>>>|1-<frac|2G M|r>>,-<sqrt|2G
-    M<around*|(|<frac|1|r>-<frac|1|r<rsup|\<ast\>>>|)>>|)>>>>>
-  </eqnarray*>
+  \;
 
   \;
 
   Energy
-
-  <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|2\<pi\>|\<lambda\><rsub|em>>>|<cell|=>|<cell|-g<rsub|\<mu\>\<nu\>>p<rsup|\<mu\>>U<rsup|\<nu\>>>>|<row|<cell|>|<cell|=>|<cell|-g<rsub|00>p<rsup|0>U<rsup|0>-g<rsub|11>p<rsup|1>U<rsup|1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1-<frac|2G
-    M|r>|)><frac|\<mathd\>t|\<mathd\>\<tau\>>\<times\><frac|<sqrt|1-<frac|2G
-    M|r<rsub|\<ast\>>>>|1-<frac|2G M|r>>-<frac|1|1-<frac|2G
-    M|r>><frac|\<mathd\>r|\<mathd\>\<tau\>>\<times\><around*|(|-<sqrt|2G
-    M<around*|(|<frac|1|r>-<frac|1|r<rsup|\<ast\>>>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>><sqrt|1-<frac|2G
-    M|r<rsub|\<ast\>>>>+<frac|<sqrt|2G M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>|1-<frac|2G
-    M|r>><frac|\<mathd\>r|\<mathd\>\<tau\>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
-    M|r>><sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<frac|E|1-<frac|2G
-    M|r>><sqrt|2G M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
-    M|r>><around*|(|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<sqrt|2G
-    M<around*|(|<frac|1|r>-<frac|1|r<rsub|\<ast\>>>|)>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|E|1-<frac|2G
-    M|r<rsub|em>>><around*|(|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>+<sqrt|2G
-    M<around*|(|<frac|1|r<rsub|em>>-<frac|1|r<rsub|\<ast\>>>|)>>|)>>>>>
-  </eqnarray*>
-
-  \;
 
   bacon emit a photo ,moving along the geodesic.
 
   observers
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|-E<rsub|photo>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>U<rsub|t>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|<frac|2\<pi\>|\<lambda\><rsub|em>>|<around*|(|1-<frac|2G
-    M|r<rsub|em>>|)>>\<times\><around*|(|-<sqrt|<around*|(|1-<frac|2G
-    M|r<rsub|\<ast\>>>|)>>|)>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\><rsub|ob>>>>|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|\<lambda\><rsub|em><around*|(|<frac|1-<frac|2G
-    M|r<rsub|em>>|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>>|)>>>>>
+    <tformat|<table|<row|<cell|p<rsup|\<mu\>>U<rsub|\<mu\>>>|<cell|=>|<cell|-E<rsub|photo>>>|<row|<cell|<frac|\<mathd\>t|\<mathd\>\<tau\>>U<rsub|t>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\>>>>|<row|<cell|<frac|C|<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>>\<times\><around*|(|-<sqrt|<around*|(|1-<frac|2G
+    M|r<rsub|\<ast\>>>|)>>|)>>|<cell|=>|<cell|-<frac|2\<pi\>|\<lambda\><rsub|ob>>>>|<row|<cell|\<lambda\><rsub|ob>>|<cell|=>|<cell|<frac|2\<pi\>|C><sqrt|1-<frac|2G
+    M|r<rsub|\<ast\>>>>>>>>
+  </eqnarray*>
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|=>|<cell|<sqrt|<frac|1-<frac|2G
+    M|r<rsub|\<ast\>>>|1-<frac|2G M|r<rsub|em>>>>>>>>
   </eqnarray*>
 
   <paragraph|d.>for null curve
@@ -405,26 +392,21 @@
   </eqnarray*>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|=>|<cell|<frac|1-<frac|2G
-    M|r>|<sqrt|1-<frac|2G M|r<rsub|\<ast\>>>>>=<frac|1-<frac|2G
-    M|r>|1-<frac|2G M|r<rsub|\<ast\>>>>\<times\><sqrt|1-<frac|2G
-    M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|=>|<cell|<frac|r-2G
-    M|r<rsub|\<ast\>>-2G M>\<times\><frac|r<rsub|\<ast\>>|r><sqrt|1-<frac|G
-    M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-<frac|t<rsub|ob>|2G
-    M>>\<times\><frac|e<rsup|<frac|r-r<rsub|\<ast\>>|2G
-    M>>|r>\<times\>r<rsub|\<ast\>><sqrt|1-<frac|G
-    M|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|>|<cell|<long-arrow|\<rubber-equal\>|r\<rightarrow\>2G
-    M|>e<rsup|-<frac|t<rsub|ob>|2G M>><frac|e<rsup|-<frac|r<rsub|\<ast\>>|2G
-    M>+1>|2G M>r<rsub|\<ast\>><sqrt|1-<frac|G M|r<rsub|\<ast\>>>>>>>>
+    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|=>|<cell|<sqrt|<frac|1-<frac|2G
+    M|r<rsub|\<ast\>>>|1-<frac|2G M|r<rsub|em>>>>=<sqrt|<frac|r<rsub|\<ast\>>-2G
+    M|r<rsub|em>-2G M>\<times\><frac|r<rsub|em>|r<rsub|\<ast\>>>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<frac|2G
+    M|r<rsub|\<ast\>>>>\<times\>e<rsup|<frac|t<rsub|ob>-r<rsub|\<ast\>>+2G
+    M|4G M>>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|e<rsup|2-<frac|r<rsub|\<ast\>>|4G
+    M>><sqrt|<frac|2G M|r<rsub|\<ast\>>>>|)>e<rsup|<frac|t<rsub|ob>|4G
+    M>>>>>>
   </eqnarray*>
 
-  when <math|r\<rightarrow\>2G M\<Rightarrow\>><math|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>\<rightarrow\>0>,
-  could see that require <math|t<rsub|ob>\<rightarrow\>\<infty\>> consisting
-  with imagination,therefore the aproximation is not bad.
+  when <math|r\<rightarrow\>2G M\<Rightarrow\>><math|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>\<rightarrow\>\<infty\>>,
+  could see that require <math|t<rsub|ob>\<rightarrow\>\<infty\>>\ 
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|\<propto\>>|<cell|e<rsup|-<frac|t<rsub|ob>|2G
-    M>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|T=-2G M>>>>
+    <tformat|<table|<row|<cell|<frac|\<lambda\><rsub|ob>|\<lambda\><rsub|em>>>|<cell|\<propto\>>|<cell|e<rsup|<frac|t<rsub|ob>|4G
+    M>>>>|<row|<cell|>|<cell|\<Rightarrow\>>|<cell|T=4G M>>>>
   </eqnarray*>
 
   \;
